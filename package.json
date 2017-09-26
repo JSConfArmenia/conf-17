@@ -9,7 +9,7 @@
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src",
-    "deploy": "npm run build && gh-pages -d dist --repo git@github.com:JSConfArmenia/conf-17.git --branch gh-pages",
+    "deploy": "cross-env BASE_URL=\"/conf-17\" npm run build && gh-pages -d dist --repo git@github.com:JSConfArmenia/conf-17.git --branch gh-pages",
     "deployMain": "npm run build && gh-pages -d dist --repo git@github.com:JSConfArmenia/JSConfArmenia.github.io.git --branch master"
   },
   "dependencies": {
@@ -27,6 +27,7 @@
     "chalk": "^2.0.1",
     "connect-history-api-fallback": "^1.3.0",
     "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^5.0.5",
     "css-loader": "^0.28.0",
     "cssnano": "^3.10.0",
     "eslint": "^3.19.0",
