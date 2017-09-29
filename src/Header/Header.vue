@@ -38,8 +38,7 @@ export default {
 
 .Header {
   display: flex;
-  height: 64px;
-  background-color: black;
+  height: 0px;
   justify-content: center;
   align-items: center;
 }
@@ -48,7 +47,7 @@ export default {
   display: flex;
   height: 64px;
   width: 1170px;
-  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 80px;
   justify-content: center;
   justify-content: space-around;
   align-items: center;
@@ -56,11 +55,11 @@ export default {
 }
 
 .Nav a {
-  color: #ccc;
+  color: #fff;
 }
 
 .Logo {
-  color: #ccc;
+  color: #fff;
 }
 
 </style>

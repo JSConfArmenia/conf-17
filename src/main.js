@@ -14,4 +14,19 @@ new Vue({
   el: '#app',
   template: '<App/>',
   components: { App },
+  filters: {
+    two_digits: (value) => {
+      if (value.toString().length <= 1) {
+        return `0${value.toString()}`;
+      }
+      return value.toString();
+    },
+  },
 });
+
+// Vue.filter('two_digits', (value) => {
+//   if (value.toString().length <= 1) {
+//     return `0${value.toString()}`;
+//   }
+//   return value.toString();
+// });
