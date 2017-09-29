@@ -44,7 +44,7 @@ export default {
 .Background {
   display: flex;
   align-items: center;
-  background-image: url(..//_common/Assets/luca-bravo-217276.png);
+  background-image: url(..//_common/Assets/countdown-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
