@@ -49,4 +49,10 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.Container {
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 0 15px;
+}
 </style>

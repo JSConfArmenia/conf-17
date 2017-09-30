@@ -1,24 +1,24 @@
 <template>
 
-  <div class="Intro">
+  <section class="Intro">
     <div class="Container">
 
-        <div class="IntroGroup">
+      <div class="IntroGroup">
 
-          <Countdown date="1511589600" />
-          <h1>JavaScript CONFERENCE 2017</h1>
-          <h2>25 NOVEMBER, 2017, YEREVAN</h2>
+        <Countdown date="1511589600" />
+        <h1>JavaScript Conference 2017</h1>
+        <h2>25 NOVEMBER, 2017, YEREVAN</h2>
 
-        </div>
+      </div>
 
     </div>
-  </div>
+  </section>
 
 </template>
 
 <script>
 
-import Countdown from '../Countdown';
+import Countdown from './Countdown';
 
 export default {
   name: 'Intro',
@@ -31,18 +31,24 @@ export default {
 
 <style scoped>
 
+.Intro {
+  background-image: url(../_assets/countdown-bg.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .IntroGroup{
   display: flex;
   align-items: left;
   flex-direction: column;
   justify-content: center;
-  background-image: url(..//_common/Assets/countdown-bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
-  padding: 0 380px;
+  /*padding: 0 380px;*/
 }
 
 h1 {
