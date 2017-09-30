@@ -4,17 +4,14 @@
     <div class="Container">
 
       <div class="HeaderGroup">
-        <div class="Logo">
-          <img src=""> {jsconf.am}
-        </div>
+
+        <img src="..//_common/Assets/logo.png">
         <div class="Nav">
-          <nav class="Nav">
-            <a href="#">HOME</a>
-            <a href="#">SPEAKERS</a>
-            <a href="#">SCHEDULE</a>
-            <a href="#">SPONSERS</a>
-            <a href="#">SHORTCODES</a>
-          </nav>
+          <a href="#">HOME<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+          <a href="#">SPEAKERS<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+          <a href="#">SCHEDULE<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+          <a href="#">SPONSERS<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+          <a href="#">SHORTCODES<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
         </div>
 
       </div>
@@ -30,20 +27,23 @@
 export default {
 
 };
+
 </script>
 
 
 
-<style>
+<style scoped>
 
 .Header {
   display: flex;
+  position: fixed;
   height: 0px;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
 
-.Header .HeaderGroup {
+.HeaderGroup {
   display: flex;
   height: 64px;
   width: 1170px;
@@ -51,15 +51,23 @@ export default {
   justify-content: center;
   justify-content: space-around;
   align-items: center;
-
+  color: #fff;
 }
+
+.Nav {
+  word-spacing: 15px;
+  font-size: 14px;
+  font-weight: 900;
+ }
 
 .Nav a {
-  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff
 }
 
-.Logo {
-  color: #fff;
+.Nav a:hover {
+  color: #4bb463;
 }
 
 </style>

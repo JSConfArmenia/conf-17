@@ -3,22 +3,13 @@
   <div class="Intro">
     <div class="Container">
 
-      <div class="Background">
-
         <div class="IntroGroup">
 
-          <div class="Countdown">
-            <Countdown date="1511589600" />
-          </div>
-
-          <div class="Paragraph">
-            <p class="IntroTitle">JavaScript CONFERENCE 2017</p>
-            <p class="IntroSubtitle">25 NOVEMBER, 2017, YEREVAN</p>
-          </div>
+          <Countdown date="1511589600" />
+          <h1>JavaScript CONFERENCE 2017</h1>
+          <h2>25 NOVEMBER, 2017, YEREVAN</h2>
 
         </div>
-
-      </div>
 
     </div>
   </div>
@@ -38,34 +29,29 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
 
-
-.Background {
+.IntroGroup{
   display: flex;
-  align-items: center;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
   background-image: url(..//_common/Assets/countdown-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
-}
-
-.IntroGroup {
-  display: flex;
-  flex-direction: column;
   padding: 0 380px;
-
 }
 
-.IntroTitle {
+h1 {
   color: #fff;
   font-size: 62px;
   font-weight: 900;
 }
 
-.IntroSubtitle {
+h2 {
   color: #fff;
   font-size: 24px;
   font-weight: 700;
