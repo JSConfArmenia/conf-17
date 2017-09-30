@@ -34,15 +34,11 @@ export default {
 .Header {
   position: absolute;
   width: 100%;
-  /*padding-top: 5px;*/
-  /*padding-bottom: 5px;*/
 }
 
 .Header.-sticked {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.3);
-  /*padding-top: 0;*/
-  /*padding-bottom: 0;*/
 }
 
 .Container {
@@ -68,7 +64,6 @@ export default {
 
 .Conf {
   color: #8dc63f;
-  /*color: #8dc63f;*/
 }
 
 .Domain {
