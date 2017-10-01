@@ -2,12 +2,7 @@
   <header class="Header -sticked">
     <div class="Container">
 
-      <div class="Logo">
-        <span class="Brace">{</span>
-        <span class="JS">js</span><span class="Conf">conf</span><span class="Domain">.am</span>
-        <span class="Brace">}</span>
-      </div>
-
+      <Logo />
       <div class="Nav">
         <a href="#">SCHEDULE</a>
         <a href="#">SPEAKERS</a>
@@ -21,8 +16,12 @@
 
 
 <script>
-export default {
+import Logo from '../_common/Logo';
 
+export default {
+  components: {
+    Logo,
+  },
 };
 
 </script>
@@ -38,7 +37,7 @@ export default {
 
 .Header.-sticked {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(38, 42, 48, 0.8);
 }
 
 .Container {
@@ -66,10 +65,6 @@ export default {
   color: #8dc63f;
 }
 
-.Domain {
-
-}
-
 .Nav {
   word-spacing: 15px;
   font-size: 14px;
@@ -80,10 +75,6 @@ export default {
   text-decoration: none;
   cursor: pointer;
   color: #fff
-}
-
-.Nav a:hover {
-  color: #4bb463;
 }
 
 </style>

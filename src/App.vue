@@ -55,4 +55,9 @@ export default {
   max-width: 1180px;
   padding: 0 15px;
 }
+
+a:hover {
+  color: #4bb463 !important;
+}
+
 </style>
