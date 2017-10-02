@@ -19,13 +19,11 @@
           </thead>
           <tbody>
             <tr>
-              <td>1</td>
-              <td>Coming soon</td>
-              <td class="Speaker Venue">Coming soon</td>
-              <td>00:00 AM</td>
-              <td class="Venue ">Room #</td>
+              <td colspan="5" style="text-align: center;">
+                Coming soon
+              </td>
             </tr>
-            <tr>
+            <!-- <tr>
               <td>1</td>
               <td>OPENING REMARKS</td>
               <td class="Speaker Venue">JEFF SEVERIN</td>
@@ -59,7 +57,7 @@
               <td class="Speaker Venue">RUTH R. SMITH</td>
               <td>03:00 PM</td>
               <td class="Venue">ROOM E</td>
-            </tr>
+            </tr> -->
           </tbody>
         </table>
 

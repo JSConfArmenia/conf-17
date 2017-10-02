@@ -1,8 +1,8 @@
 <template>
   <footer class="Footer">
     <Logo />
-    <h6>2017 YEREVAN</h6>
-    <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+    <p class="description">2017 Yerevan</p>
+    <a href="https://github.com/JSConfArmenia"><i class="fa fa-github" aria-hidden="true"></i></a>
   </footer>
 </template>
 
@@ -21,17 +21,16 @@ export default {
 .Footer {
   text-align: center;
   background-color: #343d47;
-  padding: 100px 0;
+  padding: 50px 0 35px 0;
 }
 
 .Logo {
-  font-size: 50px;
+  margin-bottom: 15px;
 }
 
-h6 {
+.description {
   color: #999ea3;
-  font-size: 25px;
-  margin: 30px 0 20px 0;
+  font-size: 18px;
 }
 
 a {

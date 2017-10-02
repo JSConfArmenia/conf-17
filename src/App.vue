@@ -6,11 +6,11 @@
 
     <Schedule />
 
-    <Speakers />
+    <!-- <Speakers /> -->
 
-    <Team />
+    <!-- <Team /> -->
 
-    <Location />
+    <!-- <Location /> -->
 
     <AppFooter />
   </div>

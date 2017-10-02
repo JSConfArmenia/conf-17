@@ -1,11 +1,11 @@
 <template>
-  <logo class="Logo">
+  <div class="Logo">
 
     <span class="Brace">{</span>
     <span class="JS">js</span><span class="Conf">conf</span><span class="Domain">.am</span>
     <span class="Brace">}</span>
 
-  </logo>
+  </div>
 </template>
 
 <script>
