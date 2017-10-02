@@ -8,9 +8,9 @@
 
     <!-- <Speakers /> -->
 
-    <!-- <Team /> -->
+    <Location />
 
-    <!-- <Location /> -->
+    <!-- <Team /> -->
 
     <AppFooter />
   </div>
@@ -54,6 +54,14 @@ export default {
   margin: 0 auto;
   max-width: 1180px;
   padding: 0 15px;
+}
+
+.Title {
+  font-size: 36px;
+  color: #333;
+  font-weight: 900;
+  margin-bottom: 20px;
+  line-height: normal;
 }
 
 a:hover {

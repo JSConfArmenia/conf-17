@@ -4,8 +4,8 @@
 
       <div class="ScheduleGroup">
 
-        <h1>Event Schedules</h1>
-        <h2>Saturday, 25 November 2017</h2>
+        <h2 class="Title">Event Schedules</h2>
+        <h3 class="Subtitle">Saturday, 25 November 2017</h3>
 
         <table>
           <thead>
@@ -90,15 +90,11 @@ export default {
   align-items: center;
 }
 
-h1 {
-  font-size: 36px;
-  color: #333;
-  font-weight: 900;
-  margin: 0 0 60px 0;
-  line-height: normal;
+.Title {
+  margin-bottom: 60px;
 }
 
-h2 {
+h3 {
   font-size: 24px;
   color: #333;
   font-weight: 700;
