@@ -3,13 +3,13 @@
   <section class="Intro">
     <div class="Container">
 
-      <div class="IntroGroup">
+        <div class="IntroGroup">
 
-        <Countdown date="1511589600" />
-        <h1>JavaScript Conference 2017</h1>
-        <h2>25 NOVEMBER, 2017, YEREVAN</h2>
+          <Countdown date="1511589600" />
+          <h1>JavaScript Conference 2017</h1>
+          <h2>25 NOVEMBER, 2017, YEREVAN</h2>
 
-      </div>
+        </div>
 
     </div>
   </section>
@@ -17,7 +17,6 @@
 </template>
 
 <script>
-
 import Countdown from './Countdown';
 
 export default {
@@ -26,21 +25,20 @@ export default {
     Countdown,
   },
 };
-
 </script>
 
 <style scoped>
 
 .Intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(../_assets/countdown-bg.jpg);
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .IntroGroup{
@@ -48,7 +46,6 @@ export default {
   align-items: left;
   flex-direction: column;
   justify-content: center;
-  /*padding: 0 380px;*/
 }
 
 h1 {

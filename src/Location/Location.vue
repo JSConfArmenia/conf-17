@@ -1,19 +1,33 @@
 <template>
   <section class="Location">
-    I'm Location
+
+
+
   </section>
 </template>
 
 <script>
+// import Vue from 'vue';
+
+
 export default {
 
 };
 </script>
 
-<style>
-.Location {
+<style scoped>
 
-  background-color: #ccc;
-
-}
 </style>
+
+
+
+
+
+
+
+
+
+
+
+
+

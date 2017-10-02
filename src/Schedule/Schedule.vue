@@ -11,7 +11,7 @@
           <thead>
             <tr>
               <th>#</th>
-              <th>SESSION</th>
+              <th width="40%">SESSION</th>
               <th>SPEAKER(S)</th>
               <th>TIME</th>
               <th>VENUE</th>
@@ -19,47 +19,47 @@
           </thead>
           <tbody>
             <tr>
+              <td>1</td>
               <td>Coming soon</td>
-              <td>Coming soon</td>
-              <td class="Speaker">Coming soon</td>
-              <td>Coming soon</td>
-              <td>Coming soon</td>
+              <td class="Speaker Venue">Coming soon</td>
+              <td>00:00 AM</td>
+              <td class="Venue ">Room #</td>
             </tr>
-            <!-- <tr>
+            <tr>
               <td>1</td>
               <td>OPENING REMARKS</td>
-              <td class="Speaker">JEFF SEVERIN</td>
+              <td class="Speaker Venue">JEFF SEVERIN</td>
               <td>08:45 AM</td>
-              <td>ROOM A</td>
+              <td class="Venue">ROOM A</td>
             </tr>
             <tr>
               <td>2</td>
               <td>INTRODUCTION TO WP</td>
-              <td class="Speaker">JAMIE WEN</td>
+              <td class="Speaker Venue">JAMIE WEN</td>
               <td>09:00 AM</td>
-              <td>ROOM B</td>
+              <td class="Venue">ROOM B</td>
             </tr>
             <tr>
               <td>3</td>
               <td>GETTING STARTED WITH WP</td>
-              <td class="Speaker">WILLIAM JOHN</td>
+              <td class="Speaker Venue">WILLIAM JOHN</td>
               <td>11:00 AM</td>
-              <td>ROOM c</td>
+              <td class="Venue">ROOM c</td>
             </tr>
             <tr>
               <td>4</td>
               <td>WP THEME DEVELOPMENT</td>
-              <td class="Speaker">WILLIAM JOHN</td>
+              <td class="Speaker Venue">WILLIAM JOHN</td>
               <td>02:00 PM</td>
-              <td>ROOM D</td>
+              <td class="Venue">ROOM D</td>
             </tr>
             <tr>
               <td>5</td>
               <td>PLUGIN DEVELOPMENT</td>
-              <td class="Speaker">RUTH R. SMITH</td>
+              <td class="Speaker Venue">RUTH R. SMITH</td>
               <td>03:00 PM</td>
-              <td>ROOM E</td>
-            </tr> -->
+              <td class="Venue">ROOM E</td>
+            </tr>
           </tbody>
         </table>
 
@@ -79,7 +79,6 @@ export default {
 
 .Schedule {
   text-align: center;
-  min-height: 500px;
   padding: 120px 0 140px 0;
   background-color: #fff;
   background-repeat: no-repeat;
@@ -109,10 +108,6 @@ h2 {
   line-height: normal;
 }
 
-table {
-  width: 1140px;
-}
-
 th, td {
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
@@ -122,13 +117,19 @@ th, td {
   padding: 15px 30px;
 }
 
+table {
+  text-transform: uppercase;
+  width: 80%;
+}
+
 th {
   background-color: #f0f0f0;
-  width: 30px;
+  font-weight: bold;
 }
 
 td {
-  background-color: #fefefe;
+  background-color: #f9f9f9;
+  font-weight: 500;
 }
 
 tr:hover td {
@@ -137,6 +138,10 @@ tr:hover td {
 
 .Speaker:hover {
   color: #4bb463;
+}
+
+.Venue {
+  color: #707070;
 }
 
 </style>

@@ -2,12 +2,12 @@
   <header class="Header -sticked">
     <div class="Container">
 
-      <Logo />
-      <div class="Nav">
-        <a href="#">SCHEDULE</a>
-        <a href="#">SPEAKERS</a>
-        <a href="#">SPONSERS</a>
-      </div>
+          <Logo />
+          <div class="Nav">
+            <a href="#">SCHEDULE</a>
+            <a href="#">SPEAKERS</a>
+            <a href="#">SPONSERS</a>
+          </div>
 
     </div>
   </header>
@@ -37,7 +37,7 @@ export default {
 
 .Header.-sticked {
   position: fixed;
-  background-color: rgba(38, 42, 48, 0.8);
+  background-color: rgba(41, 53, 61, 0.9);
 }
 
 .Container {
@@ -48,25 +48,8 @@ export default {
   height: 66px;
 }
 
-.Logo {
-  font-size: 32px;
-  color: #fff;
-  font-weight: bold;
-}
-
-.Brace {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.JS {
-}
-
-.Conf {
-  color: #8dc63f;
-}
-
 .Nav {
-  word-spacing: 15px;
+  word-spacing: 20px;
   font-size: 14px;
   font-weight: 900;
  }
@@ -76,5 +59,6 @@ export default {
   cursor: pointer;
   color: #fff
 }
+
 
 </style>
