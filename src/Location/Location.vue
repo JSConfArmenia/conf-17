@@ -19,7 +19,7 @@ export default {
 .Location {
   width: 100%;
   padding-bottom: 30%;
-  min-height: 300px;
+  min-height: 350px;
   position: relative;
 }
 

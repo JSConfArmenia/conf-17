@@ -20,6 +20,7 @@ export default {
   font-size: 32px;
   color: #fff;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .Brace {

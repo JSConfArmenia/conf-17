@@ -4,6 +4,8 @@
 
     <Intro />
 
+    <About />
+
     <Schedule />
 
     <Speakers />
@@ -19,6 +21,7 @@
 <script>
 import AppHeader from './Header';
 import Intro from './Intro';
+import About from './About';
 import Schedule from './Schedule';
 import Speakers from './Speakers';
 import Team from './Team';
@@ -30,6 +33,7 @@ export default {
   components: {
     AppHeader,
     Intro,
+    About,
     Schedule,
     Speakers,
     Team,
@@ -50,6 +54,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a:hover {
+  color: #4bb463;
+}
+
 .Container {
   margin: 0 auto;
   max-width: 1180px;
@@ -64,8 +72,36 @@ export default {
   line-height: normal;
 }
 
-a:hover {
-  color: #4bb463 !important;
+.Button {
+  font-size: 16px;
+  line-height: 16px;
+  color: rgb(255, 255, 255);
+  background: #ccc;
+  border-radius: 4px;
+  font-weight: 500;
+  margin: 0px 20px 20px 0px;
+  padding: 15px 30px;
+  display: inline-block;
+  text-decoration: none;
 }
+
+.Button.-purple {
+  background: rgb(146, 39, 143);
+}
+
+.Button.-green {
+  background: rgb(138, 195, 41);
+}
+
+.Button.-orange {
+  background-color: #FF8A00;
+}
+
+.Button:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+
 
 </style>

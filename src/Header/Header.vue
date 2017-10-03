@@ -2,15 +2,16 @@
   <header class="Header -sticked">
     <div class="Container">
 
-          <Logo />
-          <div class="Nav">
-            <a href="#">ABOUT</a>
-            <a href="#">SCHEDULE</a>
-            <a href="#">NINJAS</a>
-            <a href="#">SPONSORS</a>
-            <a href="#">LOCATION</a>
-            <a href="#">CONTACT</a>
-          </div>
+      <Logo />
+      <div class="Nav">
+        <a href="#">ABOUT</a>
+        <a href="#">SCHEDULE</a>
+        <a href="#">NINJAS</a>
+        <a href="#">SPONSORS</a>
+        <a href="#">TEAM</a>
+        <a href="#">LOCATION</a>
+        <!-- <a href="#">CONTACT</a> -->
+      </div>
 
     </div>
   </header>
@@ -36,6 +37,7 @@ export default {
 .Header {
   position: absolute;
   width: 100%;
+  z-index: 100;
 }
 
 .Header.-sticked {
@@ -52,7 +54,6 @@ export default {
 }
 
 .Nav {
-  word-spacing: 20px;
   font-size: 14px;
   font-weight: 900;
  }
@@ -60,7 +61,12 @@ export default {
 .Nav a {
   text-decoration: none;
   cursor: pointer;
-  color: #fff
+  color: #fff;
+  margin: 0 8px;
+}
+
+.Nav a:hover {
+  color: #4bb463;
 }
 
 
