@@ -104,4 +104,17 @@ export default {
   color: #8dc63f;
 }
 
+@media (max-width: 768px) {
+
+  .text {
+    font-size: 8px;
+  }
+
+  .digit {
+    font-size: 22px;
+    margin-right: 25px;
+  }
+
+}
+
 </style>

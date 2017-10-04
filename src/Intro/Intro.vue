@@ -60,4 +60,15 @@ h2 {
   font-weight: 700;
 }
 
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+}
+
 </style>
