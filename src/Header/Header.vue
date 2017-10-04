@@ -4,12 +4,12 @@
 
       <Logo />
       <div class="Nav">
-        <a href="#">ABOUT</a>
-        <a href="#">SCHEDULE</a>
-        <a href="#">NINJAS</a>
-        <a href="#">SPONSORS</a>
-        <a href="#">TEAM</a>
-        <a href="#">LOCATION</a>
+        <a href="#About">ABOUT</a>
+        <a href="#Schedule">SCHEDULE</a>
+        <a href="#Speakers">NINJAS</a>
+        <a href="#Sponsors">SPONSORS</a>
+        <a href="#Team">TEAM</a>
+        <a href="#Location">LOCATION</a>
         <!-- <a href="#">CONTACT</a> -->
       </div>
 
