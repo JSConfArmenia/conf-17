@@ -26,8 +26,17 @@
             <h5 class="OrgName">Innovative Solutions and<br />Technologies Center</h5>
           </a>
         </div>
-
         <!-- Sponsor 3 -->
+        <div class="col">
+          <a href="https://www.renderforest.com/">
+            <div
+              class="Img"
+              style="background-image: url(https://static.renderforest.com/renderforest/images/v1/logo_dark.svg)">
+            </div>
+            <h5 class="OrgName">Renderforest</h5>
+          </a>
+        </div>
+        <!-- Sponsor 4 -->
         <div class="col">
           <a href="http://iteratehackerspace.com/">
             <div
@@ -38,7 +47,7 @@
           </a>
         </div>
 
-        <!-- Sponsor 4 -->
+        <!-- Sponsor 5 -->
         <div class="col">
           <a href="https://github.com/modularcode">
             <div
