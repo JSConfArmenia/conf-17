@@ -2,7 +2,7 @@
   <section class="Speakers" id="Speakers">
     <div class="Container">
 
-      <h1 class="Title">WHO ARE NINJAS?</h1>
+      <h1 class="Title">WHO ARE THE NINJAS?</h1>
       <div class="row">
 
         <!-- NINJA 1  -->
@@ -38,7 +38,7 @@
         <div class="col-md-3">
           <div class="Img -blank"></div>
           <a href=""><h3 class="Name">Your Name</h3></a>
-          <h5 class="Position">Become Ninja!</h5>
+          <h5 class="Position">Become a Ninja!</h5>
         </div>
 
       </div>

@@ -20,7 +20,9 @@
             Where JavaScript developers meet!
           </h4>
           <p class="Description">
-            Conference dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+            JavaScript Conference provides a platform for developers to share their ideas, experiences and knowledge.
+            Come and learn about the modern development ecosystem by attending talks and workshops.
+            Network with other developers who love what they do.
           </p>
           <div class="Actions">
             <a href="" class="Button -purple">
