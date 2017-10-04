@@ -37,7 +37,7 @@
           </a>
         </div>
         <!-- Sponsor 4 -->
-        <div class="col">
+        <!-- <div class="col">
           <a href="http://iteratehackerspace.com/">
             <div
               class="Img"
@@ -45,7 +45,7 @@
             </div>
             <h5 class="OrgName">Iterate Hackerspace</h5>
           </a>
-        </div>
+        </div> -->
 
         <!-- Sponsor 5 -->
         <div class="col">
