@@ -3,7 +3,10 @@
     <div class="Container">
 
       <Logo />
-      <div class="Nav">
+      <a class="NavBtn" v-on:click="toggle">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </a>
+      <nav class="Nav" :class="{ '-open': isOpen }">
         <a href="#About">ABOUT</a>
         <a href="#Schedule">SCHEDULE</a>
         <a href="#Speakers">NINJAS</a>
@@ -11,7 +14,7 @@
         <a href="#Team">TEAM</a>
         <a href="#Location">LOCATION</a>
         <!-- <a href="#">CONTACT</a> -->
-      </div>
+      </nav>
 
     </div>
   </header>
@@ -25,6 +28,16 @@ import Logo from '../_common/Logo';
 export default {
   components: {
     Logo,
+  },
+  data: () => ({
+    isOpen: false,
+  }),
+  methods: {
+    toggle: function toggle(event) {
+      event.preventDefault();
+
+      this.isOpen = !this.isOpen;
+    },
   },
 };
 
@@ -69,5 +82,43 @@ export default {
   color: #4bb463;
 }
 
+.fa {
+  display: none;
+  font-size: 25px;
+  padding-right: 15px;
+}
 
+@media (max-width: 768px) {
+  .Nav  {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    width: 300px;
+    right: -300px;
+    flex-direction: column;
+    background-color: rgba(41, 53, 61, 0.9);
+    text-align: left;
+    margin-top: 5px;
+    transition: left 0.3s ease;
+  }
+
+  .Nav.-open {
+    right: 0;
+  }
+
+  .Nav a {
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .Nav a:hover {
+    background-color: rgba(41, 53, 61, 1)
+  }
+
+  .fa {
+    display: flex;
+  }
+
+}
 </style>
