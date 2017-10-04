@@ -1,5 +1,5 @@
 <template>
-  <section class="Schedule">
+  <section class="Schedule" id="Schedule">
     <div class="Container">
 
       <div class="ScheduleGroup">

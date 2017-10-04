@@ -1,5 +1,5 @@
 <template>
-  <section class="Sponsors">
+  <section class="Sponsors" id="Sponsors">
     <div class="Container">
 
       Sponsors
