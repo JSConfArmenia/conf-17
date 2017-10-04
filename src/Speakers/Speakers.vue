@@ -29,7 +29,7 @@
         <div class="col-md-3">
           <div
             class="Img"
-            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/14560206_1301732059839834_5075246834395801686_o.jpg?oh=128e8e72b72d7a8f8e14e872bc472b96&oe=5A48846B)"></div>
+            style="background-image: url(https://avatars3.githubusercontent.com/u/2195825?v=4&s=460)"></div>
           <a href=""><h3 class="Name">Edgar Marukyan</h3></a>
           <h5 class="Position">CTO at RenderForest</h5>
         </div>

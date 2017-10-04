@@ -39,11 +39,11 @@
         <div class="col">
           <div
             class="Img"
-            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/14560206_1301732059839834_5075246834395801686_o.jpg?oh=128e8e72b72d7a8f8e14e872bc472b96&oe=5A48846B)">
+            style="background-image: url(https://avatars3.githubusercontent.com/u/2195825?v=4&s=460)">
           </div>
           <a href=""><h4 class="Name">Edgar Marukyan</h4></a>
           <h6 class="Role">Organizer</h6>
-          <h6 class="Position">CTO at Renderforest, Founder of Peyotto Technologies</h6>
+          <h6 class="Position">CTO at Renderforest</h6>
         </div>
 
         <div class="col">

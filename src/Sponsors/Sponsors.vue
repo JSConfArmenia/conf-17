@@ -31,7 +31,7 @@
           <a href="https://www.renderforest.com/">
             <div
               class="Img"
-              style="background-image: url(https://static.renderforest.com/renderforest/images/v1/logo_dark.svg)">
+              style="background-image: url('https://static.renderforest.com/renderforest/images/renderforest_logo.jpg');background-color: #081e2c;">
             </div>
             <h5 class="OrgName">Renderforest</h5>
           </a>
