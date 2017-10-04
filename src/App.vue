@@ -10,9 +10,11 @@
 
     <Speakers />
 
-    <Location />
+    <Sponsors />
 
-    <!-- <Team /> -->
+    <Team />
+
+    <Location />
 
     <AppFooter />
   </div>
@@ -24,6 +26,7 @@ import Intro from './Intro';
 import About from './About';
 import Schedule from './Schedule';
 import Speakers from './Speakers';
+import Sponsors from './Sponsors';
 import Team from './Team';
 import Location from './Location';
 import AppFooter from './Footer';
@@ -36,6 +39,7 @@ export default {
     About,
     Schedule,
     Speakers,
+    Sponsors,
     Team,
     Location,
     AppFooter,

@@ -5,7 +5,7 @@
       <h1 class="Title">WHO ARE NINJAS?</h1>
       <div class="row">
 
-        <!-- NINJA-1  -->
+        <!-- NINJA 1  -->
         <div class="col-md-3">
           <div
             class="Img"
@@ -15,7 +15,7 @@
           <h5 class="Position">Position</h5>
         </div>
 
-        <!-- NINJA  -->
+        <!-- NINJA 2 -->
         <div class="col-md-3">
           <div
             class="Img"
@@ -25,7 +25,7 @@
           <h5 class="Position">Position</h5>
         </div>
 
-         <!-- NINJA-4  -->
+         <!-- NINJA-3  -->
         <div class="col-md-3">
           <div
             class="Img"
@@ -34,7 +34,7 @@
           <h5 class="Position">Position</h5>
         </div>
 
-        <!-- NINJA-5  -->
+        <!-- NINJA-4  -->
         <div class="col-md-3">
           <div class="Img -blank"></div>
           <a href=""><h3 class="Name">Your Name</h3></a>

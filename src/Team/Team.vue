@@ -1,22 +1,100 @@
 <template>
   <section class="Team">
     <div class="container">
+
+      <h1 class="Title">Organizers</h1>
       <div class="row">
 
-        <div class="col">
-          Col
+        <!-- Organizer 1  -->
+        <div class="col-md-2">
+          <div
+            class="Img"
+            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/14359039_10208688307897817_2190833719349130448_n.jpg?oh=8dbdc5d6efe09076d8c3544fe9ed387d&oe=5A3F4395)">
+          </div>
+          <a href=""><h4 class="Name">Alexander Adamyan</h4></a>
+          <h6 class="Position">CEO and Co-Founder at Simply Technologies</h6>
         </div>
-        <div class="col">
-          Col
+        <!-- Organizer 2  -->
+        <div class="col-md-2">
+          <div
+            class="Img"
+            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/15676121_10154515618610141_4163359631088660025_o.jpg?oh=cab2040dfe4a466ebf0a83dec2fd8900&oe=5A80E029)">
+          </div>
+          <a href=""><h4 class="Name">Rouben Meschyan</h4></a>
+          <h6 class="Position">Position</h6>
         </div>
-        <div class="col">
-          Col
+        <!-- Organizer 3  -->
+        <div class="col-md-2">
+          <div
+            class="Img"
+            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-1/c0.104.652.652/244020_1770753748796_2351683_o.jpg?oh=e70743c4aad4af76a83c93e31c846b03&oe=5A5000E7)">
+          </div>
+          <a href=""><h4 class="Name">Gevorg Harutyunyan</h4></a>
+          <h6 class="Position">JavaScript developer, Founder of ModularCode</h6>
         </div>
-        <div class="col">
-          Col
+        <!-- Organizer 4  -->
+        <div class="col-md-2">
+          <div
+            class="Img"
+            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/14560206_1301732059839834_5075246834395801686_o.jpg?oh=128e8e72b72d7a8f8e14e872bc472b96&oe=5A48846B)">
+          </div>
+          <a href=""><h4 class="Name">Edgar Marukyan</h4></a>
+          <h6 class="Position">CTO at Renderforest</h6>
+        </div>
+        <!-- Organizer 5  -->
+        <div class="col-md-2">
+          <div
+            class="Img"
+            style="background-image: url(https://www.cocooninnovations.com/itempics/243_xlarge.jpg)">
+          </div>
+          <a href=""><h4 class="Name">Accessory Organizer</h4></a>
+          <h6 class="Position">position: absolute;</h6>
+        </div>
+        <!-- Organizer 6  -->
+        <div class="col-md-2">
+          <div
+            class="Img"
+            style="background-image: url(http://cdn.shopify.com/s/files/1/1324/7413/products/9ce982297ddd0fd4ebf4a9f9a74484db_grande.jpg?v=1490354304)">
+          </div>
+          <a href=""><h4 class="Name">Car BackSeat Organizer</h4></a>
+          <h6 class="Position">position: fixed;</h6>
         </div>
 
       </div>
+
+      <div class="Separator"></div>
+
+        <!-- //Volanteers// -->
+
+      <h1 class="Title">Volanteers</h1>
+      <div class="row">
+        <!-- Volanteer 1 -->
+        <div class="col-md-1">
+          <div
+            class="Img"
+            style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXSAESs1HY8FpuUthYs6bs4UYGJvVcGo1EtqigtqO1U-nYpTsf-g)">
+          </div>
+          <h6 class="Name">Become mini Ninja!</h6>
+        </div>
+        <!-- Volanteer 2 -->
+        <div class="col-md-1">
+          <div
+            class="Img"
+            style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXSAESs1HY8FpuUthYs6bs4UYGJvVcGo1EtqigtqO1U-nYpTsf-g)">
+          </div>
+          <h6 class="Name">Become mini Ninja!</h6>
+        </div>
+        <!-- Volanteer 3 -->
+        <div class="col-md-1">
+          <div
+            class="Img"
+            style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXSAESs1HY8FpuUthYs6bs4UYGJvVcGo1EtqigtqO1U-nYpTsf-g)">
+          </div>
+          <h6 class="Name">Become mini Ninja!</h6>
+        </div>
+
+      </div>
+
     </div>
   </section>
 </template>
@@ -27,10 +105,42 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+
 .Team {
-
-  background-color: #ccc;
-
+  background-image: url(../_assets/Team.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0 50px 0;
+  color: #fff;
 }
+
+.Title {
+  color: #fff
+}
+
+.Separator {
+  border-bottom: 1px solid #fff;
+  margin: 30px 0 30px 0;
+}
+
+.Img {
+  padding-bottom: 100%;
+  margin-bottom: 10px;
+  background-size: cover;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.Name {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+
 </style>
