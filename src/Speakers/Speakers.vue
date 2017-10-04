@@ -29,7 +29,7 @@
         <div class="col-md-3">
           <div
             class="Img"
-            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/17265235_1470776282935410_4503633693621781585_n.jpg?oh=69589b234831757874d62ed8e9fb78b3&oe=5A484300)"></div>
+            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/14560206_1301732059839834_5075246834395801686_o.jpg?oh=128e8e72b72d7a8f8e14e872bc472b96&oe=5A48846B)"></div>
           <a href=""><h3 class="Name">Edgar Marukyan</h3></a>
           <h5 class="Position">Position</h5>
         </div>
