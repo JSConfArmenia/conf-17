@@ -83,13 +83,13 @@
       <h1 class="Title">Volanteers</h1>
       <div class="row">
         <!-- Volanteer 1 -->
-        <div class="col-md-2">
+        <!-- <div class="col-md-2">
           <div
             class="Img"
             style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXSAESs1HY8FpuUthYs6bs4UYGJvVcGo1EtqigtqO1U-nYpTsf-g)">
           </div>
           <h6 class="Name">Become a volanteer!</h6>
-        </div>
+        </div> -->
 
         <!-- <div class="col-md-2">
           <div
