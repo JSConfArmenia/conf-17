@@ -13,7 +13,7 @@
           </div>
           <a href=""><h4 class="Name">Alexander Adamyan</h4></a>
           <h6 class="Role">Organizer</h6>
-          <h6 class="Position">CEO and Co-Founder at Simply Technologies</h6>
+          <h6 class="Position">Co-Founder at Simply Technologies</h6>
         </div>
 
         <div class="col">
@@ -78,17 +78,17 @@
 
       <div class="Separator"></div>
 
-        <!-- //Volanteers// -->
+        <!-- //Volunteers// -->
 
-      <h1 class="Title">Volanteers</h1>
+      <h1 class="Title">Volunteers</h1>
       <div class="row">
-        <!-- Volanteer 1 -->
+        <!-- Volunteer 1 -->
         <!-- <div class="col-md-2">
           <div
             class="Img"
             style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXSAESs1HY8FpuUthYs6bs4UYGJvVcGo1EtqigtqO1U-nYpTsf-g)">
           </div>
-          <h6 class="Name">Become a volanteer!</h6>
+          <h6 class="Name">Become a volunteer!</h6>
         </div> -->
 
         <!-- <div class="col-md-2">
@@ -96,7 +96,7 @@
             class="Img"
             style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXSAESs1HY8FpuUthYs6bs4UYGJvVcGo1EtqigtqO1U-nYpTsf-g)">
           </div>
-          <h6 class="Name">Become a volanteer Ninja!</h6>
+          <h6 class="Name">Become a volunteer Ninja!</h6>
         </div>
 
         <div class="col-md-2">
@@ -104,7 +104,7 @@
             class="Img"
             style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXSAESs1HY8FpuUthYs6bs4UYGJvVcGo1EtqigtqO1U-nYpTsf-g)">
           </div>
-          <h6 class="Name">Become a volanteer Ninja!</h6>
+          <h6 class="Name">Become a volunteer Ninja!</h6>
         </div> -->
 
       </div>
