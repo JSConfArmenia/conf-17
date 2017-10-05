@@ -18,46 +18,46 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <!-- <tr>
               <td colspan="5" style="text-align: center;">
                 Coming soon
               </td>
-            </tr>
-            <!-- <tr>
-              <td>1</td>
-              <td>OPENING REMARKS</td>
+            </tr> -->
+            <tr>
+              <td class="tdNum">1</td>
+              <td >OPENING REMARKS</td>
               <td class="Speaker Venue">JEFF SEVERIN</td>
               <td>08:45 AM</td>
               <td class="Venue">ROOM A</td>
             </tr>
             <tr>
-              <td>2</td>
+              <td class="tdNum">2</td>
               <td>INTRODUCTION TO WP</td>
               <td class="Speaker Venue">JAMIE WEN</td>
               <td>09:00 AM</td>
               <td class="Venue">ROOM B</td>
             </tr>
             <tr>
-              <td>3</td>
+              <td class="tdNum">3</td>
               <td>GETTING STARTED WITH WP</td>
               <td class="Speaker Venue">WILLIAM JOHN</td>
               <td>11:00 AM</td>
               <td class="Venue">ROOM c</td>
             </tr>
             <tr>
-              <td>4</td>
+              <td class="tdNum">4</td>
               <td>WP THEME DEVELOPMENT</td>
               <td class="Speaker Venue">WILLIAM JOHN</td>
               <td>02:00 PM</td>
               <td class="Venue">ROOM D</td>
             </tr>
             <tr>
-              <td>5</td>
+              <td class="tdNum">5</td>
               <td>PLUGIN DEVELOPMENT</td>
               <td class="Speaker Venue">RUTH R. SMITH</td>
               <td>03:00 PM</td>
               <td class="Venue">ROOM E</td>
-            </tr> -->
+            </tr>
           </tbody>
         </table>
 
@@ -114,6 +114,11 @@ th, td {
 table {
   text-transform: uppercase;
   width: 80%;
+  border-collapse: collapse;
+}
+
+.Table {
+  display: flex;
 }
 
 th {
@@ -136,6 +141,31 @@ tr:hover td {
 
 .Venue {
   color: #707070;
+}
+
+@media (max-width: 768px) {
+
+  table, thead, tbody, th, td, tr {
+    display: block;
+    text-align: center;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .tdNum {
+    font-size: 19px;
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+
+  h3 {
+  font-size: 15px;
+  }
+
 }
 
 </style>
