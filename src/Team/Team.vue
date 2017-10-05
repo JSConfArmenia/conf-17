@@ -1,10 +1,9 @@
 <template>
   <section class="Team" id="Team">
-    <div class="container">
+    <div class="Container">
 
       <h1 class="Title">Our Team</h1>
-      <div class="row">
-
+      <div class="row OrganizersRow">
 
         <div class="col">
           <div
@@ -45,35 +44,6 @@
           <h6 class="Role">Organizer</h6>
           <h6 class="Position">CTO at Renderforest</h6>
         </div>
-
-        <div class="col">
-          <div
-            class="Img"
-            style="background-image: url(https://c.tribune.com.pk/2016/03/1070460-chan-1458641484.gif)">
-          </div>
-          <a href=""><h4 class="Name">Teamwork</h4></a>
-          <h6 class="Role">Organizer</h6>
-          <h6 class="Position">...</h6>
-        </div>
-
-        <!-- <div class="col-md-2">
-          <div
-            class="Img"
-            style="background-image: url(https://www.cocooninnovations.com/itempics/243_xlarge.jpg)">
-          </div>
-          <a href=""><h4 class="Name">Accessory Organizer</h4></a>
-          <h6 class="Position">position: absolute;</h6>
-        </div>
-
-        <div class="col-md-2">
-          <div
-            class="Img"
-            style="background-image: url(http://cdn.shopify.com/s/files/1/1324/7413/products/9ce982297ddd0fd4ebf4a9f9a74484db_grande.jpg?v=1490354304)">
-          </div>
-          <a href=""><h4 class="Name">Car BackSeat Organizer</h4></a>
-          <h6 class="Position">position: fixed;</h6>
-        </div> -->
-
       </div>
 
       <div class="Separator"></div>
@@ -129,6 +99,15 @@ export default {
   background-repeat: no-repeat;
   padding: 50px 0 50px 0;
   color: #fff;
+}
+
+.OrganizersRow {
+  margin-right: -45px;
+  margin-left: -45px;
+}
+
+.OrganizersRow .col {
+  padding: 0 45px;
 }
 
 .Title {
