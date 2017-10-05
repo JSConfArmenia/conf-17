@@ -75,7 +75,7 @@ export default {
 .Sponsors {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(http://demo.themeum.com/wordpress/eventum/wp-content/uploads/2015/09/home-sponsors-bg.jpg?id=152);
+  background-image: url(../_assets/home-sponsors-bg.jpg);
   padding: 50px 0 50px;
 }
 
