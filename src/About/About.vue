@@ -25,7 +25,7 @@
             Network with other developers who love what they do.
           </p>
           <div class="Actions">
-            <a href="" class="Button -purple">
+            <a href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2" class="Button -purple">
               <i class="fa fa-envelope-open-o Icon" aria-hidden="true"></i>
               Request an invite
             </a>
