@@ -139,5 +139,17 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+
+  .Img {
+    padding-right: 100%;
+    margin-bottom: 10px;
+  }
+
+  h6 {
+    margin-bottom: 40px
+  }
+
+}
 
 </style>
