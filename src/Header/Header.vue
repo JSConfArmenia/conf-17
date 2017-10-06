@@ -13,11 +13,17 @@
         <a href="#Sponsors">SPONSORS</a>
         <a href="#Team">TEAM</a>
         <a href="#Location">LOCATION</a>
-        <!-- <div class="InvBtn"> -->
-          <a class="InvBtn" href="https://docs.google.com/forms/d/e/1FAIpQLScLPpe8JKxop3xEZjEg94Sb9vevxC9njXFBiv8rK063vokegg/viewform">Invitation Form</a>
+        <!-- <div class="InviteBtn"> -->
         <!-- </div> -->
         <!-- <a href="#">CONTACT</a> -->
       </nav>
+
+      <a
+        class="InviteBtn"
+        href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2">
+        <i class="fa fa-envelope-open-o Icon" aria-hidden="true"></i>
+        Request an invite
+      </a>
 
     </div>
   </header>
@@ -85,24 +91,34 @@ a {
   color: #4bb463;
 }
 
-.fa {
+.NavBtn {
   display: none;
   font-size: 25px;
   padding-right: 15px;
 }
 
-.InvBtn {
+.InviteBtn {
   padding: 10px 20px 10px 20px;
   background-color: rgba(146, 39, 143, 0.69);
   border-radius: 4px;
 }
 
-.InvBtn:hover {
+.InviteBtn .Icon {
+  margin-right: 5px;
+}
+
+.InviteBtn:hover {
+  color: #fff;
   background-color: rgb(146, 39, 143);
 }
 
 
 @media (max-width: 768px) {
+  .Logo {
+    order: 1;
+    font-size: 22px;
+  }
+
   .Nav  {
     display: flex;
     position: absolute;
@@ -127,11 +143,23 @@ a {
   }
 
   .Nav a:hover {
-    background-color: rgba(41, 53, 61, 1)
+    background-color: rgba(41, 53, 61, 1);
   }
 
-  .fa {
+  .NavBtn {
     display: flex;
+    order: 3;
+  }
+
+  .InviteBtn {
+    order: 2;
+    white-space: nowrap;
+    padding: 6px 10px;
+    font-size: .9em;
+  }
+
+  .InviteBtn .Icon {
+    display: none;
   }
 
 }

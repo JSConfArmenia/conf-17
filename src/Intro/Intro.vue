@@ -62,6 +62,12 @@ h2 {
 
 @media (max-width: 768px) {
 
+  .Intro {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+
   h1 {
     font-size: 35px;
   }
