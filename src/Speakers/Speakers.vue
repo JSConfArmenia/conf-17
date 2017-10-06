@@ -65,9 +65,11 @@
 
          <!-- NINJA-7  -->
         <div class="col-md-3">
-          <div class="Img -blank"></div>
-          <a href=""><h3 class="Name">Your Name</h3></a>
-          <h5 class="Position">Become a Ninja!</h5>
+          <a href="mailto:jsconf.am@gmail.com">
+            <div class="Img -blank"></div>
+            <a href=""><h3 class="Name">Your Name</h3></a>
+            <h5 class="Position">Become a Ninja!</h5>
+          </a>
         </div>
 
 
