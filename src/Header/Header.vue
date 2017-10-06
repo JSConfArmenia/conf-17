@@ -78,7 +78,8 @@ export default {
 .Nav {
   font-size: 14px;
   font-weight: 900;
- }
+  margin-left: auto;
+}
 
 a {
   text-decoration: none;
@@ -98,9 +99,13 @@ a {
 }
 
 .InviteBtn {
-  padding: 10px 20px 10px 20px;
-  background-color: rgba(146, 39, 143, 0.69);
+  padding: 7px 15px;
+  background-color: rgb(255, 138, 0);
   border-radius: 4px;
+  transition: all .25s ease;
+  text-transform: uppercase;
+  font-size: .8em;
+  font-weight: bold;
 }
 
 .InviteBtn .Icon {
@@ -109,7 +114,7 @@ a {
 
 .InviteBtn:hover {
   color: #fff;
-  background-color: rgb(146, 39, 143);
+  background-color: #D67400;
 }
 
 
@@ -117,6 +122,8 @@ a {
   .Logo {
     order: 1;
     font-size: 22px;
+    position: relative;
+    top: -2px;
   }
 
   .Nav  {
@@ -155,7 +162,6 @@ a {
     order: 2;
     white-space: nowrap;
     padding: 6px 10px;
-    font-size: .9em;
   }
 
   .InviteBtn .Icon {
