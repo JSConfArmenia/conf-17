@@ -33,13 +33,48 @@
           <a href=""><h3 class="Name">Edgar Marukyan</h3></a>
           <h5 class="Position">CTO at RenderForest</h5>
         </div>
-
         <!-- NINJA-4  -->
+        <div class="col-md-3">
+          <div
+            class="Img"
+            style="background-image: url(https://1424647379.rsc.cdn77.org/jsconf/gnun.jpg)">
+          </div>
+          <a href=""><h3 class="Name">Gnun Ulikhanyan</h3></a>
+          <h5 class="Position">Software Engineer at Simply Technologies</h5>
+        </div>
+
+
+      </div>
+      <div class="row">
+
+        <!-- NINJA 5  -->
+        <div class="col-md-3">
+          <div
+            class="Img"
+            style="background-image: url(https://1424647379.rsc.cdn77.org/jsconf/narek.jpg)">
+          </div>
+          <a href=""><h3 class="Name">Narek Harutyunyan</h3></a>
+          <h5 class="Position">Software Engineer at Simply Technologies</h5>
+        </div>
+
+        <!-- NINJA 6 -->
+        <div class="col-md-3">
+          <div
+            class="Img"
+            style="background-image: url(https://1424647379.rsc.cdn77.org/jsconf/slavik.jpg)">
+          </div>
+          <a href=""><h3 class="Name">Slavik Manukyan</h3></a>
+          <h5 class="Position">Software Engineer at Simply Technologies</h5>
+        </div>
+
+         <!-- NINJA-7  -->
         <div class="col-md-3">
           <div class="Img -blank"></div>
           <a href=""><h3 class="Name">Your Name</h3></a>
           <h5 class="Position">Become a Ninja!</h5>
         </div>
+
+        
 
       </div>
 
