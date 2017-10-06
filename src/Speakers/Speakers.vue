@@ -43,10 +43,6 @@
           <h5 class="Position">Software Engineer at Simply Technologies</h5>
         </div>
 
-
-      </div>
-      <div class="row">
-
         <!-- NINJA 5  -->
         <div class="col-md-3">
           <div
@@ -74,7 +70,7 @@
           <h5 class="Position">Become a Ninja!</h5>
         </div>
 
-        
+
 
       </div>
 

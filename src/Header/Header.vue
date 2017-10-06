@@ -4,7 +4,7 @@
 
       <Logo />
       <a class="NavBtn" v-on:click="toggle">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+        <i class="fa" v-bind:class="{ 'fa-bars': !isOpen , 'fa-times': isOpen}" aria-hidden="true"></i>
       </a>
       <nav class="Nav" :class="{ '-open': isOpen }">
         <a href="#About">ABOUT</a>
@@ -13,17 +13,15 @@
         <a href="#Sponsors">SPONSORS</a>
         <a href="#Team">TEAM</a>
         <a href="#Location">LOCATION</a>
-        <!-- <div class="InviteBtn"> -->
-        <!-- </div> -->
+        <a
+        class="InviteBtn"
+        href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2">
+        Request an invite
+        </a>
         <!-- <a href="#">CONTACT</a> -->
       </nav>
 
-      <a
-        class="InviteBtn"
-        href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2">
-        <i class="fa fa-envelope-open-o Icon" aria-hidden="true"></i>
-        Request an invite
-      </a>
+
 
     </div>
   </header>
@@ -76,7 +74,7 @@ export default {
 }
 
 .Nav {
-  font-size: 14px;
+  font-size: .8em;
   font-weight: 900;
   margin-left: auto;
 }
@@ -88,7 +86,7 @@ a {
   margin: 0 8px;
 }
 
-.Nav a:hover {
+.Nav a:not(.InviteBtn):hover  {
   color: #4bb463;
 }
 
@@ -104,8 +102,6 @@ a {
   border-radius: 4px;
   transition: all .25s ease;
   text-transform: uppercase;
-  font-size: .8em;
-  font-weight: bold;
 }
 
 .InviteBtn .Icon {
@@ -113,7 +109,6 @@ a {
 }
 
 .InviteBtn:hover {
-  color: #fff;
   background-color: #D67400;
 }
 
@@ -129,18 +124,19 @@ a {
   .Nav  {
     display: flex;
     position: absolute;
-    top: 100%;
-    width: 300px;
-    right: -300px;
+    top: -500px;
+    width: 100%;
+    left: 0;
     flex-direction: column;
-    background-color: rgba(41, 53, 61, 0.9);
+    background-color: rgba(41, 53, 61, .95);
     text-align: left;
-    margin-top: 5px;
-    transition: left 0.3s ease;
+    transition: top 0.3s ease;
+    padding: 5px 5px 10px 5px;
   }
 
   .Nav.-open {
-    right: 0;
+    left: 0;
+    top: 100%;
   }
 
   .Nav a {
@@ -149,23 +145,14 @@ a {
     padding: 5px;
   }
 
-  .Nav a:hover {
-    background-color: rgba(41, 53, 61, 1);
-  }
-
   .NavBtn {
     display: flex;
     order: 3;
   }
 
   .InviteBtn {
-    order: 2;
-    white-space: nowrap;
-    padding: 6px 10px;
-  }
-
-  .InviteBtn .Icon {
-    display: none;
+    text-align: center;
+    margin-top: 10px;
   }
 
 }

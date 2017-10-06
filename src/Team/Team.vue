@@ -99,6 +99,7 @@ export default {
   background-repeat: no-repeat;
   padding: 50px 0 50px 0;
   color: #fff;
+  overflow: hidden;
 }
 
 .OrganizersRow {

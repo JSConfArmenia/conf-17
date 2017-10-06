@@ -75,7 +75,6 @@ export default {
   background-image:
     url(../_assets/color-bg-right-top.png),
     url(../_assets/color-bg-left-bottom.png);
-  /*background-position: 0 100%, 100% 100%, 100% 0;*/
   background-size: 40%;
   transform: rotate(45deg);
   opacity: .5;
@@ -88,17 +87,12 @@ export default {
   top: 40%;
   transform: translate(-50%, -50%);
   font-size: 50px;
-
   width: 200px;
   height: 200px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(https://www.yld.io/images/svgs/js_logo.svg);
-  /*color: #8dc63f;*/
-  /*font-weight: bold;*/
-  /*color: #fff;*/
-  /*background-color: #*/
 }
 
 .Brace {
@@ -127,4 +121,13 @@ export default {
 .Icon {
   margin-right: 7px;
 }
+
+@media (max-width: 768px) {
+
+  .About {
+    padding: 60px 0 100px 0;
+  }
+
+}
+
 </style>
