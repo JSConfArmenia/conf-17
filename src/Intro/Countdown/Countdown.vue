@@ -107,11 +107,11 @@ export default {
 @media (max-width: 768px) {
 
   .text {
-    font-size: 8px;
+    font-size: 11px;
   }
 
   .digit {
-    font-size: 22px;
+    font-size: 35px;
     margin-right: 25px;
   }
 

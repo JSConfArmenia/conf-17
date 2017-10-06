@@ -8,7 +8,7 @@
         <h3 class="Subtitle">Saturday, 25 November 2017</h3>
 
         <table>
-          <thead>
+          <!-- <thead>
             <tr>
               <th>#</th>
               <th width="40%">SESSION</th>
@@ -16,14 +16,14 @@
               <th>TIME</th>
               <th>VENUE</th>
             </tr>
-          </thead>
+          </thead> -->
           <tbody>
-            <!-- <tr>
+            <tr>
               <td colspan="5" style="text-align: center;">
                 Coming soon
               </td>
-            </tr> -->
-            <tr>
+            </tr>
+            <!-- <tr>
               <td class="tdNum">1</td>
               <td >OPENING REMARKS</td>
               <td class="Speaker Venue">JEFF SEVERIN</td>
@@ -57,7 +57,7 @@
               <td class="Speaker Venue">RUTH R. SMITH</td>
               <td>03:00 PM</td>
               <td class="Venue">ROOM E</td>
-            </tr>
+            </tr> -->
           </tbody>
         </table>
 

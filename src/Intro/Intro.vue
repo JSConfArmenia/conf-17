@@ -63,11 +63,11 @@ h2 {
 @media (max-width: 768px) {
 
   h1 {
-    font-size: 22px;
+    font-size: 35px;
   }
 
   h2 {
-    font-size: 12px;
+    font-size: 20px;
   }
 }
 
