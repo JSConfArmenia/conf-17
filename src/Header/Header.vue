@@ -13,6 +13,9 @@
         <a href="#Sponsors">SPONSORS</a>
         <a href="#Team">TEAM</a>
         <a href="#Location">LOCATION</a>
+        <!-- <div class="InvBtn"> -->
+          <a class="InvBtn" href="https://docs.google.com/forms/d/e/1FAIpQLScLPpe8JKxop3xEZjEg94Sb9vevxC9njXFBiv8rK063vokegg/viewform">Invitation Form</a>
+        <!-- </div> -->
         <!-- <a href="#">CONTACT</a> -->
       </nav>
 
@@ -71,7 +74,7 @@ export default {
   font-weight: 900;
  }
 
-.Nav a {
+a {
   text-decoration: none;
   cursor: pointer;
   color: #fff;
@@ -87,6 +90,17 @@ export default {
   font-size: 25px;
   padding-right: 15px;
 }
+
+.InvBtn {
+  padding: 10px 20px 10px 20px;
+  background-color: rgba(146, 39, 143, 0.69);
+  border-radius: 4px;
+}
+
+.InvBtn:hover {
+  background-color: rgb(146, 39, 143);
+}
+
 
 @media (max-width: 768px) {
   .Nav  {
