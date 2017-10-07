@@ -25,7 +25,7 @@
             <tr>
               <td class="tdNum">#</td>
               <td >Functional Programming in JavaScript</td>
-              <td class="Speaker Venue">Rouben Meschian</td>
+              <td class="Speaker">Rouben Meschian</td>
               <td>-</td>
               <td class="Venue">-</td>
             </tr>
@@ -34,7 +34,7 @@
             <tr>
               <td class="tdNum">#</td>
               <td >React-Native: The Dark Art of Native APIs</td>
-              <td class="Speaker Venue">Shahen Hovhannisyan</td>
+              <td class="Speaker">Shahen Hovhannisyan</td>
               <td>-</td>
               <td class="Venue">-</td>
             </tr>
@@ -42,21 +42,21 @@
             <tr>
               <td class="tdNum">#</td>
               <td >Security Issues in Modern JS Frameworks and Libs</td>
-              <td class="Speaker Venue">Narek Harutyunyan</td>
+              <td class="Speaker">Narek Harutyunyan</td>
               <td>-</td>
               <td class="Venue">-</td>
             </tr>
             <tr>
               <td class="tdNum">#</td>
               <td >The Super Power of the Project Structure and Code Style</td>
-              <td class="Speaker Venue">Gnun Ulikhanyan</td>
+              <td class="Speaker">Gnun Ulikhanyan</td>
               <td>-</td>
               <td class="Venue">-</td>
             </tr>
             <tr>
               <td class="tdNum">#</td>
               <td >V8 engine, JavaScript Code Interpretation and Execution</td>
-              <td class="Speaker Venue">Shahen Hovhannisyan</td>
+              <td class="Speaker">Shahen Hovhannisyan</td>
               <td>-</td>
               <td class="Venue">-</td>
             </tr>
@@ -67,41 +67,6 @@
               </td>
             </tr>
 
-            <!-- <tr>
-              <td class="tdNum">1</td>
-              <td >OPENING REMARKS</td>
-              <td class="Speaker Venue">JEFF SEVERIN</td>
-              <td>08:45 AM</td>
-              <td class="Venue">ROOM A</td>
-            </tr>
-            <tr>
-              <td class="tdNum">2</td>
-              <td>INTRODUCTION TO WP</td>
-              <td class="Speaker Venue">JAMIE WEN</td>
-              <td>09:00 AM</td>
-              <td class="Venue">ROOM B</td>
-            </tr>
-            <tr>
-              <td class="tdNum">3</td>
-              <td>GETTING STARTED WITH WP</td>
-              <td class="Speaker Venue">WILLIAM JOHN</td>
-              <td>11:00 AM</td>
-              <td class="Venue">ROOM c</td>
-            </tr>
-            <tr>
-              <td class="tdNum">4</td>
-              <td>WP THEME DEVELOPMENT</td>
-              <td class="Speaker Venue">WILLIAM JOHN</td>
-              <td>02:00 PM</td>
-              <td class="Venue">ROOM D</td>
-            </tr>
-            <tr>
-              <td class="tdNum">5</td>
-              <td>PLUGIN DEVELOPMENT</td>
-              <td class="Speaker Venue">RUTH R. SMITH</td>
-              <td>03:00 PM</td>
-              <td class="Venue">ROOM E</td>
-            </tr> -->
           </tbody>
         </table>
 
@@ -184,7 +149,7 @@ tr:hover td {
 }
 
 .Speaker:hover {
-  color: #4bb463;
+  /*color: #4bb463;*/
 }
 
 .Venue {

@@ -10,7 +10,7 @@
             class="Img"
             style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/14359039_10208688307897817_2190833719349130448_n.jpg?oh=8dbdc5d6efe09076d8c3544fe9ed387d&oe=5A3F4395)">
           </div>
-          <a href=""><h4 class="Name">Alexander Adamyan</h4></a>
+          <h4 class="Name">Alexander Adamyan</h4>
           <h6 class="Role">Organizer</h6>
           <h6 class="Position">Co-Founder at Simply Technologies</h6>
         </div>
@@ -20,7 +20,7 @@
             class="Img"
             style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-1/c0.104.652.652/244020_1770753748796_2351683_o.jpg?oh=e70743c4aad4af76a83c93e31c846b03&oe=5A5000E7)">
           </div>
-          <a href=""><h4 class="Name">Gevorg Harutyunyan</h4></a>
+          <h4 class="Name">Gevorg Harutyunyan</h4>
           <h6 class="Role">Organizer</h6>
           <h6 class="Position">JavaScript developer at Screenful, Founder of ModularCode</h6>
         </div>
@@ -28,9 +28,11 @@
         <div class="col">
           <div
             class="Img"
-            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/15676121_10154515618610141_4163359631088660025_o.jpg?oh=cab2040dfe4a466ebf0a83dec2fd8900&oe=5A80E029)">
+            style="
+              background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/15676121_10154515618610141_4163359631088660025_o.jpg?oh=cab2040dfe4a466ebf0a83dec2fd8900&oe=5A80E029)
+            ">
           </div>
-          <a href=""><h4 class="Name">Rouben Meschyan</h4></a>
+          <h4 class="Name">Rouben Meschyan</h4>
           <h6 class="Role">Organizer</h6>
           <h6 class="Position">Founding Software Engineer at Cambridge Semantics</h6>
         </div>
@@ -40,43 +42,10 @@
             class="Img"
             style="background-image: url(https://avatars3.githubusercontent.com/u/2195825?v=4&s=460)">
           </div>
-          <a href=""><h4 class="Name">Edgar Marukyan</h4></a>
+          <h4 class="Name">Edgar Marukyan</h4>
           <h6 class="Role">Organizer</h6>
           <h6 class="Position">CTO at Renderforest</h6>
         </div>
-      </div>
-
-      <div class="Separator"></div>
-
-        <!-- //Volunteers// -->
-
-      <h1 class="Title">Volunteers</h1>
-      <div class="row">
-        <!-- Volunteer 1 -->
-        <!-- <div class="col-md-2">
-          <div
-            class="Img"
-            style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXSAESs1HY8FpuUthYs6bs4UYGJvVcGo1EtqigtqO1U-nYpTsf-g)">
-          </div>
-          <h6 class="Name">Become a volunteer!</h6>
-        </div> -->
-
-        <!-- <div class="col-md-2">
-          <div
-            class="Img"
-            style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXSAESs1HY8FpuUthYs6bs4UYGJvVcGo1EtqigtqO1U-nYpTsf-g)">
-          </div>
-          <h6 class="Name">Become a volunteer Ninja!</h6>
-        </div>
-
-        <div class="col-md-2">
-          <div
-            class="Img"
-            style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXSAESs1HY8FpuUthYs6bs4UYGJvVcGo1EtqigtqO1U-nYpTsf-g)">
-          </div>
-          <h6 class="Name">Become a volunteer Ninja!</h6>
-        </div> -->
-
       </div>
 
     </div>
