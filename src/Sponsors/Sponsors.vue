@@ -10,7 +10,7 @@
           <a href="https://www.simplytechnologies.net/">
             <div
               class="Img"
-              style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/10407244_810068769065474_484284539248915848_n.png?oh=b8c7ca57d379b75ae320e4a8ae14d064&oe=5A7A916E)">
+              style="background-image: url(https://static1.squarespace.com/static/58d20c79725e25b221549193/t/58d26aa9b8a79b902b394c88/1504784019330/?format=1500w)">
             </div>
             <h5 class="OrgName">Simply Technologies</h5>
           </a>
@@ -31,7 +31,7 @@
           <a href="https://www.renderforest.com/">
             <div
               class="Img"
-              style="background-image: url('https://static.renderforest.com/renderforest/images/renderforest_logo.jpg');background-color: #081e2c;">
+              style="background-image: url('https://static.renderforest.com/renderforest/images/v1/logo_dark.svg')">
             </div>
             <h5 class="OrgName">Renderforest</h5>
           </a>
@@ -58,6 +58,16 @@
           </a>
         </div>
 
+        <div class="col">
+          <a href="http://www.itjobs.am">
+            <div
+              class="Img"
+              style="background-image: url(https://1424647379.rsc.cdn77.org/jsconf/itjobs-logo.svg);background-size: 70%;">
+            </div>
+            <h5 class="OrgName">itjobs.am</h5>
+          </a>
+        </div>
+
     </div>
     </div>
   </section>
@@ -75,7 +85,7 @@ export default {
 .Sponsors {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../_assets/home-sponsors-bg.jpg);
+  /*background-image: url(../_assets/home-sponsors-bg.jpg);*/
   padding: 50px 0 50px;
 }
 

@@ -8,7 +8,7 @@
         <h3 class="Subtitle">Saturday, 25 November 2017</h3>
 
         <table>
-          <!-- <thead>
+          <thead>
             <tr>
               <th>#</th>
               <th width="40%">SESSION</th>
@@ -16,13 +16,46 @@
               <th>TIME</th>
               <th>VENUE</th>
             </tr>
-          </thead> -->
+          </thead>
           <tbody>
             <tr>
               <td colspan="5" style="text-align: center;">
                 Coming soon
               </td>
             </tr>
+            
+
+            <tr>
+              <td class="tdNum">#</td>
+              <td >React-Native: The Dark Art of Native APIs</td>
+              <td class="Speaker Venue">Shahen Hovhannisyan</td>
+              <td>-</td>
+              <td class="Venue">-</td>
+            </tr>
+
+            <tr>
+              <td class="tdNum">#</td>
+              <td >Security Issues in Modern JS Frameworks and Libs</td>
+              <td class="Speaker Venue">Narek Harutyunyan</td>
+              <td>-</td>
+              <td class="Venue">-</td>
+            </tr>
+            <tr>
+              <td class="tdNum">#</td>
+              <td >The Super Power of the Project Structure and Code Style</td>
+              <td class="Speaker Venue">Gnun Ulikhanyan</td>
+              <td>-</td>
+              <td class="Venue">-</td>
+            </tr>
+            <tr>
+              <td class="tdNum">#</td>
+              <td >V8 engine, JavaScript Code Interpretation and Execution</td>
+              <td class="Speaker Venue">Shahen Hovhannisyan</td>
+              <td>-</td>
+              <td class="Venue">-</td>
+            </tr>
+.
+
             <!-- <tr>
               <td class="tdNum">1</td>
               <td >OPENING REMARKS</td>
