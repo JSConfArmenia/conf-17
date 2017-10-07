@@ -62,7 +62,7 @@ export default {
 
 .Header.-sticked {
   position: fixed;
-  background-color: rgba(41, 53, 61, 0.9);
+
 }
 
 .Container {
@@ -71,12 +71,25 @@ export default {
   color: #fff;
   align-items: center;
   height: 66px;
+  position: static;
+}
+
+.Header.-sticked .Container:before {
+  display: block;
+  content: " ";
+  position: absolute;
+  background-color: rgba(41, 53, 61, 0.9);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .Nav {
   font-size: .8em;
   font-weight: 900;
   margin-left: auto;
+  z-index: -1;
 }
 
 a {
@@ -93,7 +106,12 @@ a {
 .NavBtn {
   display: none;
   font-size: 25px;
-  padding-right: 15px;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  padding: 8px 12px;
+  margin: 0;
 }
 
 .InviteBtn {
@@ -114,6 +132,11 @@ a {
 
 
 @media (max-width: 768px) {
+
+  .Header.-sticked .Container:before {
+    background-color: rgba(41, 53, 61, .97);
+  }
+
   .Logo {
     order: 1;
     font-size: 22px;
@@ -128,7 +151,7 @@ a {
     width: 100%;
     left: 0;
     flex-direction: column;
-    background-color: rgba(41, 53, 61, .95);
+    background-color: rgba(41, 53, 61, .97);
     text-align: left;
     transition: top 0.3s ease;
     padding: 5px 5px 10px 5px;
