@@ -5,25 +5,31 @@
       <div class="ScheduleGroup">
 
         <h2 class="Title">Event Schedules</h2>
+        <p class="Description">
+          (subject to change)
+        </p>
         <h3 class="Subtitle">Saturday, 25 November 2017</h3>
 
         <table>
           <thead>
             <tr>
               <th>#</th>
-              <th width="40%">SESSION</th>
-              <th>SPEAKER(S)</th>
+              <th width="40%">TOPIC</th>
+              <th>SPEAKER</th>
               <th>TIME</th>
               <th>VENUE</th>
             </tr>
           </thead>
           <tbody>
+
             <tr>
-              <td colspan="5" style="text-align: center;">
-                Coming soon
-              </td>
+              <td class="tdNum">#</td>
+              <td >Functional Programming in JavaScript</td>
+              <td class="Speaker Venue">Rouben Meschian</td>
+              <td>-</td>
+              <td class="Venue">-</td>
             </tr>
-            
+
 
             <tr>
               <td class="tdNum">#</td>
@@ -54,7 +60,12 @@
               <td>-</td>
               <td class="Venue">-</td>
             </tr>
-.
+
+            <tr>
+              <td colspan="5" style="text-align: center;">
+                More topics are coming soon
+              </td>
+            </tr>
 
             <!-- <tr>
               <td class="tdNum">1</td>
@@ -124,7 +135,11 @@ export default {
 }
 
 .Title {
-  margin-bottom: 60px;
+  margin-bottom: 10px;
+}
+
+.Description {
+  margin-bottom: 40px;
 }
 
 h3 {
@@ -145,7 +160,7 @@ th, td {
 }
 
 table {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   width: 80%;
   border-collapse: collapse;
 }

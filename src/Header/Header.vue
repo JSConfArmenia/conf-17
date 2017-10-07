@@ -75,20 +75,21 @@ export default {
 }
 
 .Header.-sticked .Container:before {
-  display: block;
+  display: none;
   content: " ";
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
+  z-index: 1;
 }
 
 .Nav {
   font-size: .8em;
   font-weight: 900;
   margin-left: auto;
-  z-index: -1;
+  z-index: 1;
 }
 
 a {
@@ -105,7 +106,7 @@ a {
 .NavBtn {
   display: none;
   font-size: 25px;
-  z-index: 1;
+  z-index: 3;
   position: relative;
   text-align: center;
   justify-content: center;
@@ -137,6 +138,8 @@ a {
   }
 
   .Header.-sticked .Container:before {
+    z-index: 1;
+    display: block;
     background-color: rgba(41, 53, 61, .97);
   }
 
@@ -145,6 +148,7 @@ a {
     font-size: 22px;
     position: relative;
     top: -2px;
+    z-index: 2;
   }
 
   .Nav  {
@@ -152,6 +156,7 @@ a {
     position: absolute;
     top: -500px;
     width: 100%;
+    z-index: 0;
     left: 0;
     flex-direction: column;
     background-color: rgba(41, 53, 61, .97);
