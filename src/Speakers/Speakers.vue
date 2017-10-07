@@ -5,7 +5,6 @@
       <h1 class="Title">WHO ARE THE NINJAS?</h1>
       <div class="row">
 
-        <!-- NINJA 1  -->
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div
             class="Img"
@@ -15,7 +14,6 @@
           <h5 class="Position">Founding Software Engineer at Cambridge Semantics</h5>
         </div>
 
-        <!-- NINJA 2 -->
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div
             class="Img"
@@ -25,7 +23,6 @@
           <h5 class="Position">Software Engineer at Simply Technologies</h5>
         </div>
 
-         <!-- NINJA-3  -->
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div
             class="Img"
@@ -33,7 +30,7 @@
           <h3 class="Name">Edgar Marukyan</h3>
           <h5 class="Position">CTO at RenderForest</h5>
         </div>
-        <!-- NINJA-4  -->
+
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div
             class="Img"
@@ -43,7 +40,6 @@
           <h5 class="Position">Software Engineer at Simply Technologies</h5>
         </div>
 
-        <!-- NINJA 5  -->
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div
             class="Img"
@@ -53,7 +49,6 @@
           <h5 class="Position">Software Engineer at Simply Technologies</h5>
         </div>
 
-        <!-- NINJA 6 -->
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div
             class="Img"
@@ -63,7 +58,6 @@
           <h5 class="Position">Software Engineer at Simply Technologies</h5>
         </div>
 
-         <!-- NINJA-7  -->
         <div class="col-sm-6 col-md-4 col-lg-3">
           <a href="mailto:jsconf.am@gmail.com">
             <div class="Img -blank"></div>
@@ -71,7 +65,6 @@
             <h5 class="Position">Become a Ninja!</h5>
           </a>
         </div>
-
 
 
       </div>
@@ -104,7 +97,7 @@ a {
 }
 
 h3:hover {
-  /*color: #4bb463;*/
+
 }
 
 .Position {

@@ -24,7 +24,7 @@
           </div>
           <h4 class="Name">Gevorg Harutyunyan</h4>
           <h6 class="Role">Organizer</h6>
-          <h6 class="Position">JavaScript developer at Screenful, Founder of ModularCode</h6>
+          <h6 class="Position">Front-End Architect at Screenful, Founder of ModularCode</h6>
         </div>
 
         <div class="Breaker"></div>

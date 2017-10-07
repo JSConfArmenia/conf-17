@@ -5,7 +5,6 @@
       <h3 class="Title">Sponsors and friends</h3>
       <div class="row justify-content-center justify-content-xl-between">
 
-        <!-- Sponsor 1 -->
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
           <a href="https://www.simplytechnologies.net/">
             <div
@@ -16,7 +15,6 @@
           </a>
         </div>
 
-        <!-- Sponsor 2 -->
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
           <a href="http://istc.am/en/">
             <div
@@ -27,7 +25,6 @@
           </a>
         </div>
 
-        <!-- Sponsor 3 -->
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
           <a href="https://www.renderforest.com/">
             <div
@@ -37,18 +34,7 @@
             <h5 class="OrgName">Renderforest</h5>
           </a>
         </div>
-        <!-- Sponsor 4 -->
-        <!-- <div class="col">
-          <a href="http://iteratehackerspace.com/">
-            <div
-              class="Img"
-              style="background-image: url(http://iteratehackerspace.com/static/images/logo.png)">
-            </div>
-            <h5 class="OrgName">Iterate Hackerspace</h5>
-          </a>
-        </div> -->
 
-        <!-- Sponsor 5 -->
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
           <a href="https://github.com/modularcode">
             <div
