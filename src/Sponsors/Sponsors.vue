@@ -3,10 +3,10 @@
     <div class="Container">
 
       <h3 class="Title">Sponsors and friends</h3>
-      <div class="row">
+      <div class="row justify-content-center justify-content-xl-between">
 
         <!-- Sponsor 1 -->
-        <div class="col">
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
           <a href="https://www.simplytechnologies.net/">
             <div
               class="Img"
@@ -17,7 +17,7 @@
         </div>
 
         <!-- Sponsor 2 -->
-        <div class="col">
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
           <a href="http://istc.am/en/">
             <div
               class="Img"
@@ -26,8 +26,9 @@
             <h5 class="OrgName">Innovative Solutions and<br />Technologies Center</h5>
           </a>
         </div>
+
         <!-- Sponsor 3 -->
-        <div class="col">
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
           <a href="https://www.renderforest.com/">
             <div
               class="Img"
@@ -48,7 +49,7 @@
         </div> -->
 
         <!-- Sponsor 5 -->
-        <div class="col">
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
           <a href="https://github.com/modularcode">
             <div
               class="Img"
@@ -58,7 +59,7 @@
           </a>
         </div>
 
-        <div class="col">
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
           <a href="http://www.itjobs.am">
             <div
               class="Img"
@@ -68,7 +69,7 @@
           </a>
         </div>
 
-    </div>
+      </div>
     </div>
   </section>
 </template>
@@ -117,6 +118,13 @@ export default {
 
 a {
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .Img {
+    width: 120px;
+    height: 100px;
+  }
 }
 </style>
 

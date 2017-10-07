@@ -3,7 +3,7 @@
     <div class="Container">
 
       <h1 class="Title">Our Team</h1>
-      <div class="row OrganizersRow">
+      <div class="row justify-content-center OrganizersRow">
 
         <div class="col">
           <div
@@ -15,6 +15,8 @@
           <h6 class="Position">Co-Founder at Simply Technologies</h6>
         </div>
 
+        <div class="Breaker"></div>
+
         <div class="col">
           <div
             class="Img"
@@ -24,6 +26,8 @@
           <h6 class="Role">Organizer</h6>
           <h6 class="Position">JavaScript developer at Screenful, Founder of ModularCode</h6>
         </div>
+
+        <div class="Breaker"></div>
 
         <div class="col">
           <div
@@ -36,6 +40,8 @@
           <h6 class="Role">Organizer</h6>
           <h6 class="Position">Founding Software Engineer at Cambridge Semantics</h6>
         </div>
+
+        <div class="Breaker"></div>
 
         <div class="col">
           <div
@@ -80,6 +86,12 @@ export default {
   padding: 0 45px;
 }
 
+.Breaker {
+  display: none;
+  width: 100%;
+  height: 1px;
+}
+
 .Title {
   color: #fff
 }
@@ -112,8 +124,20 @@ a {
 @media (max-width: 768px) {
 
   .Img {
-    padding-right: 100%;
     margin-bottom: 10px;
+  }
+
+  .OrganizersRow {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .OrganizersRow .col {
+    padding: 0 15px;
+  }
+
+  .Breaker {
+    display: block;
   }
 
   h6 {

@@ -28,9 +28,6 @@ export default {
     // eslint-disable-next-line
     window.setInterval(() => {
       this.now = Math.trunc((new Date()).getTime() / 1000);
-
-      // eslint-disable-next-line
-      console.log(this.now);
     }, 1000);
   },
   props: {
