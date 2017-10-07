@@ -62,7 +62,7 @@ export default {
 
 .Header.-sticked {
   position: fixed;
-
+  background-color: rgba(41, 53, 61, 0.92);
 }
 
 .Container {
@@ -78,7 +78,6 @@ export default {
   display: block;
   content: " ";
   position: absolute;
-  background-color: rgba(41, 53, 61, 0.9);
   left: 0;
   top: 0;
   width: 100%;
@@ -132,6 +131,10 @@ a {
 
 
 @media (max-width: 768px) {
+
+  .Header.-sticked {
+    background-color: none;
+  }
 
   .Header.-sticked .Container:before {
     background-color: rgba(41, 53, 61, .97);
