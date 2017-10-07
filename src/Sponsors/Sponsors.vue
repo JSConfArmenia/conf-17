@@ -26,6 +26,7 @@
             <h5 class="OrgName">Innovative Solutions and<br />Technologies Center</h5>
           </a>
         </div>
+
         <!-- Sponsor 3 -->
         <div class="col">
           <a href="https://www.renderforest.com/">
@@ -36,6 +37,7 @@
             <h5 class="OrgName">Renderforest</h5>
           </a>
         </div>
+
         <!-- Sponsor 4 -->
         <!-- <div class="col">
           <a href="http://iteratehackerspace.com/">
@@ -58,6 +60,7 @@
           </a>
         </div>
 
+        <!-- Sponsor 6 -->
         <div class="col">
           <a href="http://www.itjobs.am">
             <div
@@ -83,9 +86,6 @@ export default {
 <style scoped>
 
 .Sponsors {
-  background-repeat: no-repeat;
-  background-size: cover;
-  /*background-image: url(../_assets/home-sponsors-bg.jpg);*/
   padding: 50px 0 50px;
 }
 

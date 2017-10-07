@@ -7,12 +7,12 @@
         <i class="fa" v-bind:class="{ 'fa-bars': !isOpen , 'fa-times': isOpen}" aria-hidden="true"></i>
       </a>
       <nav class="Nav" :class="{ '-open': isOpen }">
-        <a href="#About">ABOUT</a>
-        <a href="#Schedule">SCHEDULE</a>
-        <a href="#Speakers">NINJAS</a>
-        <a href="#Sponsors">SPONSORS</a>
-        <a href="#Team">TEAM</a>
-        <a href="#Location">LOCATION</a>
+        <a href="#About" v-on:click="close">ABOUT</a>
+        <a href="#Schedule" v-on:click="close">SCHEDULE</a>
+        <a href="#Speakers" v-on:click="close">NINJAS</a>
+        <a href="#Sponsors" v-on:click="close">SPONSORS</a>
+        <a href="#Team" v-on:click="close">TEAM</a>
+        <a href="#Location" v-on:click="close">LOCATION</a>
         <a
         class="InviteBtn"
         href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2">
@@ -44,6 +44,9 @@ export default {
       event.preventDefault();
 
       this.isOpen = !this.isOpen;
+    },
+    close: function close() {
+      this.isOpen = false;
     },
   },
 };
@@ -162,7 +165,7 @@ a {
     background-color: rgba(41, 53, 61, .97);
     text-align: left;
     transition: top 0.3s ease;
-    padding: 5px 5px 10px 5px;
+    padding: 5px 7px 20px 7px;
   }
 
   .Nav.-open {
