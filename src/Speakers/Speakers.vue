@@ -5,57 +5,13 @@
       <h1 class="Title">WHO ARE THE NINJAS?</h1>
       <div class="row">
 
-        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3" v-for="speaker in speakers">
           <div
             class="Img"
-            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/1378305_10151882202425141_1136904594_n.jpg?oh=91b44015f24ac89d157aeca9381c6b85&oe=5A4A0516)">
+            v-bind:style="{ backgroundImage: `url(${speaker.img})` }">
           </div>
-          <h3 class="Name">Rouben Meschian</h3>
-          <h5 class="Position">Founding Software Engineer at Cambridge Semantics</h5>
-        </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div
-            class="Img"
-            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/20645318_1266773110112416_7159871016971569042_o.jpg?oh=dfdccd6643765989ac9c3d290d4809f1&oe=5A44BD29)">
-          </div>
-          <h3 class="Name">Shahen Hovhannisyan</h3>
-          <h5 class="Position">Software Engineer at Simply Technologies</h5>
-        </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div
-            class="Img"
-            style="background-image: url(https://avatars3.githubusercontent.com/u/2195825?v=4&s=460)"></div>
-          <h3 class="Name">Edgar Marukyan</h3>
-          <h5 class="Position">CTO at RenderForest</h5>
-        </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div
-            class="Img"
-            style="background-image: url(https://1424647379.rsc.cdn77.org/jsconf/gnun.jpg)">
-          </div>
-          <h3 class="Name">Gnun Ulikhanyan</h3>
-          <h5 class="Position">Software Engineer at Simply Technologies</h5>
-        </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div
-            class="Img"
-            style="background-image: url(https://1424647379.rsc.cdn77.org/jsconf/narek.jpg)">
-          </div>
-          <h3 class="Name">Narek Harutyunyan</h3>
-          <h5 class="Position">Software Engineer at Simply Technologies</h5>
-        </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div
-            class="Img"
-            style="background-image: url(https://1424647379.rsc.cdn77.org/jsconf/slavik.jpg)">
-          </div>
-          <h3 class="Name">Slavik Manukyan</h3>
-          <h5 class="Position">Software Engineer at Simply Technologies</h5>
+          <h3 class="Name">{{speaker.name}}</h3>
+          <h5 class="Position">{{speaker.position}}</h5>
         </div>
 
         <div class="col-sm-6 col-md-4 col-lg-3">
@@ -74,9 +30,50 @@
 </template>
 
 <script>
-
 export default {
+  data() {
+    return {
 
+      speakers: [
+        {
+          img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/1378305_10151882202425141_1136904594_n.jpg?oh=91b44015f24ac89d157aeca9381c6b85&oe=5A4A0516',
+          name: 'Rouben Meschian',
+          position: 'Founding Software Engineer at Cambridge Semantics',
+        },
+        {
+          img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/20645318_1266773110112416_7159871016971569042_o.jpg?oh=dfdccd6643765989ac9c3d290d4809f1&oe=5A44BD29',
+          name: 'Shahen Hovhannisyan',
+          position: 'Software Engineer at Simply Technologies',
+        },
+        {
+          img: 'https://avatars3.githubusercontent.com/u/2195825?v=4&s=460',
+          name: 'Edgar Marukyan',
+          position: 'CTO at RenderForest',
+        },
+        {
+          img: 'https://1424647379.rsc.cdn77.org/jsconf/gnun.jpg',
+          name: 'Gnun Ulikhanyan',
+          position: 'Software Engineer at Simply Technologies',
+        },
+        {
+          img: 'https://1424647379.rsc.cdn77.org/jsconf/narek.jpg',
+          name: 'Narek Harutyunyan',
+          position: 'Software Engineer at Simply Technologies',
+        },
+        {
+          img: 'http://mmanukyan.io/me.jpg',
+          name: 'Michael Manukyan',
+          position: 'Software Engineer at Teamable',
+        },
+        {
+          img: 'https://1424647379.rsc.cdn77.org/jsconf/slavik.jpg',
+          name: 'Slavik Manukyan',
+          position: 'Software Engineer at Simply Technologies',
+        },
+      ],
+
+    };
+  },
 };
 </script>
 
