@@ -149,6 +149,10 @@ export default {
   background-color: #D67400;
 }
 
+.LogoLink {
+  text-decoration: none;
+}
+
 
 @media (max-width: 768px) {
 
@@ -166,7 +170,6 @@ export default {
     order: 1;
     font-size: 22px;
     position: relative;
-    /*top: -2px;*/
     z-index: 2;
   }
 

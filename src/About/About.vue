@@ -17,7 +17,7 @@
             What is JavaScript Conference 2017 Yerevan?
           </h3>
           <h4 class="Subtitle">
-            Where JavaScript developers meet!
+            Where JavaScript Ninjas meet!
           </h4>
           <p class="Description">
             JavaScript Conference provides a platform for developers to share their ideas, experiences and knowledge.

@@ -15,7 +15,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 
 .Logo {
   display: flex;
@@ -38,15 +38,7 @@ export default {
   background-position: right 1px bottom 2px;
 }
 
-.Brace {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.JS {
-}
-
 .Conf {
-  /*color: #8dc63f;*/
   color: #fff200;
 }
 
