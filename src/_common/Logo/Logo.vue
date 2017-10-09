@@ -16,11 +16,12 @@ export default {
 
 <style>
 
-.Logo {
+.Logo   {
   font-size: 32px;
   color: #fff;
   font-weight: bold;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .Brace {

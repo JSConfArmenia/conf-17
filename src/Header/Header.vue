@@ -2,17 +2,17 @@
   <header class="Header -sticked">
     <div class="Container">
 
-      <Logo />
+      <a href="#Intro" v-smooth-scroll="{ duration: 600 }"><Logo /></a>
       <a class="NavBtn" v-on:click="toggle">
         <i class="fa" v-bind:class="{ 'fa-bars': !isOpen , 'fa-times': isOpen}" aria-hidden="true"></i>
       </a>
       <nav class="Nav" :class="{ '-open': isOpen }">
-        <a href="#About" v-on:click="close">ABOUT</a>
-        <a href="#Schedule" v-on:click="close">SCHEDULE</a>
-        <a href="#Speakers" v-on:click="close">NINJAS</a>
-        <a href="#Sponsors" v-on:click="close">SPONSORS</a>
-        <a href="#Team" v-on:click="close">TEAM</a>
-        <a href="#Location" v-on:click="close">LOCATION</a>
+        <a href="#About" v-smooth-scroll="navConfig" v-on:click="close">ABOUT</a>
+        <a href="#Schedule" v-smooth-scroll="navConfig" v-on:click="close">SCHEDULE</a>
+        <a href="#Speakers" v-smooth-scroll="navConfig" v-on:click="close">NINJAS</a>
+        <a href="#Sponsors" v-smooth-scroll="navConfig" v-on:click="close">SPONSORS</a>
+        <a href="#Team" v-smooth-scroll="navConfig" v-on:click="close">TEAM</a>
+        <a href="#Location" v-smooth-scroll="navConfig" v-on:click="close">LOCATION</a>
         <a
         class="InviteBtn"
         href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2">
@@ -38,6 +38,10 @@ export default {
   },
   data: () => ({
     isOpen: false,
+    navConfig: {
+      duration: 600,
+      offset: -66,
+    },
   }),
   methods: {
     toggle: function toggle(event) {

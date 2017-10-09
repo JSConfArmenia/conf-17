@@ -5,9 +5,10 @@ import 'bootstrap/dist/css/bootstrap-grid.css';
 import 'font-awesome/css/font-awesome.css';
 
 import Vue from 'vue';
+import vueSmoothScroll from 'vue-smooth-scroll';
 import App from './App';
 
-
+Vue.use(vueSmoothScroll);
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */

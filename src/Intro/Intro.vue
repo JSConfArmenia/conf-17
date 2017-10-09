@@ -1,6 +1,6 @@
 <template>
 
-  <section class="Intro">
+  <section class="Intro" id="Intro">
     <div class="Container">
 
         <div class="IntroGroup">

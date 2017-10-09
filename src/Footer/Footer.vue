@@ -1,6 +1,6 @@
 <template>
   <footer class="Footer">
-    <Logo />
+    <a href="#Intro" v-smooth-scroll="{ duration: 600 }"><Logo /></a>
     <p class="description">2017 Yerevan</p>
     <a href="https://github.com/JSConfArmenia"><i class="fa fa-github" aria-hidden="true"></i></a>
   </footer>
@@ -36,6 +36,7 @@ export default {
 a {
   color: #999ea3;
   font-size: 25px;
+  text-decoration: none;
 }
 
 /*a:hover {
