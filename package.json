@@ -10,7 +10,7 @@
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src",
     "deploy": "cross-env BASE_URL=\"/conf-17\" npm run build && gh-pages -d dist --repo git@github.com:JSConfArmenia/conf-17.git --branch gh-pages",
-    "deployMain": "npm run build && echo 'jsconf.am' > ./dist/CNAME && gh-pages -d build && gh-pages -d dist --repo git@github.com:JSConfArmenia/JSConfArmenia.github.io.git --branch master"
+    "deployMain": "npm run build && echo 'jsconf.am' > ./dist/CNAME && gh-pages -d dist --repo git@github.com:JSConfArmenia/JSConfArmenia.github.io.git --branch master"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
