@@ -19,7 +19,9 @@ export default {
 
 <style scoped>
 .Footer {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #343d47;
   padding: 50px 0 35px 0;
 }

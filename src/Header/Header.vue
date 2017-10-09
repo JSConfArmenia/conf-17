@@ -2,17 +2,17 @@
   <header class="Header -sticked">
     <div class="Container">
 
-      <a href="#Intro" v-smooth-scroll="{ duration: 600 }"><Logo /></a>
+      <a href="#Intro" class="LogoLink" v-smooth-scroll="{ duration: 600 }"><Logo /></a>
       <a class="NavBtn" v-on:click="toggle">
         <i class="fa" v-bind:class="{ 'fa-bars': !isOpen , 'fa-times': isOpen}" aria-hidden="true"></i>
       </a>
       <nav class="Nav" :class="{ '-open': isOpen }">
-        <a href="#About" v-smooth-scroll="navConfig" v-on:click="close">ABOUT</a>
-        <a href="#Schedule" v-smooth-scroll="navConfig" v-on:click="close">SCHEDULE</a>
-        <a href="#Speakers" v-smooth-scroll="navConfig" v-on:click="close">NINJAS</a>
-        <a href="#Sponsors" v-smooth-scroll="navConfig" v-on:click="close">SPONSORS</a>
-        <a href="#Team" v-smooth-scroll="navConfig" v-on:click="close">TEAM</a>
-        <a href="#Location" v-smooth-scroll="navConfig" v-on:click="close">LOCATION</a>
+        <a href="#About" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">ABOUT</a>
+        <a href="#Schedule" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">SCHEDULE</a>
+        <a href="#Speakers" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">NINJAS</a>
+        <a href="#Sponsors" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">SPONSORS</a>
+        <a href="#Team" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">TEAM</a>
+        <a href="#Location" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">LOCATION</a>
         <a
         class="InviteBtn"
         href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2">
@@ -29,7 +29,7 @@
 
 
 
-<script>
+<script scoped>
 import Logo from '../_common/Logo';
 
 export default {
@@ -56,6 +56,15 @@ export default {
 };
 
 </script>
+
+<style>
+  @media (max-width: 768px) {
+    .Header .Logo .LogoImg {
+      width: 42px;
+      height: 42px;
+    }
+  }
+</style>
 
 
 
@@ -99,7 +108,7 @@ export default {
   z-index: 1;
 }
 
-a {
+.NavLink {
   text-decoration: none;
   cursor: pointer;
   color: #fff;
@@ -127,6 +136,9 @@ a {
   border-radius: 4px;
   transition: all .25s ease;
   text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 8px;
 }
 
 .InviteBtn .Icon {
@@ -154,7 +166,7 @@ a {
     order: 1;
     font-size: 22px;
     position: relative;
-    top: -2px;
+    /*top: -2px;*/
     z-index: 2;
   }
 
