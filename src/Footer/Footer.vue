@@ -2,7 +2,7 @@
   <footer class="Footer">
     <a href="#Intro" v-smooth-scroll="{ duration: 600 }"><Logo /></a>
     <p class="Description">
-      coded by
+      coded in Vue.js by
       <a href="https://github.com/HenrikhAbajyan" class="CreditLink">Henrikh Abajyan</a>
     </p>
 
