@@ -41,6 +41,14 @@
 
             <tr>
               <td class="tdNum">#</td>
+              <td >Static Type Checking with FlowType</td>
+              <td class="Speaker">Edgar Marukyan</td>
+              <td>-</td>
+              <td class="Venue">-</td>
+            </tr>
+
+            <tr>
+              <td class="tdNum">#</td>
               <td >Security Issues in Modern JS Frameworks and Libs</td>
               <td class="Speaker">Narek Harutyunyan</td>
               <td>-</td>
