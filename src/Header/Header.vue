@@ -39,7 +39,7 @@ export default {
   data: () => ({
     isOpen: false,
     navConfig: {
-      duration: 600,
+      duration: 1000,
       offset: -66,
     },
   }),
