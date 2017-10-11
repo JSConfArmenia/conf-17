@@ -1,8 +1,9 @@
 <template>
   <footer class="Footer">
+
     <a href="#Intro" v-smooth-scroll="{ duration: 600 }"><Logo /></a>
     <p class="Description">
-      coded in Vue.js by
+      coded in Vue.js |
       <a href="https://github.com/HenrikhAbajyan" class="CreditLink">Henrikh Abajyan</a>
     </p>
 
@@ -25,6 +26,7 @@
       </a>
 
     </div>
+
   </footer>
 </template>
 
@@ -59,6 +61,7 @@ export default {
 
 .Description a {
   font-size: inherit;
+  text-decoration: none;
 }
 
 .CreditLink {
@@ -74,6 +77,7 @@ export default {
   text-decoration: none;
   margin: 0 5px;
 }
+
 
 a {
   color: #999ea3;
