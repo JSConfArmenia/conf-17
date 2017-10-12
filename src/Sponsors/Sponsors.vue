@@ -3,6 +3,13 @@
     <div class="Container">
 
       <h3 class="Title">Sponsors and friends</h3>
+
+      <div class="CallToAction">
+        <a href="mailto:jsconf.am@gmail.com" class="Button -green">
+          Become a sponsor
+        </a>
+      </div>
+
       <div class="row justify-content-center justify-content-xl-between">
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
@@ -76,6 +83,10 @@ export default {
   padding: 50px 0 50px;
 }
 
+.CallToAction {
+  text-align: center;
+}
+
 .Img {
   background-size: contain;
   background-position: center;
@@ -88,7 +99,7 @@ export default {
 .Title {
   color: #92278f;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .OrgName {

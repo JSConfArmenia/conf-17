@@ -87,14 +87,23 @@ a:hover {
   padding: 15px 30px;
   display: inline-block;
   text-decoration: none;
+  transition: all .3s ease;
 }
 
 .Button.-purple {
   background: rgb(146, 39, 143);
 }
 
+.Button.-purple:hover {
+  background: rgb(107, 18, 104);
+}
+
 .Button.-green {
   background: rgb(138, 195, 41);
+}
+
+.Button.-green:hover {
+  background-color: rgb(122, 176, 30);
 }
 
 .Button.-orange {
