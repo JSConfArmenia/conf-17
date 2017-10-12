@@ -3,7 +3,7 @@
     <div class="Container">
 
       <h1 class="Title">WHO ARE THE NINJAS?</h1>
-      <div class="row">
+      <div class="row justify-content-center">
 
         <div class="col-sm-6 col-md-4 col-lg-3" v-for="speaker in speakers">
           <div
@@ -69,6 +69,11 @@ export default {
           img: 'https://1424647379.rsc.cdn77.org/jsconf/slavik.jpg',
           name: 'Slavik Manukyan',
           position: 'Software Engineer at Simply Technologies',
+        },
+        {
+          img: 'https://media-exp1.licdn.com/media/AAEAAQAAAAAAAAjoAAAAJDM4ZjFhNzMzLWU5NzMtNDFkNi1hOWI2LWJjYTQ0MDhkZmJhYQ.jpg',
+          name: 'Vardan Grigoryan',
+          position: 'Backend Engineer at Helpin',
         },
       ],
 

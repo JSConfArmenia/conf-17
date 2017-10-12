@@ -70,6 +70,14 @@
             </tr>
 
             <tr>
+              <td class="tdNum">#</td>
+              <td >Node.js: diving deeper into libuv</td>
+              <td class="Speaker">Vardan Grigoryan</td>
+              <td>-</td>
+              <td class="Venue">-</td>
+            </tr>
+
+            <tr>
               <td colspan="5" style="text-align: center;">
                 More topics are coming soon
               </td>
