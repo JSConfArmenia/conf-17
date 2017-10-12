@@ -3,7 +3,7 @@
 
     <a href="#Intro" v-smooth-scroll="{ duration: 600 }"><Logo /></a>
     <p class="Description">
-      coded in Vue.js |
+      coded in Vue.js by
       <a href="https://github.com/HenrikhAbajyan" class="CreditLink">Henrikh Abajyan</a>
     </p>
 
@@ -61,7 +61,6 @@ export default {
 
 .Description a {
   font-size: inherit;
-  text-decoration: none;
 }
 
 .CreditLink {
