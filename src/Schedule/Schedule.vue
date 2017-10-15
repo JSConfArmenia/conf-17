@@ -56,7 +56,7 @@
             </tr>
             <tr>
               <td class="tdNum">#</td>
-              <td >The Super Power of the Project Structure and Code Style</td>
+              <td> Universal React with Next.js</td>
               <td class="Speaker">Gnun Ulikhanyan</td>
               <td>-</td>
               <td class="Venue">-</td>
