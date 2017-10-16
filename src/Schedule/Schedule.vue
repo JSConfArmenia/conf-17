@@ -49,6 +49,14 @@
 
             <tr>
               <td class="tdNum">#</td>
+              <td >Creating a Webpack Config for Production from scratch</td>
+              <td class="Speaker">Michael Manukyan</td>
+              <td>-</td>
+              <td class="Venue">-</td>
+            </tr>
+
+            <tr>
+              <td class="tdNum">#</td>
               <td >Security Issues in Modern JS Frameworks and Libs</td>
               <td class="Speaker">Narek Harutyunyan</td>
               <td>-</td>
@@ -61,6 +69,7 @@
               <td>-</td>
               <td class="Venue">-</td>
             </tr>
+
             <tr>
               <td class="tdNum">#</td>
               <td >V8 engine, JavaScript Code Interpretation and Execution</td>
