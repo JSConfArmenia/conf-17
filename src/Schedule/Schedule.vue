@@ -80,6 +80,14 @@
 
             <tr>
               <td class="tdNum">#</td>
+              <td >Why to choose Node.js for IOT</td>
+              <td class="Speaker">Tigran Bayburtsyan</td>
+              <td>-</td>
+              <td class="Venue">-</td>
+            </tr>
+
+            <tr>
+              <td class="tdNum">#</td>
               <td >Node.js: diving deeper into libuv</td>
               <td class="Speaker">Vardan Grigoryan</td>
               <td>-</td>

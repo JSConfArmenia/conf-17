@@ -75,6 +75,11 @@ export default {
           name: 'Vardan Grigoryan',
           position: 'Backend Engineer at Helpin',
         },
+        {
+          img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t35.0-12/22547115_1927228967302235_934194398_o.jpg?oh=6ec68f5173ea9ba3af45a01c381d92a0&oe=59E6A65B',
+          name: 'Tigran Bayburtsyan',
+          position: 'Founder at TreeScale.com',
+        },
       ],
 
     };
