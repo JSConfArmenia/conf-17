@@ -8,7 +8,7 @@
         <p class="Description">
           (subject to change)
         </p>
-        <h3 class="Subtitle">Saturday, 25 November 2017</h3>
+        <h3 class="Subtitle">Saturday, 9 December 2017</h3>
 
         <table>
           <thead>
