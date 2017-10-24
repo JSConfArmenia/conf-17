@@ -14,9 +14,9 @@
         <a href="#Team" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">TEAM</a>
         <a href="#Location" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">LOCATION</a>
         <a
-        class="InviteBtn"
-        href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2">
-        Request an invite
+          class="InviteBtn"
+          href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2">
+          Request an invite
         </a>
         <!-- <a href="#">CONTACT</a> -->
       </nav>
@@ -206,6 +206,7 @@ export default {
   .InviteBtn {
     text-align: center;
     margin-top: 10px;
+    margin-left: 0;
   }
 
 }

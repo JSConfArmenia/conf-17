@@ -5,7 +5,7 @@
 
         <div class="IntroGroup">
 
-          <Countdown date="1511589600" />
+          <Countdown date="1512799200" />
           <h1>JavaScript Conference 2017</h1>
           <h2>25 NOVEMBER, 2017, YEREVAN</h2>
 

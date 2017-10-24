@@ -2,13 +2,18 @@
   <section class="Sponsors" id="Sponsors">
     <div class="Container">
 
-      <h3 class="Title">Sponsors and friends</h3>
+      <h3 class="Title">Sponsors</h3>
 
       <div class="CallToAction">
         <a href="mailto:jsconf.am@gmail.com" class="Button -green">
           Become a sponsor
         </a>
       </div>
+
+      <div class="Divider">
+      </div>
+
+      <h1 class="Title -secondary">Partners and friends</h1>
 
       <div class="row justify-content-center justify-content-xl-between">
 
@@ -72,6 +77,7 @@
 export default {
 
 };
+
 </script>
 
 <style scoped>
@@ -85,6 +91,7 @@ export default {
 
 .CallToAction {
   text-align: center;
+  padding-bottom: 40px;
 }
 
 .Img {
@@ -96,10 +103,19 @@ export default {
   margin: 0 auto;
 }
 
+.Divider {
+  border-bottom: 1px solid rgba(141, 198, 63, 0.5);
+  margin-bottom: 20px;
+}
+
 .Title {
   color: #92278f;
   text-align: center;
-  padding-bottom: 10px;
+}
+
+.-secondary {
+  font-size: 26px;
+  font-weight: 600;
 }
 
 .OrgName {
@@ -118,10 +134,13 @@ a {
 }
 
 @media (max-width: 768px) {
+
   .Img {
     width: 120px;
     height: 100px;
   }
+
 }
+
 </style>
 

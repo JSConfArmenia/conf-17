@@ -83,7 +83,6 @@ a:hover {
   background: #ccc;
   border-radius: 4px;
   font-weight: 500;
-  margin: 0px 20px 20px 0px;
   padding: 15px 30px;
   display: inline-block;
   text-decoration: none;
@@ -114,7 +113,5 @@ a:hover {
   text-decoration: none;
   color: #fff;
 }
-
-
 
 </style>

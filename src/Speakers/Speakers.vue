@@ -15,6 +15,12 @@
         </div>
 
         <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="Img -Tigran"></div>
+          <h3 class="Name">Tigran Bayburtsyan</h3>
+          <h5 class="Position">Founder at TreeScale.com</h5>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <a href="mailto:jsconf.am@gmail.com">
             <div class="Img -blank"></div>
             <h3 class="Name">Your Name</h3>
@@ -75,11 +81,6 @@ export default {
           name: 'Vardan Grigoryan',
           position: 'Backend Engineer at Helpin',
         },
-        {
-          img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t35.0-12/22547115_1927228967302235_934194398_o.jpg?oh=6ec68f5173ea9ba3af45a01c381d92a0&oe=59E6A65B',
-          name: 'Tigran Bayburtsyan',
-          position: 'Founder at TreeScale.com',
-        },
       ],
 
     };
@@ -132,4 +133,9 @@ h3:hover {
 .Img.-blank {
   background-image: url(../_assets/NINJA1.png);
 }
+
+.Img.-Tigran {
+  background-image: url(../_assets/TigranBayburtsyan.jpg);
+}
+
 </style>
