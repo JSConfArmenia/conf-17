@@ -74,7 +74,7 @@ export default {
         {
           img: 'https://media-exp1.licdn.com/media/AAEAAQAAAAAAAAzVAAAAJGUwZTBkOGM4LTA0NjAtNDRmMS1hZGUyLTdiMTk5NjM4N2VjMQ.jpg',
           name: 'Michael Petrosyan',
-          position: 'Senior JavaScript Engineer at BetConstruct',
+          position: 'JavaScript Engineer at BetConstruct',
         },
         {
           img: 'https://media-exp1.licdn.com/media/AAEAAQAAAAAAAAjoAAAAJDM4ZjFhNzMzLWU5NzMtNDFkNi1hOWI2LWJjYTQ0MDhkZmJhYQ.jpg',
