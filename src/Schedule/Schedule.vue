@@ -96,6 +96,14 @@
             </tr>
 
             <tr>
+              <td class="tdNum">#</td>
+              <td >Reactive Extensions for JavaScript - RxJS</td>
+              <td class="Speaker">Varuzhan Harutyunyan</td>
+              <td>-</td>
+              <td class="Venue">-</td>
+            </tr>
+
+            <tr>
               <td colspan="5" style="text-align: center;">
                 More topics are coming soon
               </td>
