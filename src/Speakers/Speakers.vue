@@ -81,6 +81,11 @@ export default {
           name: 'Vardan Grigoryan',
           position: 'Backend Engineer at Helpin',
         },
+        {
+          img: 'https://1424647379.rsc.cdn77.org/jsconf/varuj.jpg',
+          name: 'Varuzhan Harutyunyan',
+          position: 'Senior Web Developer at Digitain',
+        },
       ],
 
     };
