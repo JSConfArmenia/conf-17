@@ -5,7 +5,7 @@
       <h3 class="Title">Sponsors</h3>
 
       <div class="CallToAction">
-        <a href="mailto:jsconf.am@gmail.com" class="Button -green">
+        <a href="https://goo.gl/875gvc" class="Button -green" target="_blank">
           Become a sponsor
         </a>
       </div>

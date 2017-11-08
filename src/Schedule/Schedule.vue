@@ -41,7 +41,7 @@
 
             <tr>
               <td class="tdNum">#</td>
-              <td >Angular 4 vs React vs Vue</td>
+              <td >Angular 5 vs React vs Vue</td>
               <td class="Speaker">Michael Petrosyan</td>
               <td>-</td>
               <td class="Venue">-</td>
@@ -99,6 +99,14 @@
               <td class="tdNum">#</td>
               <td >Reactive Extensions for JavaScript - RxJS</td>
               <td class="Speaker">Varuzhan Harutyunyan</td>
+              <td>-</td>
+              <td class="Venue">-</td>
+            </tr>
+
+            <tr>
+              <td class="tdNum">#</td>
+              <td >The true nature and the super power of WebAssembly</td>
+              <td class="Speaker">Armen Mshetyan</td>
               <td>-</td>
               <td class="Venue">-</td>
             </tr>

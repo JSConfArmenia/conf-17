@@ -8,7 +8,6 @@
           <Countdown date="1512799200" />
           <h1>JavaScript Conference 2017</h1>
           <h2>9 DECEMBER, 2017, YEREVAN</h2>
-
         </div>
 
     </div>
