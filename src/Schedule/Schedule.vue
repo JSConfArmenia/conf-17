@@ -81,6 +81,14 @@
 
             <tr>
               <td class="tdNum">#</td>
+              <td >Real time applications with Firebase and React</td>
+              <td class="Speaker">Slavik Manukyan</td>
+              <td>-</td>
+              <td class="Venue">-</td>
+            </tr>
+
+            <tr>
+              <td class="tdNum">#</td>
               <td >Why to choose Node.js for IOT</td>
               <td class="Speaker">Tigran Bayburtsyan</td>
               <td>-</td>
