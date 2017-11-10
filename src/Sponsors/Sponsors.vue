@@ -3,7 +3,39 @@
     <div class="Container">
 
       <h3 class="Title">Sponsors</h3>
+      <div class="row justify-content-center justify-content-xl-between">
 
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
+          <a href="https://www.renderforest.com/" target="_blank">
+            <div
+              class="SponsorImg Sponsor-renderforest">
+            </div>
+            <h3 class="OrgName">Renderforest</h3>
+          </a>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
+          <a href="https://sflpro.com/" target="_blank">
+            <div
+              class="SponsorImg Sponsor-sfl" 
+              >
+            </div>
+            <h3 class="OrgName">SFL</h3>
+          </a>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
+          <a href="https://aua.am/" target="_blank">
+            <div
+              class="SponsorImg Sponsor-aua"
+              >
+            </div>
+            <h3 class="OrgName">American University of Armenia</h3>
+          </a>
+        </div>
+
+      </div>
       <div class="CallToAction">
         <a href="https://goo.gl/875gvc" class="Button -green" target="_blank">
           Become a sponsor
@@ -18,7 +50,7 @@
       <div class="row justify-content-center justify-content-xl-between">
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
-          <a href="https://www.simplytechnologies.net/">
+          <a href="https://www.simplytechnologies.net/" target="_blank">
             <div
               class="Img"
               style="background-image: url(https://static1.squarespace.com/static/58d20c79725e25b221549193/t/58d26aa9b8a79b902b394c88/1504784019330/?format=1500w)">
@@ -28,7 +60,7 @@
         </div>
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
-          <a href="http://istc.am/en/">
+          <a href="http://istc.am/en/" target="_blank">
             <div
               class="Img"
               style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/21731750_1736095493088418_8372728911051007100_o.jpg?oh=a8f84a82b7ac16c17efd0a2fb30f5141&oe=5A876DAA)">
@@ -38,17 +70,7 @@
         </div>
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
-          <a href="https://www.renderforest.com/">
-            <div
-              class="Img"
-              style="background-image: url('https://static.rfstat.com/renderforest/images/v1/logo_dark.svg')">
-            </div>
-            <h5 class="OrgName">Renderforest</h5>
-          </a>
-        </div>
-
-        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
-          <a href="https://github.com/modularcode">
+          <a href="https://github.com/modularcode" target="_blank">
             <div
               class="Img"
               style="background-image: url(https://raw.githubusercontent.com/modularcode/modularcode.github.io/master/images/logo.png)">
@@ -58,7 +80,7 @@
         </div>
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
-          <a href="http://www.itjobs.am">
+          <a href="http://www.itjobs.am" target="_blank">
             <div
               class="Img"
               style="background-image: url(https://1424647379.rsc.cdn77.org/jsconf/itjobs-logo.svg);background-size: 70%;">
@@ -89,6 +111,21 @@ export default {
   padding: 50px 0 50px;
 }
 
+.Sponsor-sfl {
+  background-image: url(../_assets/sfl-logo.svg);
+  background-size: 120% !important;
+}
+
+.Sponsor-aua {
+  background-image: url(../_assets/aua-logo.png);
+  background-size: 70% !important;
+}
+
+.Sponsor-renderforest {
+  background-image: url('https://static.rfstat.com/renderforest/images/v1/logo_dark.svg');
+  background-size: 100% !important;
+}
+
 .CallToAction {
   text-align: center;
   padding-bottom: 40px;
@@ -97,7 +134,16 @@ export default {
 .Img {
   background-size: contain;
   background-position: center;
-  width: 150px;
+  width: 120px;
+  height: 100px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.SponsorImg {
+  background-size: contain;
+  background-position: center;
+  width: 170px;
   height: 120px;
   background-repeat: no-repeat;
   margin: 0 auto;
