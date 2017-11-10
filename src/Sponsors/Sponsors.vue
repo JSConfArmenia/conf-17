@@ -11,7 +11,7 @@
             <div
               class="SponsorImg Sponsor-renderforest">
             </div>
-            <h3 class="OrgName">Renderforest</h3>
+            <h3 class="OrgName">RenderForest</h3>
           </a>
         </div>
 
@@ -122,8 +122,8 @@ export default {
 }
 
 .Sponsor-renderforest {
-  background-image: url('https://static.rfstat.com/renderforest/images/v1/logo_dark.svg');
-  background-size: 100% !important;
+  background-image: url('https://static.rfstat.com/renderforest/static/images/Logo1024x1024-01.png');
+  background-size: 70% !important;
 }
 
 .CallToAction {
