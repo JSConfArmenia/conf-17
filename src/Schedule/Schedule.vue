@@ -114,7 +114,7 @@
             <tr>
               <td class="tdNum">#</td>
               <td >The true nature and the super power of WebAssembly</td>
-              <td class="Speaker">Armen Mshetyan</td>
+              <td class="Speaker">Armen Mshetsyan</td>
               <td>-</td>
               <td class="Venue">-</td>
             </tr>
