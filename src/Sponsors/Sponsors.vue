@@ -26,6 +26,16 @@
         </div>
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
+          <a href="https://workfront.com/" target="_blank">
+            <div
+              class="SponsorImg Sponsor-workfront"
+              >
+            </div>
+            <h3 class="OrgName">Workfront</h3>
+          </a>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
           <a href="https://aua.am/" target="_blank">
             <div
               class="SponsorImg Sponsor-aua"
@@ -119,6 +129,11 @@ export default {
 .Sponsor-aua {
   background-image: url(../_assets/aua-logo.png);
   background-size: 70% !important;
+}
+
+.Sponsor-workfront {
+  background-image: url(../_assets/workfront-logo.png);
+  background-size: 120% !important;
 }
 
 .Sponsor-renderforest {
