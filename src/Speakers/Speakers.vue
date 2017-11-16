@@ -31,74 +31,70 @@
 
 <script>
 export default {
-  data() {
-    return {
-
-      speakers: [
-        {
-          img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/1378305_10151882202425141_1136904594_n.jpg?oh=91b44015f24ac89d157aeca9381c6b85&oe=5A4A0516',
-          name: 'Rouben Meschian',
-          position: 'Founding Software Engineer at Cambridge Semantics',
-        },
-        {
-          img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/20645318_1266773110112416_7159871016971569042_o.jpg?oh=dfdccd6643765989ac9c3d290d4809f1&oe=5A44BD29',
-          name: 'Shahen Hovhannisyan',
-          position: 'Software Engineer at Simply Technologies',
-        },
-        {
-          img: 'https://avatars3.githubusercontent.com/u/2195825?v=4&s=460',
-          name: 'Edgar Marukyan',
-          position: 'CTO at RenderForest',
-        },
-        {
-          img: 'https://1424647379.rsc.cdn77.org/jsconf/gnun.jpg',
-          name: 'Gnun Ulikhanyan',
-          position: 'Software Engineer at Simply Technologies',
-        },
-        {
-          img: '/static/SpeakerEdgarAroutiounian.jpg',
-          name: 'Edgar Aroutiounian',
-          position: 'React Native programmer at Expo.io',
-        },
-        {
-          img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/15940642_1441783919165636_8135663993243465387_n.jpg?oh=98881a5007b98b15e032529b17bb53e5&oe=5A3B6E0D',
-          name: 'Michael Manukyan',
-          position: 'Software Engineer at Teamable',
-        },
-        {
-          img: 'https://1424647379.rsc.cdn77.org/jsconf/slavik.jpg',
-          name: 'Slavik Manukyan',
-          position: 'Software Engineer at Simply Technologies',
-        },
-        {
-          img: 'https://media-exp1.licdn.com/media/AAEAAQAAAAAAAAzVAAAAJGUwZTBkOGM4LTA0NjAtNDRmMS1hZGUyLTdiMTk5NjM4N2VjMQ.jpg',
-          name: 'Michael Petrosyan',
-          position: 'JavaScript Engineer at BetConstruct',
-        },
-        {
-          img: 'https://media-exp1.licdn.com/media/AAEAAQAAAAAAAAjoAAAAJDM4ZjFhNzMzLWU5NzMtNDFkNi1hOWI2LWJjYTQ0MDhkZmJhYQ.jpg',
-          name: 'Vardan Grigoryan',
-          position: 'Backend Engineer at Helpin',
-        },
-        {
-          img: 'https://1424647379.rsc.cdn77.org/jsconf/varuj.jpg',
-          name: 'Varuzhan Harutyunyan',
-          position: 'Senior Web Developer at Digitain',
-        },
-        {
-          img: 'https://1424647379.rsc.cdn77.org/jsconf/armen_mshetsyan.jpg',
-          name: 'Armen Mshetsyan',
-          position: 'CTO at Flux Technologies',
-        },
-        {
-          img: '/static/SpeakerTigranBayburtsyan.jpg',
-          name: 'Tigran Bayburtsyan',
-          position: 'Founder at TreeScale.com',
-        },
-      ],
-
-    };
-  },
+  data: () => ({
+    speakers: [
+      {
+        img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/1378305_10151882202425141_1136904594_n.jpg?oh=91b44015f24ac89d157aeca9381c6b85&oe=5A4A0516',
+        name: 'Rouben Meschian',
+        position: 'Founding Software Engineer at Cambridge Semantics',
+      },
+      {
+        img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/20645318_1266773110112416_7159871016971569042_o.jpg?oh=dfdccd6643765989ac9c3d290d4809f1&oe=5A44BD29',
+        name: 'Shahen Hovhannisyan',
+        position: 'Software Engineer at Simply Technologies',
+      },
+      {
+        img: 'https://avatars3.githubusercontent.com/u/2195825?v=4&s=460',
+        name: 'Edgar Marukyan',
+        position: 'CTO at RenderForest',
+      },
+      {
+        img: 'https://1424647379.rsc.cdn77.org/jsconf/gnun.jpg',
+        name: 'Gnun Ulikhanyan',
+        position: 'Software Engineer at Simply Technologies',
+      },
+      {
+        img: '/static/SpeakerEdgarAroutiounian.jpg',
+        name: 'Edgar Aroutiounian',
+        position: 'React Native programmer at Expo.io',
+      },
+      {
+        img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/15940642_1441783919165636_8135663993243465387_n.jpg?oh=98881a5007b98b15e032529b17bb53e5&oe=5A3B6E0D',
+        name: 'Michael Manukyan',
+        position: 'Software Engineer at Teamable',
+      },
+      {
+        img: 'https://1424647379.rsc.cdn77.org/jsconf/slavik.jpg',
+        name: 'Slavik Manukyan',
+        position: 'Software Engineer at Simply Technologies',
+      },
+      {
+        img: 'https://media-exp1.licdn.com/media/AAEAAQAAAAAAAAzVAAAAJGUwZTBkOGM4LTA0NjAtNDRmMS1hZGUyLTdiMTk5NjM4N2VjMQ.jpg',
+        name: 'Michael Petrosyan',
+        position: 'JavaScript Engineer at BetConstruct',
+      },
+      {
+        img: 'https://media-exp1.licdn.com/media/AAEAAQAAAAAAAAjoAAAAJDM4ZjFhNzMzLWU5NzMtNDFkNi1hOWI2LWJjYTQ0MDhkZmJhYQ.jpg',
+        name: 'Vardan Grigoryan',
+        position: 'Backend Engineer at Helpin',
+      },
+      {
+        img: 'https://1424647379.rsc.cdn77.org/jsconf/varuj.jpg',
+        name: 'Varuzhan Harutyunyan',
+        position: 'Senior Web Developer at Digitain',
+      },
+      {
+        img: 'https://1424647379.rsc.cdn77.org/jsconf/armen_mshetsyan.jpg',
+        name: 'Armen Mshetsyan',
+        position: 'CTO at Flux Technologies',
+      },
+      {
+        img: '/static/SpeakerTigranBayburtsyan.jpg',
+        name: 'Tigran Bayburtsyan',
+        position: 'Founder at TreeScale.com',
+      },
+    ],
+  }),
 };
 </script>
 

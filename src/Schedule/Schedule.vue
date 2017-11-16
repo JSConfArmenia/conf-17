@@ -47,103 +47,101 @@
 
 <script>
 export default {
-  data() {
-    return {
-      topics: [
-        {
-          name: 'Functional Programming in JavaScript',
-          speaker: 'Rouben Meschian',
-          lang: '-',
-          time: '-',
-          venue: '-',
-        },
-        {
-          name: 'React Native: The Dark Art of Native APIs',
-          speaker: 'Shahen Hovhannisyan',
-          lang: '-',
-          time: '-',
-          venue: '-',
-        },
-        {
-          name: 'React Native app development via Expo SDK',
-          speaker: 'Edgar Aroutiounian',
-          lang: '-',
-          time: '-',
-          venue: '-',
-        },
-        {
-          name: 'Static Type Checking with FlowType',
-          speaker: 'Edgar Marukyan',
-          lang: '-',
-          time: '-',
-          venue: '-',
-        },
-        {
-          name: 'Angular 5 vs React vs Vue',
-          speaker: 'Michael Petrosyan',
-          lang: '-',
-          time: '-',
-          venue: '-',
-        },
-        {
-          name: 'Creating a Webpack Config for Production from scratch',
-          speaker: 'Michael Manukyan',
-          lang: '-',
-          time: '-',
-          venue: '-',
-        },
-        {
-          name: 'Universal React with Next.js',
-          speaker: 'Gnun Ulikhanyan',
-          lang: '-',
-          time: '-',
-          venue: '-',
-        },
-        {
-          name: 'V8 engine, JavaScript Code Interpretation and Execution',
-          speaker: 'Shahen Hovhannisyan',
-          lang: '-',
-          time: '-',
-          venue: '-',
-        },
-        {
-          name: 'Real time applications with Firebase and React',
-          speaker: 'Slavik Manukyan',
-          lang: '-',
-          time: '-',
-          venue: '-',
-        },
-        {
-          name: 'Why to choose Node.js for IOT',
-          speaker: 'Tigran Bayburtsyan',
-          lang: '-',
-          time: '-',
-          venue: '-',
-        },
-        {
-          name: 'Node.js: diving deeper into libuv',
-          speaker: 'Vardan Grigoryan',
-          lang: '-',
-          time: '-',
-          venue: '-',
-        },
-        {
-          name: 'Reactive Extensions for JavaScript - RxJS',
-          speaker: 'Varuzhan Harutyunyan',
-          lang: '-',
-          time: '-',
-          venue: '-',
-        },
-        {
-          name: 'The true nature and the super power of WebAssembly',
-          speaker: 'Armen Mshetsyan',
-          lang: '-',
-          time: '-',
-          venue: '-',
-        },
-      ],
-    };
-  },
+  data: () => ({
+    topics: [
+      {
+        name: 'Functional Programming in JavaScript',
+        speaker: 'Rouben Meschian',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
+      {
+        name: 'React Native: The Dark Art of Native APIs',
+        speaker: 'Shahen Hovhannisyan',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
+      {
+        name: 'React Native app development via Expo SDK',
+        speaker: 'Edgar Aroutiounian',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
+      {
+        name: 'Static Type Checking with FlowType',
+        speaker: 'Edgar Marukyan',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
+      {
+        name: 'Angular 5 vs React vs Vue',
+        speaker: 'Michael Petrosyan',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
+      {
+        name: 'Creating a Webpack Config for Production from scratch',
+        speaker: 'Michael Manukyan',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
+      {
+        name: 'Universal React with Next.js',
+        speaker: 'Gnun Ulikhanyan',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
+      {
+        name: 'V8 engine, JavaScript Code Interpretation and Execution',
+        speaker: 'Shahen Hovhannisyan',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
+      {
+        name: 'Real time applications with Firebase and React',
+        speaker: 'Slavik Manukyan',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
+      {
+        name: 'Why to choose Node.js for IOT',
+        speaker: 'Tigran Bayburtsyan',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
+      {
+        name: 'Node.js: diving deeper into libuv',
+        speaker: 'Vardan Grigoryan',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
+      {
+        name: 'Reactive Extensions for JavaScript - RxJS',
+        speaker: 'Varuzhan Harutyunyan',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
+      {
+        name: 'The true nature and the super power of WebAssembly',
+        speaker: 'Armen Mshetsyan',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
+    ],
+  }),
 };
 </script>
 
