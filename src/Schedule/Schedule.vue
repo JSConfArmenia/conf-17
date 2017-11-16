@@ -41,7 +41,7 @@
 
             <tr>
               <td class="tdNum">#</td>
-              <td >Angular 4 vs React vs Vue</td>
+              <td >Angular 5 vs React vs Vue</td>
               <td class="Speaker">Michael Petrosyan</td>
               <td>-</td>
               <td class="Venue">-</td>
@@ -81,6 +81,14 @@
 
             <tr>
               <td class="tdNum">#</td>
+              <td >Real time applications with Firebase and React</td>
+              <td class="Speaker">Slavik Manukyan</td>
+              <td>-</td>
+              <td class="Venue">-</td>
+            </tr>
+
+            <tr>
+              <td class="tdNum">#</td>
               <td >Why to choose Node.js for IOT</td>
               <td class="Speaker">Tigran Bayburtsyan</td>
               <td>-</td>
@@ -99,6 +107,14 @@
               <td class="tdNum">#</td>
               <td >Reactive Extensions for JavaScript - RxJS</td>
               <td class="Speaker">Varuzhan Harutyunyan</td>
+              <td>-</td>
+              <td class="Venue">-</td>
+            </tr>
+
+            <tr>
+              <td class="tdNum">#</td>
+              <td >The true nature and the super power of WebAssembly</td>
+              <td class="Speaker">Armen Mshetsyan</td>
               <td>-</td>
               <td class="Venue">-</td>
             </tr>
