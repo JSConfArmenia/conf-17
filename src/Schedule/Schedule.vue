@@ -13,110 +13,21 @@
         <table>
           <thead>
             <tr>
-              <th>#</th>
               <th width="40%">TOPIC</th>
               <th>SPEAKER</th>
+              <th>LANG</th>
               <th>TIME</th>
               <th>VENUE</th>
             </tr>
           </thead>
           <tbody>
 
-            <tr>
-              <td class="tdNum">#</td>
-              <td >Functional Programming in JavaScript</td>
-              <td class="Speaker">Rouben Meschian</td>
-              <td>-</td>
-              <td class="Venue">-</td>
-            </tr>
-
-
-            <tr>
-              <td class="tdNum">#</td>
-              <td >React-Native: The Dark Art of Native APIs</td>
-              <td class="Speaker">Shahen Hovhannisyan</td>
-              <td>-</td>
-              <td class="Venue">-</td>
-            </tr>
-
-            <tr>
-              <td class="tdNum">#</td>
-              <td >Angular 5 vs React vs Vue</td>
-              <td class="Speaker">Michael Petrosyan</td>
-              <td>-</td>
-              <td class="Venue">-</td>
-            </tr>
-
-            <tr>
-              <td class="tdNum">#</td>
-              <td >Static Type Checking with FlowType</td>
-              <td class="Speaker">Edgar Marukyan</td>
-              <td>-</td>
-              <td class="Venue">-</td>
-            </tr>
-
-            <tr>
-              <td class="tdNum">#</td>
-              <td >Creating a Webpack Config for Production from scratch</td>
-              <td class="Speaker">Michael Manukyan</td>
-              <td>-</td>
-              <td class="Venue">-</td>
-            </tr>
-           
-            <tr>
-              <td class="tdNum">#</td>
-              <td> Universal React with Next.js</td>
-              <td class="Speaker">Gnun Ulikhanyan</td>
-              <td>-</td>
-              <td class="Venue">-</td>
-            </tr>
-
-            <tr>
-              <td class="tdNum">#</td>
-              <td >V8 engine, JavaScript Code Interpretation and Execution</td>
-              <td class="Speaker">Shahen Hovhannisyan</td>
-              <td>-</td>
-              <td class="Venue">-</td>
-            </tr>
-
-            <tr>
-              <td class="tdNum">#</td>
-              <td >Real time applications with Firebase and React</td>
-              <td class="Speaker">Slavik Manukyan</td>
-              <td>-</td>
-              <td class="Venue">-</td>
-            </tr>
-
-            <tr>
-              <td class="tdNum">#</td>
-              <td >Why to choose Node.js for IOT</td>
-              <td class="Speaker">Tigran Bayburtsyan</td>
-              <td>-</td>
-              <td class="Venue">-</td>
-            </tr>
-
-            <tr>
-              <td class="tdNum">#</td>
-              <td >Node.js: diving deeper into libuv</td>
-              <td class="Speaker">Vardan Grigoryan</td>
-              <td>-</td>
-              <td class="Venue">-</td>
-            </tr>
-
-            <tr>
-              <td class="tdNum">#</td>
-              <td >Reactive Extensions for JavaScript - RxJS</td>
-              <td class="Speaker">Varuzhan Harutyunyan</td>
-              <td>-</td>
-              <td class="Venue">-</td>
-            </tr>
-
-            <tr>
-              <td class="tdNum">#</td>
-              <td >The true nature and the super power of WebAssembly</td>
-              <td class="Speaker">Armen Mshetsyan</td>
-              <td>-</td>
-              <td class="Venue">-</td>
+            <tr v-for="(topic, index) in topics" :key="index">
+              <td class="Name">{{topic.name}}</td>
+              <td class="Speaker">{{topic.speaker}}</td>
+              <td class="Lang">{{topic.lang}}</td>
+              <td class="Time">{{topic.time}}</td>
+              <td class="Venue">{{topic.venue}}</td>
             </tr>
 
             <tr>
@@ -136,7 +47,103 @@
 
 <script>
 export default {
-
+  data() {
+    return {
+      topics: [
+        {
+          name: 'Functional Programming in JavaScript',
+          speaker: 'Rouben Meschian',
+          lang: '-',
+          time: '-',
+          venue: '-',
+        },
+        {
+          name: 'React Native: The Dark Art of Native APIs',
+          speaker: 'Shahen Hovhannisyan',
+          lang: '-',
+          time: '-',
+          venue: '-',
+        },
+        {
+          name: 'React Native app development via Expo SDK',
+          speaker: 'Edgar Aroutiounian',
+          lang: '-',
+          time: '-',
+          venue: '-',
+        },
+        {
+          name: 'Static Type Checking with FlowType',
+          speaker: 'Edgar Marukyan',
+          lang: '-',
+          time: '-',
+          venue: '-',
+        },
+        {
+          name: 'Angular 5 vs React vs Vue',
+          speaker: 'Michael Petrosyan',
+          lang: '-',
+          time: '-',
+          venue: '-',
+        },
+        {
+          name: 'Creating a Webpack Config for Production from scratch',
+          speaker: 'Michael Manukyan',
+          lang: '-',
+          time: '-',
+          venue: '-',
+        },
+        {
+          name: 'Universal React with Next.js',
+          speaker: 'Gnun Ulikhanyan',
+          lang: '-',
+          time: '-',
+          venue: '-',
+        },
+        {
+          name: 'V8 engine, JavaScript Code Interpretation and Execution',
+          speaker: 'Shahen Hovhannisyan',
+          lang: '-',
+          time: '-',
+          venue: '-',
+        },
+        {
+          name: 'Real time applications with Firebase and React',
+          speaker: 'Slavik Manukyan',
+          lang: '-',
+          time: '-',
+          venue: '-',
+        },
+        {
+          name: 'Why to choose Node.js for IOT',
+          speaker: 'Tigran Bayburtsyan',
+          lang: '-',
+          time: '-',
+          venue: '-',
+        },
+        {
+          name: 'Node.js: diving deeper into libuv',
+          speaker: 'Vardan Grigoryan',
+          lang: '-',
+          time: '-',
+          venue: '-',
+        },
+        {
+          name: 'Reactive Extensions for JavaScript - RxJS',
+          speaker: 'Varuzhan Harutyunyan',
+          lang: '-',
+          time: '-',
+          venue: '-',
+        },
+        {
+          name: 'The true nature and the super power of WebAssembly',
+          speaker: 'Armen Mshetsyan',
+          lang: '-',
+          time: '-',
+          venue: '-',
+        },
+      ],
+    };
+  },
 };
 </script>
 

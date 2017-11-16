@@ -5,7 +5,7 @@
       <h1 class="Title">WHO ARE THE NINJAS?</h1>
       <div class="row justify-content-center">
 
-        <div class="col-sm-6 col-md-4 col-lg-3" v-for="speaker in speakers">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-speaker" v-for="(speaker, index) in speakers" :key="index">
           <div
             class="Img"
             v-bind:style="{ backgroundImage: `url(${speaker.img})` }">
@@ -14,13 +14,7 @@
           <h5 class="Position">{{speaker.position}}</h5>
         </div>
 
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="Img -Tigran"></div>
-          <h3 class="Name">Tigran Bayburtsyan</h3>
-          <h5 class="Position">Founder at TreeScale.com</h5>
-        </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-speaker">
           <a href="https://goo.gl/65ecso">
             <div class="Img -blank"></div>
             <h3 class="Name">Your Name</h3>
@@ -62,6 +56,11 @@ export default {
           position: 'Software Engineer at Simply Technologies',
         },
         {
+          img: '/static/SpeakerEdgarAroutiounian.jpg',
+          name: 'Edgar Aroutiounian',
+          position: 'React Native programmer at Expo.io',
+        },
+        {
           img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/15940642_1441783919165636_8135663993243465387_n.jpg?oh=98881a5007b98b15e032529b17bb53e5&oe=5A3B6E0D',
           name: 'Michael Manukyan',
           position: 'Software Engineer at Teamable',
@@ -91,6 +90,11 @@ export default {
           name: 'Armen Mshetsyan',
           position: 'CTO at Flux Technologies',
         },
+        {
+          img: '/static/SpeakerTigranBayburtsyan.jpg',
+          name: 'Tigran Bayburtsyan',
+          position: 'Founder at TreeScale.com',
+        },
       ],
 
     };
@@ -99,6 +103,16 @@ export default {
 </script>
 
 <style scoped>
+
+.row {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.col-speaker {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 .Title {
   color: #fff;
@@ -144,8 +158,8 @@ h3:hover {
   background-image: url(../_assets/NINJA1.png);
 }
 
-.Img.-Tigran {
+/* .Img.-Tigran {
   background-image: url(../_assets/TigranBayburtsyan.jpg);
-}
+} */
 
 </style>
