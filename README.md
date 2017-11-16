@@ -38,21 +38,19 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
   - Skip this section initially, or add coming soon
 - Speakers
   - Will be probided
-- Sponsors and friends
-  - Event sponsors
-  - Simply Technologies
-  - ISTC
-  - Iterate Hackerspace
+- Sponsors
+ - Event Sponsors
+ - Partners
 - Team
   - Core team (Rouben, Alexander, Edgar, Gevorg)
   - Volanteers
-  - Credits (Website creator, logo designer and people who have helped to make this happen) 
+  - Credits (Website creator, logo designer and people who have helped to make this happen)
 - Location and Contact
   - Google map
 - Footer
-  - Logo placeholder 
+  - Logo placeholder
   - Links
-  
+
 Design ref:
 http://demo.themeum.com/wordpress/eventum/
 
