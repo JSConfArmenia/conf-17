@@ -14,7 +14,7 @@
         </div>
         <div class="col-md-8">
           <h3 class="Title">
-            What is JavaScript Conference 2017 Yerevan?
+            What is JavaScript Conference Armenia?
           </h3>
           <h4 class="Subtitle">
             Where JavaScript Ninjas meet!
