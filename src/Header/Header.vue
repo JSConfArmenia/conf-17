@@ -16,7 +16,7 @@
         <a href="#Quizz" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">QUIZZ</a>
         <a
           class="InviteBtn"
-          href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2">
+          href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2" target="_blank">
           Request an invite
         </a>
         <!-- <a href="#">CONTACT</a> -->

@@ -4,25 +4,25 @@
     <a href="#Intro" v-smooth-scroll="{ duration: 600 }"><Logo /></a>
     <p class="Description">
       coded in Vue.js by
-      <a href="https://github.com/HenrikhAbajyan" class="CreditLink">Henrikh Abajyan</a> &
-      <a href="https://github.com/JSConfArmenia/conf-17/graphs/contributors" class="CreditLink">Others</a>
+      <a href="https://github.com/HenrikhAbajyan" target="_blank" class="CreditLink">Henrikh Abajyan</a> &
+      <a href="https://github.com/JSConfArmenia/conf-17/graphs/contributors" target="_blank" class="CreditLink">Others</a>
     </p>
 
     <div class="SocialLinks">
-      <a href="https://github.com/JSConfArmenia/" class="SocialLink">
+      <a href="https://github.com/JSConfArmenia/" target="_blank" class="SocialLink">
         <i class="fa fa-github" aria-hidden="true"></i>
       </a>
 
 
-      <a href="https://twitter.com/jsconf_am/" class="SocialLink">
+      <a href="https://twitter.com/jsconf_am/" target="_blank" class="SocialLink">
           <i class="fa fa-twitter" aria-hidden="true"></i>
       </a>
 
-      <a href="https://www.facebook.com/jsconf.am/" class="SocialLink">
+      <a href="https://www.facebook.com/jsconf.am/" target="_blank" class="SocialLink">
         <i class="fa fa-facebook" aria-hidden="true"></i>
       </a>
 
-      <a href="https://www.instagram.com/jsconf.am/" class="SocialLink">
+      <a href="https://www.instagram.com/jsconf.am/" target="_blank" class="SocialLink">
         <i class="fa fa-instagram" aria-hidden="true"></i>
       </a>
 
