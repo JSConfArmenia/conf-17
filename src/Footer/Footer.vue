@@ -4,7 +4,8 @@
     <a href="#Intro" v-smooth-scroll="{ duration: 600 }"><Logo /></a>
     <p class="Description">
       coded in Vue.js by
-      <a href="https://github.com/HenrikhAbajyan" class="CreditLink">Henrikh Abajyan</a>
+      <a href="https://github.com/HenrikhAbajyan" class="CreditLink">Henrikh Abajyan</a> &
+      <a href="https://github.com/JSConfArmenia/conf-17/graphs/contributors" class="CreditLink">Others</a>
     </p>
 
     <div class="SocialLinks">
