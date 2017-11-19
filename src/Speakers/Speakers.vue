@@ -93,6 +93,21 @@ export default {
         name: 'Tigran Bayburtsyan',
         position: 'Founder at TreeScale.com',
       },
+      {
+        img: '/static/SpeakerLilitTadevosyan.jpg',
+        name: 'Lilit Tadevosyan',
+        position: 'Lead JavaScript Developer at SFL',
+      },
+      {
+        img: '/static/SpeakerHovhannesBabayan.jpg',
+        name: 'Hovhannes Babayan',
+        position: 'Senior Front-end Engineer at Workfront',
+      },
+      {
+        img: '/static/SpeakerGagikArustamyan.jpg',
+        name: 'Gagik Arustamyan',
+        position: 'Lead JavaScript Developer at SFL',
+      },
     ],
   }),
 };
