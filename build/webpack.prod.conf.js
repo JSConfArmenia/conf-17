@@ -8,6 +8,9 @@ var CopyWebpackPlugin = require('copy-webpack-plugin')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
+var ImageminPlugin = require('imagemin-webpack-plugin').default
+var imageminMozjpeg = require('imagemin-mozjpeg')
+
 
 var env = config.build.env
 
@@ -92,7 +95,28 @@ var webpackConfig = merge(baseWebpackConfig, {
         to: config.build.assetsSubDirectory,
         ignore: ['.*']
       }
-    ])
+    ]),
+    new ImageminPlugin({
+      test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
+      gifsicle: {
+        interlaced: true,
+      },
+      optipng: {
+        optimizationLevel: 7,
+      },
+      pngquant: {
+        quality: '65-90',
+        speed: 4,
+      },
+      jpegtran: null,
+      svgo: {},
+      plugins: [
+        imageminMozjpeg({
+          quality: 85,
+          progressive: true
+        }),
+      ],
+    })
   ]
 })
 

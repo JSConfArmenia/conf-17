@@ -59,7 +59,7 @@ export default {
         position: 'React Native programmer at Expo.io',
       },
       {
-        img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/15940642_1441783919165636_8135663993243465387_n.jpg?oh=98881a5007b98b15e032529b17bb53e5&oe=5A3B6E0D',
+        img: '/static/SpeakerMichaelManukyan.jpg',
         name: 'Michael Manukyan',
         position: 'Software Engineer at Teamable',
       },
