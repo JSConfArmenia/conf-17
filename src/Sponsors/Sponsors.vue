@@ -3,7 +3,7 @@
     <div class="Container">
 
       <h3 class="Title">Sponsors</h3>
-      <div class="row justify-content-center justify-content-xl-between">
+      <div class="row justify-content-center">
 
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
@@ -18,7 +18,7 @@
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
           <a href="https://sflpro.com/" target="_blank">
             <div
-              class="SponsorImg Sponsor-sfl" 
+              class="SponsorImg Sponsor-sfl"
               >
             </div>
             <h3 class="OrgName">SFL</h3>
@@ -47,7 +47,7 @@
 
       </div>
 
-      <div class="row justify-content-center justify-content-xl-between">
+      <div class="row justify-content-center">
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
           <a href="http://http://armsoft.am/" target="_blank">
