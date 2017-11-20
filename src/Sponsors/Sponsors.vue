@@ -46,6 +46,16 @@
         </div>
 
       </div>
+
+      <div class="row justify-content-center justify-content-xl-between">
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
+          <a href="http://http://armsoft.am/" target="_blank">
+            <div class="StarterSponsorImg Sponsor-armsoft"></div>
+            <h5 class="OrgName">ArmSoft</h5>
+          </a>
+        </div>
+      </div>
       <div class="CallToAction">
         <a href="https://goo.gl/875gvc" class="Button -green" target="_blank">
           Become a sponsor
@@ -121,6 +131,11 @@ export default {
   padding: 50px 0 50px;
 }
 
+.Sponsor-armsoft {
+  background-image: url(../_assets/armsoft-logo.svg);
+  background-size: 100% !important;
+}
+
 .Sponsor-sfl {
   background-image: url(../_assets/sfl-logo.svg);
   background-size: 120% !important;
@@ -151,6 +166,15 @@ export default {
   background-position: center;
   width: 120px;
   height: 100px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.StarterSponsorImg {
+  background-size: contain;
+  background-position: center;
+  width: 120px;
+  height: 80px;
   background-repeat: no-repeat;
   margin: 0 auto;
 }
