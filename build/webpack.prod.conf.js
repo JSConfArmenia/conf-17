@@ -96,27 +96,27 @@ var webpackConfig = merge(baseWebpackConfig, {
         ignore: ['.*']
       }
     ]),
-    // new ImageminPlugin({
-    //   test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
-    //   gifsicle: {
-    //     interlaced: true,
-    //   },
-    //   optipng: {
-    //     optimizationLevel: 7,
-    //   },
-    //   pngquant: {
-    //     quality: '65-90',
-    //     speed: 4,
-    //   },
-    //   jpegtran: null,
-    //   svgo: {},
-    //   plugins: [
-    //     imageminMozjpeg({
-    //       quality: 85,
-    //       progressive: true
-    //     }),
-    //   ],
-    // })
+    new ImageminPlugin({
+      test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
+      gifsicle: {
+        interlaced: true,
+      },
+      optipng: {
+        optimizationLevel: 7,
+      },
+      pngquant: {
+        quality: '65-90',
+        speed: 4,
+      },
+      jpegtran: null,
+      svgo: {},
+      plugins: [
+        imageminMozjpeg({
+          quality: 85,
+          progressive: true
+        }),
+      ],
+    })
   ]
 })
 
