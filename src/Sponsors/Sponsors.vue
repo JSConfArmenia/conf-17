@@ -50,7 +50,7 @@
       <div class="row justify-content-center">
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
-          <a href="http://http://armsoft.am/" target="_blank">
+          <a href="http://armsoft.am/" target="_blank">
             <div class="StarterSponsorImg Sponsor-armsoft"></div>
             <h5 class="OrgName">ArmSoft</h5>
           </a>
