@@ -38,8 +38,8 @@
 
           <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
             <a href="" target="_blank">
-              <div class="Img -angularjs" ></div>
-              <h3 class="Name -angularjs">AngularJS</h3>
+              <div class="Img -angular" ></div>
+              <h3 class="Name -angular">Angular</h3>
             </a>
           </div>
         </div>
@@ -86,8 +86,11 @@ export default {
 }
 
 .Description a {
-  color: inherit;
-  text-decoration: underline;
+  color: #4bb463;
+}
+
+.Description a:hover {
+  /* text-decoration: underline; */
 }
 
 .Badges {
@@ -128,7 +131,7 @@ export default {
   background-image: url(/static/badges/react.png);
 }
 
-.Img.-angularjs {
+.Img.-angular {
   background-image: url(/static/badges/angular.png);
 }
 
@@ -157,7 +160,7 @@ export default {
   color: #0f4c5d;
 }
 
-.Name.-angularjs {
+.Name.-angular {
   background-color: #dd0031;
 }
 
