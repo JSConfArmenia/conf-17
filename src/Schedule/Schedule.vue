@@ -25,7 +25,9 @@
             <tr v-for="(topic, index) in topics" :key="index">
               <td class="Name">{{topic.name}}</td>
               <td class="Speaker">{{topic.speaker}}</td>
-              <td class="Lang">{{topic.lang}}</td>
+              <td class="Lang">
+                <span class="LangBadge" :class="topic.lang" >{{topic.lang}}</span>
+              </td>
               <td class="Time">{{topic.time}}</td>
               <td class="Venue">{{topic.venue}}</td>
             </tr>
@@ -52,98 +54,98 @@ export default {
       {
         name: 'Functional Programming in JavaScript',
         speaker: 'Rouben Meschian',
-        lang: '-',
+        lang: 'en',
         time: '-',
         venue: '-',
       },
       {
         name: 'React Native: The Dark Art of Native APIs',
         speaker: 'Shahen Hovhannisyan',
-        lang: '-',
+        lang: 'am',
         time: '-',
         venue: '-',
       },
       {
         name: 'React Native app development via Expo SDK',
         speaker: 'Edgar Aroutiounian',
-        lang: '-',
+        lang: 'en',
         time: '-',
         venue: '-',
       },
       {
         name: 'Static Type Checking with FlowType',
         speaker: 'Edgar Marukyan',
-        lang: '-',
+        lang: 'am',
         time: '-',
         venue: '-',
       },
       {
         name: 'Angular 5 vs React vs Vue',
         speaker: 'Michael Petrosyan',
-        lang: '-',
+        lang: 'am',
         time: '-',
         venue: '-',
       },
       {
         name: 'Creating a Webpack Config for Production from scratch',
         speaker: 'Michael Manukyan',
-        lang: '-',
+        lang: 'am',
         time: '-',
         venue: '-',
       },
       {
         name: 'Universal React with Next.js',
         speaker: 'Gnun Ulikhanyan',
-        lang: '-',
+        lang: 'am',
         time: '-',
         venue: '-',
       },
       {
         name: 'V8 engine, JavaScript Code Interpretation and Execution',
         speaker: 'Shahen Hovhannisyan',
-        lang: '-',
+        lang: 'am',
         time: '-',
         venue: '-',
       },
       {
         name: 'Real time applications with Firebase and React',
         speaker: 'Slavik Manukyan',
-        lang: '-',
+        lang: 'am',
         time: '-',
         venue: '-',
       },
       {
         name: 'Why to choose Node.js for IOT',
         speaker: 'Tigran Bayburtsyan',
-        lang: '-',
+        lang: 'am',
         time: '-',
         venue: '-',
       },
       {
         name: 'Node.js: diving deeper into libuv',
         speaker: 'Vardan Grigoryan',
-        lang: '-',
+        lang: 'am',
         time: '-',
         venue: '-',
       },
       {
         name: 'Reactive Extensions for JavaScript - RxJS',
         speaker: 'Varuzhan Harutyunyan',
-        lang: '-',
+        lang: 'am',
         time: '-',
         venue: '-',
       },
       {
         name: 'The true nature and the super power of WebAssembly',
         speaker: 'Armen Mshetsyan',
-        lang: '-',
+        lang: 'am',
         time: '-',
         venue: '-',
       },
       {
         name: '“await”-ing for new features of modern “async” JavaScript',
         speaker: 'Lilit Tadevosyan',
-        lang: '-',
+        lang: 'am',
         time: '-',
         venue: '-',
       },
@@ -157,7 +159,7 @@ export default {
       {
         name: 'Browser rendering engines: the road from code to pixels',
         speaker: 'Gagik Arustamyan',
-        lang: '-',
+        lang: 'am',
         time: '-',
         venue: '-',
       },
@@ -234,6 +236,23 @@ tr:hover td {
 
 .Speaker:hover {
   /*color: #4bb463;*/
+}
+
+.LangBadge {
+  background-color: #eaeaea;
+  padding: 3px 0;
+  text-align: center;
+  width: 30px;
+  display: inline-block;
+  font-size: .9em;
+}
+
+.LangBadge.en {
+  color: #0088c2;
+}
+
+.LangBadge.am {
+  color: #f07e31;
 }
 
 .Venue {
