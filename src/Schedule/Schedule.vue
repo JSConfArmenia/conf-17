@@ -140,6 +140,27 @@ export default {
         time: '-',
         venue: '-',
       },
+      {
+        name: '“await”-ing for new features of modern “async” JavaScript',
+        speaker: 'Lilit Tadevosyan',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
+      {
+        name: 'Creating reliable web applications with Elm',
+        speaker: 'Hovhannes Babayan',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
+      {
+        name: 'Browser rendering engines: the road from code to pixels',
+        speaker: 'Gagik Arustamyan',
+        lang: '-',
+        time: '-',
+        venue: '-',
+      },
     ],
   }),
 };

@@ -2,7 +2,7 @@
   <section class="Speakers" id="Speakers">
     <div class="Container">
 
-      <h1 class="Title">WHO ARE THE NINJAS?</h1>
+      <h2 class="Title">WHO ARE THE NINJAS?</h2>
       <div class="row justify-content-center">
 
         <div class="col-sm-6 col-md-4 col-lg-3 col-speaker" v-for="(speaker, index) in speakers" :key="index">
@@ -59,7 +59,7 @@ export default {
         position: 'React Native programmer at Expo.io',
       },
       {
-        img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/15940642_1441783919165636_8135663993243465387_n.jpg?oh=98881a5007b98b15e032529b17bb53e5&oe=5A3B6E0D',
+        img: '/static/SpeakerMichaelManukyan.jpg',
         name: 'Michael Manukyan',
         position: 'Software Engineer at Teamable',
       },
@@ -93,12 +93,31 @@ export default {
         name: 'Tigran Bayburtsyan',
         position: 'Founder at TreeScale.com',
       },
+      {
+        img: '/static/SpeakerLilitTadevosyan.jpg',
+        name: 'Lilit Tadevosyan',
+        position: 'Lead JavaScript Developer at SFL',
+      },
+      {
+        img: '/static/SpeakerHovhannesBabayan.jpg',
+        name: 'Hovhannes Babayan',
+        position: 'Senior Front-end Engineer at Workfront',
+      },
+      {
+        img: '/static/SpeakerGagikArustamyan.jpg',
+        name: 'Gagik Arustamyan',
+        position: 'Lead JavaScript Developer at SFL',
+      },
     ],
   }),
 };
 </script>
 
 <style scoped>
+
+.Speakers {
+  overflow: hidden;
+}
 
 .row {
   margin-left: -20px;

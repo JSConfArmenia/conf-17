@@ -20,6 +20,18 @@
         <div class="col">
           <div
             class="Img"
+            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/22728660_1533338836721765_4869138212284280551_n.jpg?oh=e2d28316634098d5191bf23b2902f432&oe=5A9D3C5B)">
+          </div>
+          <h4 class="Name">Varser Zakaryan</h4>
+          <h6 class="Role">Organizer</h6>
+          <h6 class="Position">Project Manager at JavaScript Conference Armenia</h6>
+        </div>
+
+        <div class="Breaker"></div>
+
+        <div class="col">
+          <div
+            class="Img"
             style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-1/c0.104.652.652/244020_1770753748796_2351683_o.jpg?oh=e70743c4aad4af76a83c93e31c846b03&oe=5A5000E7)">
           </div>
           <h4 class="Name">Gevorg Harutyunyan</h4>
@@ -78,12 +90,12 @@ export default {
 }
 
 .OrganizersRow {
-  margin-right: -45px;
-  margin-left: -45px;
+  margin-right: -20px;
+  margin-left: -20px;
 }
 
 .OrganizersRow .col {
-  padding: 0 45px;
+  padding: 0 20px;
 }
 
 .Breaker {

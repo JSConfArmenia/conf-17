@@ -10,7 +10,7 @@
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src",
     "lintFix": "eslint --ext .js,.vue src --fix",
-    "deploy": "cross-env BASE_URL=\"/conf-17\" npm run build && gh-pages -d dist --repo git@github.com:JSConfArmenia/conf-17.git --branch gh-pages",
+    "deploy": "cross-env BASE_URL=\"/\" npm run build && echo dev.jsconf.am > ./dist/CNAME  && gh-pages -d dist --repo git@github.com:JSConfArmenia/conf-17.git --branch gh-pages",
     "deployMain": "cross-env BASE_URL=\"/\" npm run build && echo jsconf.am > ./dist/CNAME && gh-pages -d dist --repo git@github.com:JSConfArmenia/JSConfArmenia.github.io.git --branch master"
   },
   "dependencies": {
@@ -51,6 +51,8 @@
     "gh-pages": "^1.0.0",
     "html-webpack-plugin": "^2.28.0",
     "http-proxy-middleware": "^0.17.3",
+    "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-webpack-plugin": "^1.5.2",
     "opn": "^5.1.0",
     "optimize-css-assets-webpack-plugin": "^2.0.0",
     "ora": "^1.2.0",

@@ -17,6 +17,7 @@
     <Location />
 
     <Quizz />
+    <Faq />
 
     <AppFooter />
   </div>
@@ -32,6 +33,7 @@ import Quizz from './Quizz';
 import Sponsors from './Sponsors';
 import Team from './Team';
 import Location from './Location';
+import Faq from './Faq';
 import AppFooter from './Footer';
 
 export default {
@@ -46,6 +48,7 @@ export default {
     Sponsors,
     Team,
     Location,
+    Faq,
     AppFooter,
   },
 };
