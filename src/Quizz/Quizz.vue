@@ -6,7 +6,7 @@
 
         <h2 class="Title">Quizz</h2>
         <p class="Description">
-          Participate in quizzes, win badges, become a true JavaScript Ninja! <br>
+          Participate in quizzes, win badges, become a true JavaScript champion! <br>
           <span>powered by <a href="http://www.itjobs.am/">itjobs.am</a></span>
         </p>
         <!-- <h3 class="Subtitle">Become a true JavaScript Ninja!</h3>
