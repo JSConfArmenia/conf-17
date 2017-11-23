@@ -9,7 +9,7 @@
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
           <a href="https://www.renderforest.com/" target="_blank">
             <div
-              class="Img -renderforest">
+              class="Img -silver -renderforest">
             </div>
             <h3 class="OrgName">RenderForest</h3>
           </a>
@@ -18,8 +18,7 @@
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
           <a href="https://sflpro.com/" target="_blank">
             <div
-              class="Img -sfl"
-              >
+              class="Img -silver -sfl">
             </div>
             <h3 class="OrgName">SFL</h3>
           </a>
@@ -28,7 +27,7 @@
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
           <a href="https://workfront.com/" target="_blank">
             <div
-              class="Img -workfront"
+              class="Img -silver -workfront"
               >
             </div>
             <h3 class="OrgName">Workfront</h3>
@@ -38,7 +37,7 @@
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
           <a href="https://aua.am/" target="_blank">
             <div
-              class="Img -aua"
+              class="Img -silver -aua"
               >
             </div>
             <h3 class="OrgName">American University of Armenia</h3>
@@ -51,7 +50,7 @@
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
           <a href="http://armsoft.am/" target="_blank">
-            <div class="Img -armsoft"></div>
+            <div class="Img -starter -armsoft"></div>
             <h5 class="OrgName">ArmSoft</h5>
           </a>
         </div>
@@ -131,6 +130,10 @@ export default {
   padding: 50px 0 50px;
 }
 
+.Title {
+  margin-bottom: 40px;
+}
+
 .CallToAction {
   text-align: center;
   padding-bottom: 40px;
@@ -145,17 +148,17 @@ export default {
   margin: 0 auto;
 }
 
-.Img.Starter {
+.Img.-starter {
   width: 120px;
   height: 80px;
 }
 
-.Img.Silver {
+.Img.-silver {
   width: 170px;
   height: 120px;
 }
 
-.Img.Gold {
+.Img.-gold {
 
 }
 
@@ -226,17 +229,17 @@ a {
     height: 80px;
   }
 
-  .Img.Starter {
+  .Img.-starter {
     width: 100px;
     height: 70px;
   }
 
-  .Img.Silver {
+  .Img.-silver {
     width: 130px;
     height: 100px;
   }
 
-  .Img.Gold {
+  .Img.-gold {
 
   }
 
