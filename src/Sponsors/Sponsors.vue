@@ -9,7 +9,7 @@
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
           <a href="https://www.renderforest.com/" target="_blank">
             <div
-              class="SponsorImg Sponsor-renderforest">
+              class="Img -renderforest">
             </div>
             <h3 class="OrgName">RenderForest</h3>
           </a>
@@ -18,7 +18,7 @@
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
           <a href="https://sflpro.com/" target="_blank">
             <div
-              class="SponsorImg Sponsor-sfl"
+              class="Img -sfl"
               >
             </div>
             <h3 class="OrgName">SFL</h3>
@@ -28,7 +28,7 @@
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
           <a href="https://workfront.com/" target="_blank">
             <div
-              class="SponsorImg Sponsor-workfront"
+              class="Img -workfront"
               >
             </div>
             <h3 class="OrgName">Workfront</h3>
@@ -38,7 +38,7 @@
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
           <a href="https://aua.am/" target="_blank">
             <div
-              class="SponsorImg Sponsor-aua"
+              class="Img -aua"
               >
             </div>
             <h3 class="OrgName">American University of Armenia</h3>
@@ -51,7 +51,7 @@
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
           <a href="http://armsoft.am/" target="_blank">
-            <div class="StarterSponsorImg Sponsor-armsoft"></div>
+            <div class="Img -armsoft"></div>
             <h5 class="OrgName">ArmSoft</h5>
           </a>
         </div>
@@ -131,31 +131,6 @@ export default {
   padding: 50px 0 50px;
 }
 
-.Sponsor-armsoft {
-  background-image: url(../_assets/armsoft-logo.svg);
-  background-size: 100% !important;
-}
-
-.Sponsor-sfl {
-  background-image: url(../_assets/sfl-logo.svg);
-  background-size: 120% !important;
-}
-
-.Sponsor-aua {
-  background-image: url(../_assets/aua-logo.png);
-  background-size: 70% !important;
-}
-
-.Sponsor-workfront {
-  background-image: url(../_assets/workfront-logo.png);
-  background-size: 120% !important;
-}
-
-.Sponsor-renderforest {
-  background-image: url('https://static.rfstat.com/renderforest/static/images/Logo1024x1024-01.png');
-  background-size: 70% !important;
-}
-
 .CallToAction {
   text-align: center;
   padding-bottom: 40px;
@@ -170,22 +145,43 @@ export default {
   margin: 0 auto;
 }
 
-.StarterSponsorImg {
-  background-size: contain;
-  background-position: center;
+.Img.Starter {
   width: 120px;
   height: 80px;
-  background-repeat: no-repeat;
-  margin: 0 auto;
 }
 
-.SponsorImg {
-  background-size: contain;
-  background-position: center;
+.Img.Silver {
   width: 170px;
   height: 120px;
-  background-repeat: no-repeat;
-  margin: 0 auto;
+}
+
+.Img.Gold {
+
+}
+
+.Img.-armsoft {
+  background-image: url(../_assets/armsoft-logo.svg);
+  background-size: 100% !important;
+}
+
+.Img.-sfl {
+  background-image: url(../_assets/sfl-logo.svg);
+  background-size: 120% !important;
+}
+
+.Img.-aua {
+  background-image: url(../_assets/aua-logo.png);
+  background-size: 70% !important;
+}
+
+.Img.-workfront {
+  background-image: url(../_assets/workfront-logo.png);
+  background-size: 120% !important;
+}
+
+.Img.-renderforest {
+  background-image: url('https://static.rfstat.com/renderforest/static/images/Logo1024x1024-01.png');
+  background-size: 70% !important;
 }
 
 .Divider {
@@ -223,6 +219,29 @@ a {
   .Img {
     width: 120px;
     height: 100px;
+  }
+
+  .Img {
+    width: 100px;
+    height: 80px;
+  }
+
+  .Img.Starter {
+    width: 100px;
+    height: 70px;
+  }
+
+  .Img.Silver {
+    width: 130px;
+    height: 100px;
+  }
+
+  .Img.Gold {
+
+  }
+
+  .OrgName {
+    font-size: 1em;
   }
 
 }

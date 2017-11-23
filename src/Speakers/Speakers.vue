@@ -2,7 +2,7 @@
   <section class="Speakers" id="Speakers">
     <div class="Container">
 
-      <h1 class="Title">WHO ARE THE NINJAS?</h1>
+      <h2 class="Title">WHO ARE THE NINJAS?</h2>
       <div class="row justify-content-center">
 
         <div class="col-sm-6 col-md-4 col-lg-3 col-speaker" v-for="(speaker, index) in speakers" :key="index">
@@ -114,6 +114,10 @@ export default {
 </script>
 
 <style scoped>
+
+.Speakers {
+  overflow: hidden;
+}
 
 .row {
   margin-left: -20px;
