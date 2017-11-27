@@ -79,12 +79,12 @@
         </div>
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
-          <a href="http://istc.am/en/" target="_blank">
+          <a href="http://www.itjobs.am" target="_blank">
             <div
               class="Img"
-              style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/21731750_1736095493088418_8372728911051007100_o.jpg?oh=a8f84a82b7ac16c17efd0a2fb30f5141&oe=5A876DAA)">
+              style="background-image: url(https://1424647379.rsc.cdn77.org/jsconf/itjobs-logo.svg);background-size: 70%;">
             </div>
-            <h5 class="OrgName">Innovative Solutions and<br />Technologies Center</h5>
+            <h5 class="OrgName">itjobs.am</h5>
           </a>
         </div>
 
@@ -99,12 +99,12 @@
         </div>
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
-          <a href="http://www.itjobs.am" target="_blank">
+          <a href="http://coworking.istc.am/" target="_blank">
             <div
               class="Img"
-              style="background-image: url(https://1424647379.rsc.cdn77.org/jsconf/itjobs-logo.svg);background-size: 70%;">
+              style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/21731750_1736095493088418_8372728911051007100_o.jpg?oh=a8f84a82b7ac16c17efd0a2fb30f5141&oe=5A876DAA)">
             </div>
-            <h5 class="OrgName">itjobs.am</h5>
+            <h5 class="OrgName">ISTC Coworking Space</h5>
           </a>
         </div>
 
