@@ -3,7 +3,20 @@
     <div class="Container">
 
       <h3 class="Title">Sponsors</h3>
-      <div class="row justify-content-center">
+
+
+      <div class="row justify-content-center SponsorsGold">
+        <div class="col-12 col-sm-6">
+          <a href="https://www.betconstruct.com/" target="_blank">
+            <div
+              class="Img -gold -betconstruct">
+            </div>
+            <h2 class="OrgName">BetConstruct</h2>
+          </a>
+        </div>
+      </div>
+
+      <div class="row justify-content-center SponsorsSilver">
 
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
@@ -46,7 +59,7 @@
 
       </div>
 
-      <div class="row justify-content-center">
+      <div class="row justify-content-center SponsorsStarter">
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
           <a href="http://armsoft.am/" target="_blank">
@@ -55,11 +68,11 @@
           </a>
         </div>
       </div>
-      <div class="CallToAction">
+      <!-- <div class="CallToAction">
         <a href="https://goo.gl/875gvc" class="Button -green" target="_blank">
           Become a sponsor
         </a>
-      </div>
+      </div> -->
 
       <div class="Divider">
       </div>
@@ -148,6 +161,18 @@ export default {
   margin: 0 auto;
 }
 
+.SponsorsGold {
+  margin-bottom: 45px;
+}
+
+.SponsorsSilver {
+  margin-bottom: 20px;
+}
+
+.SponsorsStarter {
+  margin-bottom: 25px;
+}
+
 .Img.-starter {
   width: 120px;
   height: 80px;
@@ -159,7 +184,8 @@ export default {
 }
 
 .Img.-gold {
-
+  width: 300px;
+  height: 100px;
 }
 
 .Img.-armsoft {
@@ -185,6 +211,11 @@ export default {
 .Img.-renderforest {
   background-image: url('https://static.rfstat.com/renderforest/static/images/Logo1024x1024-01.png');
   background-size: 70% !important;
+}
+
+.Img.-betconstruct {
+  background-image: url(../_assets/betconstruct-logo.svg);
+  background-size: 100% !important;
 }
 
 .Divider {
@@ -240,7 +271,8 @@ a {
   }
 
   .Img.-gold {
-
+    width: 100%;
+    padding-bottom: 30%;
   }
 
   .OrgName {
