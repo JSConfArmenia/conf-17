@@ -1,3 +1,18 @@
+<script>
+import topics from './topics';
+import TimeScale from './TimeScale';
+
+export default {
+  data: () => ({
+    topicsByRooms: topics,
+  }),
+  components: {
+    TimeScale,
+  },
+};
+</script>
+
+
 <template>
   <section class="Schedule" id="Schedule">
     <div class="Container">
@@ -10,14 +25,26 @@
         </p>
         <h3 class="Subtitle">Saturday, 9 December 2017</h3>
 
-        <table>
+        <div class="TimeTable">
+          <TimeScale />
+          <div class="Venue">
+
+          </div>
+          <div class="Venue">
+
+          </div>
+          <div class="Venue">
+
+          </div>
+        </div>
+
+        <!-- <table>
           <thead>
             <tr>
               <th width="40%">TOPIC</th>
               <th>SPEAKER</th>
               <th>LANG</th>
-              <th>TIME</th>
-              <th>VENUE</th>
+              <th>Venue</th>
             </tr>
           </thead>
           <tbody>
@@ -28,18 +55,17 @@
               <td class="Lang">
                 <span class="LangBadge" :class="topic.lang" >{{topic.lang}}</span>
               </td>
-              <td class="Time">{{topic.time}}</td>
               <td class="Venue">{{topic.venue}}</td>
             </tr>
 
             <tr>
-              <td colspan="5" style="text-align: center;">
+              <td colspan="4" style="text-align: center;">
                 More topics are coming soon
               </td>
             </tr>
 
           </tbody>
-        </table>
+        </table> -->
 
       </div>
 
@@ -47,128 +73,9 @@
   </section>
 </template>
 
-<script>
-export default {
-  data: () => ({
-    topics: [
-      {
-        name: 'Functional Programming in JavaScript',
-        speaker: 'Rouben Meschian',
-        lang: 'en',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'React Native: The Dark Art of Native APIs',
-        speaker: 'Shahen Hovhannisyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'React Native app development via Expo SDK',
-        speaker: 'Edgar Aroutiounian',
-        lang: 'en',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Static Type Checking with FlowType',
-        speaker: 'Edgar Marukyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Angular 5 vs React vs Vue',
-        speaker: 'Michael Petrosyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Creating a Webpack Config for Production from scratch',
-        speaker: 'Michael Manukyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Universal React with Next.js',
-        speaker: 'Gnun Ulikhanyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'V8 engine, JavaScript Code Interpretation and Execution',
-        speaker: 'Shahen Hovhannisyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Real time applications with Firebase and React',
-        speaker: 'Slavik Manukyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Why to choose Node.js for IOT',
-        speaker: 'Tigran Bayburtsyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Node.js: diving deeper into libuv',
-        speaker: 'Vardan Grigoryan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Reactive Extensions for JavaScript - RxJS',
-        speaker: 'Varuzhan Harutyunyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'The true nature and the super power of WebAssembly',
-        speaker: 'Armen Mshetsyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: '“await”-ing for new features of modern “async” JavaScript',
-        speaker: 'Lilit Tadevosyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Creating reliable web applications with Elm',
-        speaker: 'Hovhannes Babayan',
-        lang: '-',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Browser rendering engines: the road from code to pixels',
-        speaker: 'Gagik Arustamyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-    ],
-  }),
-};
-</script>
 
-<style scoped>
+
+<style >
 
 .Schedule {
   text-align: center;
@@ -200,6 +107,16 @@ h3 {
   margin: 0 0 40px 0;
   line-height: normal;
 }
+
+.TimeTable {
+  width: 100%;
+  display: flex;
+  padding-left: 100px;
+  position: relative;
+  height: 1000px;
+}
+
+
 
 th, td {
   border-top: 1px solid #dedede;
