@@ -48,23 +48,37 @@
         </div>
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
-          <a href="https://aua.am/" target="_blank">
+          <a href="https://www.benivo.com/" target="_blank">
             <div
-              class="Img -silver -aua"
+              class="Img -silver -benivo"
               >
             </div>
-            <h3 class="OrgName">American University of Armenia</h3>
+            <h3 class="OrgName">Benivo</h3>
           </a>
         </div>
+
+        <!-- <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
+
+        </div> -->
 
       </div>
 
       <div class="row justify-content-center SponsorsStarter">
 
-        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
+          <a href="https://aua.am/" target="_blank">
+            <div
+              class="Img -starter -aua"
+              >
+            </div>
+            <h4 class="OrgName">American University <br>of Armenia</h4>
+          </a>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
           <a href="http://armsoft.am/" target="_blank">
             <div class="Img -starter -armsoft"></div>
-            <h5 class="OrgName">ArmSoft</h5>
+            <h4 class="OrgName">ArmSoft</h4>
           </a>
         </div>
       </div>
@@ -166,7 +180,7 @@ export default {
 }
 
 .SponsorsSilver {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .SponsorsStarter {
@@ -174,8 +188,8 @@ export default {
 }
 
 .Img.-starter {
-  width: 120px;
-  height: 80px;
+  width: 130px;
+  height: 90px;
 }
 
 .Img.-silver {
@@ -205,12 +219,17 @@ export default {
 
 .Img.-workfront {
   background-image: url(../_assets/workfront-logo.png);
-  background-size: 120% !important;
+  background-size: 125% !important;
 }
 
 .Img.-renderforest {
   background-image: url('https://static.rfstat.com/renderforest/static/images/Logo1024x1024-01.png');
-  background-size: 70% !important;
+  background-size: 55% !important;
+}
+
+.Img.-benivo {
+  background-image: url(../_assets/benivo-logo.svg);
+  background-size: 100% !important;
 }
 
 .Img.-betconstruct {
