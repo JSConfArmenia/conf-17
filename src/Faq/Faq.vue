@@ -6,7 +6,7 @@
 
       <div class="row">
         <div class="col-md-6">
-          <h3 class="Question">What is JavaScript Conference Yerevan?</h3>
+          <h3 class="Question">What is JavaScript Conference Armenia?</h3>
           <p class="Answer">
             JS Conference is a big IT event that brings together a huge number of IT
             professionals to attend talks, workshops, participate in
@@ -43,15 +43,15 @@
             (40 Marshal Baghramyan Ave, Yerevan)․
           </p>
 
-
-        </div>
-        <div class="col-md-6">
           <h3 class="Question">How to participate?</h3>
           <p class="Answer">
             The entry of JS Conference Yerevan 2017 is invitation-only so
             please make sure to request your invite
             <a href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2" target="_blank">here</a>.
           </p>
+
+        </div>
+        <div class="col-md-6">
 
           <h3 class="Question">How much is the entry-ticket?</h3>
           <p class="Answer">
@@ -60,7 +60,7 @@
 
           <h3 class="Question">When is the deadline for registration?</h3>
           <p class="Answer">
-            There is no deadline but the sooner you register the more interesting it will for you as a
+            There is no deadline but the sooner you register the more interesting it will be for you as a
             participant as you will have the chance to take part in the preconference activities.
           </p>
 
@@ -68,6 +68,13 @@
           <p class="Answer">
             To see the JS Conference Armenia team, please,
             <a href="#Team" v-smooth-scroll="navConfig">click here</a>.
+          </p>
+
+          <h3 class="Question">How can I help the team?</h3>
+          <p class="Answer">
+            Oh, thank you for your kindness.
+            To help us make the JavaScript Conference Armenia happen please <a href="https://goo.gl/cwwyiz" target="_blank">apply here</a>
+            to become a JS Conf ninja volunteer!
           </p>
 
           <h3 class="Question">Who supports JS Conference Armenia?</h3>
@@ -82,6 +89,7 @@
             your larger network in IT, updated knowledge,
             nice little gifts and good memories. Do you still need that piece of paper?
           </p>
+
         </div>
       </div>
 

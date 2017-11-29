@@ -3,7 +3,20 @@
     <div class="Container">
 
       <h3 class="Title">Sponsors</h3>
-      <div class="row justify-content-center">
+
+
+      <div class="row justify-content-center SponsorsGold">
+        <div class="col-12 col-sm-6">
+          <a href="https://www.betconstruct.com/" target="_blank">
+            <div
+              class="Img -gold -betconstruct">
+            </div>
+            <h2 class="OrgName">BetConstruct</h2>
+          </a>
+        </div>
+      </div>
+
+      <div class="row justify-content-center SponsorsSilver">
 
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
@@ -35,31 +48,45 @@
         </div>
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
-          <a href="https://aua.am/" target="_blank">
+          <a href="https://www.benivo.com/" target="_blank">
             <div
-              class="Img -silver -aua"
+              class="Img -silver -benivo"
               >
             </div>
-            <h3 class="OrgName">American University of Armenia</h3>
+            <h3 class="OrgName">Benivo</h3>
           </a>
         </div>
 
+        <!-- <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
+
+        </div> -->
+
       </div>
 
-      <div class="row justify-content-center">
+      <div class="row justify-content-center SponsorsStarter">
 
-        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
+          <a href="https://aua.am/" target="_blank">
+            <div
+              class="Img -starter -aua"
+              >
+            </div>
+            <h4 class="OrgName">American University <br>of Armenia</h4>
+          </a>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-3">
           <a href="http://armsoft.am/" target="_blank">
             <div class="Img -starter -armsoft"></div>
-            <h5 class="OrgName">ArmSoft</h5>
+            <h4 class="OrgName">ArmSoft</h4>
           </a>
         </div>
       </div>
-      <div class="CallToAction">
+      <!-- <div class="CallToAction">
         <a href="https://goo.gl/875gvc" class="Button -green" target="_blank">
           Become a sponsor
         </a>
-      </div>
+      </div> -->
 
       <div class="Divider">
       </div>
@@ -79,12 +106,12 @@
         </div>
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
-          <a href="http://istc.am/en/" target="_blank">
+          <a href="http://www.itjobs.am" target="_blank">
             <div
               class="Img"
-              style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/21731750_1736095493088418_8372728911051007100_o.jpg?oh=a8f84a82b7ac16c17efd0a2fb30f5141&oe=5A876DAA)">
+              style="background-image: url(https://1424647379.rsc.cdn77.org/jsconf/itjobs-logo.svg);background-size: 70%;">
             </div>
-            <h5 class="OrgName">Innovative Solutions and<br />Technologies Center</h5>
+            <h5 class="OrgName">itjobs.am</h5>
           </a>
         </div>
 
@@ -99,12 +126,12 @@
         </div>
 
         <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
-          <a href="http://www.itjobs.am" target="_blank">
+          <a href="http://coworking.istc.am/" target="_blank">
             <div
               class="Img"
-              style="background-image: url(https://1424647379.rsc.cdn77.org/jsconf/itjobs-logo.svg);background-size: 70%;">
+              style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/21731750_1736095493088418_8372728911051007100_o.jpg?oh=a8f84a82b7ac16c17efd0a2fb30f5141&oe=5A876DAA)">
             </div>
-            <h5 class="OrgName">itjobs.am</h5>
+            <h5 class="OrgName">ISTC Coworking Space</h5>
           </a>
         </div>
 
@@ -148,9 +175,21 @@ export default {
   margin: 0 auto;
 }
 
+.SponsorsGold {
+  margin-bottom: 45px;
+}
+
+.SponsorsSilver {
+  margin-bottom: 50px;
+}
+
+.SponsorsStarter {
+  margin-bottom: 25px;
+}
+
 .Img.-starter {
-  width: 120px;
-  height: 80px;
+  width: 130px;
+  height: 90px;
 }
 
 .Img.-silver {
@@ -159,7 +198,8 @@ export default {
 }
 
 .Img.-gold {
-
+  width: 300px;
+  height: 100px;
 }
 
 .Img.-armsoft {
@@ -179,12 +219,22 @@ export default {
 
 .Img.-workfront {
   background-image: url(../_assets/workfront-logo.png);
-  background-size: 120% !important;
+  background-size: 125% !important;
 }
 
 .Img.-renderforest {
   background-image: url('https://static.rfstat.com/renderforest/static/images/Logo1024x1024-01.png');
-  background-size: 70% !important;
+  background-size: 55% !important;
+}
+
+.Img.-benivo {
+  background-image: url(../_assets/benivo-logo.svg);
+  background-size: 100% !important;
+}
+
+.Img.-betconstruct {
+  background-image: url(../_assets/betconstruct-logo.svg);
+  background-size: 100% !important;
 }
 
 .Divider {
@@ -240,7 +290,8 @@ a {
   }
 
   .Img.-gold {
-
+    width: 100%;
+    padding-bottom: 30%;
   }
 
   .OrgName {
