@@ -113,7 +113,7 @@ h3 {
   display: flex;
   padding-left: 100px;
   position: relative;
-  height: 1000px;
+  height: 1400px;
 }
 
 
