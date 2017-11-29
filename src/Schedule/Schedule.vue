@@ -1,13 +1,11 @@
 <script>
-import topics from './topics';
 import TimeScale from './TimeScale';
+import TimeTable from './TimeTable';
 
 export default {
-  data: () => ({
-    topicsByRooms: topics,
-  }),
   components: {
     TimeScale,
+    TimeTable,
   },
 };
 </script>
@@ -25,47 +23,13 @@ export default {
         </p>
         <h3 class="Subtitle">Saturday, 9 December 2017</h3>
 
-        <div class="TimeTable">
-          <TimeScale />
-          <div class="Venue">
+        <div class="TimeTableHeader">
 
-          </div>
-          <div class="Venue">
-
-          </div>
-          <div class="Venue">
-
-          </div>
         </div>
-
-        <!-- <table>
-          <thead>
-            <tr>
-              <th width="40%">TOPIC</th>
-              <th>SPEAKER</th>
-              <th>LANG</th>
-              <th>Venue</th>
-            </tr>
-          </thead>
-          <tbody>
-
-            <tr v-for="(topic, index) in topics" :key="index">
-              <td class="Name">{{topic.name}}</td>
-              <td class="Speaker">{{topic.speaker}}</td>
-              <td class="Lang">
-                <span class="LangBadge" :class="topic.lang" >{{topic.lang}}</span>
-              </td>
-              <td class="Venue">{{topic.venue}}</td>
-            </tr>
-
-            <tr>
-              <td colspan="4" style="text-align: center;">
-                More topics are coming soon
-              </td>
-            </tr>
-
-          </tbody>
-        </table> -->
+        <div class="TimeTableContainer">
+          <TimeScale />
+          <TimeTable />
+        </div>
 
       </div>
 
@@ -75,7 +39,7 @@ export default {
 
 
 
-<style >
+<style scoped>
 
 .Schedule {
   text-align: center;
@@ -108,97 +72,18 @@ h3 {
   line-height: normal;
 }
 
-.TimeTable {
+.TimeTableContainer {
   width: 100%;
   display: flex;
-  padding-left: 100px;
+  padding-left: 80px;
   position: relative;
-  height: 1400px;
-}
-
-
-
-th, td {
-  border-top: 1px solid #dedede;
-  border-bottom: 1px solid #dedede;
-  border-collapse: collapse;
-  text-align: left;
-  font-size: 14px;
-  padding: 15px 30px;
-}
-
-table {
-  /*text-transform: uppercase;*/
-  width: 80%;
-  border-collapse: collapse;
-}
-
-.Table {
-  display: flex;
-}
-
-th {
-  background-color: #f0f0f0;
-  font-weight: bold;
-}
-
-td {
-  background-color: #f9f9f9;
-  font-weight: 500;
-}
-
-tr:hover td {
-  background-color: #f0f0f0;
-}
-
-.Speaker:hover {
-  /*color: #4bb463;*/
-}
-
-.LangBadge {
-  background-color: #eaeaea;
-  padding: 3px 0;
-  text-align: center;
-  width: 30px;
-  display: inline-block;
-  font-size: .9em;
-}
-
-.LangBadge.en {
-  color: #0088c2;
-}
-
-.LangBadge.am {
-  color: #f07e31;
-}
-
-.Venue {
-  color: #707070;
+  height: 1575px;
 }
 
 @media (max-width: 768px) {
-
-  table, thead, tbody, th, td, tr {
-    display: block;
-    text-align: center;
-  }
-
-  thead tr {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-
-  .tdNum {
-    font-size: 19px;
-    background-color: #f0f0f0;
-    font-weight: bold;
-  }
-
   h3 {
   font-size: 15px;
   }
-
 }
 
 </style>

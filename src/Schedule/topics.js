@@ -2,6 +2,10 @@ export default [
   // Manoogyan
   [
     {
+      name: 'Opening',
+      duration: 30,
+    },
+    {
       name: 'Functional Programming in JavaScript',
       speaker: 'Rouben Meschian',
       duration: 60,
@@ -33,6 +37,9 @@ export default [
   // End of Manoogyan
   // 308E
   [
+    {
+      duration: 30,
+    },
     {
       name: 'Static Type Checking with FlowType',
       speaker: 'Edgar Marukyan',
@@ -93,6 +100,9 @@ export default [
   // End of 308E
   // 408E
   [
+    {
+      duration: 30,
+    },
     {
       name: 'V8 engine, JavaScript Code Interpretation and Execution',
       speaker: 'Shahen Hovhannisyan',

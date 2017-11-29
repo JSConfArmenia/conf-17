@@ -37,13 +37,14 @@ export default {
     right: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 
   .Item {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    height: 45px;
   }
 
   .Label {
@@ -52,6 +53,8 @@ export default {
     padding-left: 10px;
     text-align: right;
     font-size: .9em;
+    position: relative;
+    top: -11px;
   }
 
   .Ruller {
@@ -61,6 +64,6 @@ export default {
   }
 
   .Item:nth-child(odd) .Ruller {
-    background-color: #e23f72;
+    /* background-color: #e23f72; */
   }
 </style>
