@@ -5,7 +5,7 @@ import TopicItem from './TopicItem';
 
 export default {
   data: () => ({
-    topicsByRooms: topics,
+    topics,
   }),
   components: {
     TopicItem,
@@ -16,12 +16,20 @@ export default {
 <template>
   <div class="TimeTable">
     <div class="row">
+      <div class="col">
+        <div class="Venue">
+          <TopicItem
+            :topic="topics[0]" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
 
       <div class="col">
         <div class="Venue">
 
           <TopicItem
-            v-for="(topic, index) in topicsByRooms[0]"
+            v-for="(topic, index) in topics[1]"
             :key="index"
             :topic="topic" />
 
@@ -31,7 +39,7 @@ export default {
         <div class="Venue">
 
           <TopicItem
-            v-for="(topic, index) in topicsByRooms[1]"
+            v-for="(topic, index) in topics[2]"
             :key="index"
             :topic="topic" />
 
@@ -41,7 +49,7 @@ export default {
         <div class="Venue">
 
           <TopicItem
-            v-for="(topic, index) in topicsByRooms[2]"
+            v-for="(topic, index) in topics[3]"
             :key="index"
             :topic="topic" />
 
@@ -60,11 +68,11 @@ export default {
   }
 
   .row {
-    height: 100%;
+    /* height: 100%; */
   }
 
   .Venue {
-    height: 100%;
+    /* height: 100%; */
     flex: 1;
   }
 
