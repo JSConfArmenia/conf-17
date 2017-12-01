@@ -74,11 +74,6 @@ export default {
         position: 'JavaScript Engineer at BetConstruct',
       },
       {
-        img: 'https://media-exp1.licdn.com/media/AAEAAQAAAAAAAAjoAAAAJDM4ZjFhNzMzLWU5NzMtNDFkNi1hOWI2LWJjYTQ0MDhkZmJhYQ.jpg',
-        name: 'Vardan Grigoryan',
-        position: 'Backend Engineer at Helpin',
-      },
-      {
         img: 'https://1424647379.rsc.cdn77.org/jsconf/varuj.jpg',
         name: 'Varuzhan Harutyunyan',
         position: 'Senior Web Developer at Digitain',
@@ -107,6 +102,26 @@ export default {
         img: '/static/SpeakerGagikArustamyan.jpg',
         name: 'Gagik Arustamyan',
         position: 'Lead JavaScript Developer at SFL',
+      },
+      {
+        img: '/static/SpeakerVarikMatevosyan.jpg',
+        name: 'Varik Matevosyan',
+        position: 'Web Developer at Steadfast.tech',
+      },
+      {
+        img: '/static/SpeakerDavitBadalyan.jpg',
+        name: 'Davit Badalyan',
+        position: 'Software Engineering team lead at Workfront',
+      },
+      {
+        img: '/static/SpeakerArtakVardanyan.jpg',
+        name: 'Artak Vardanyan',
+        position: 'CTO at Steadfast.tech',
+      },
+      {
+        img: '/static/SpeakerNairiHarutyunyan.jpg',
+        name: 'Nairi Harutyunyan',
+        position: 'Database Developer at Optym',
       },
     ],
   }),
