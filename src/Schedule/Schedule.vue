@@ -52,7 +52,6 @@ export default {
           </div>
         </div>
 
-
         <div class="TimeTableSection">
           <TimeScale
             :start="'10:30'" />
@@ -103,44 +102,6 @@ export default {
           </div>
         </div>
 
-
-        <!-- <div class="TimeTableSection">
-          <header class="TimeTableHeader">
-            <div class="row">
-              <div class="col">
-                <h3 class="VenueName">Entry Desk</h3>
-              </div>
-            </div>
-          </header>
-          <div class="TimeTableContent">
-            <TimeScale />
-            <div class="TimeTableTopics">
-              <TopicItem :topic="test" />
-            </div>
-          </div> -->
-          <!-- <TimeTableContent /> -->
-        </div>
-        <!-- <section class="TimeTableSection">
-          <header class="Header">
-            <div class="row">
-              <div class="col">
-                <h3 class="VenueName">Manoogyan Hall</h3>
-              </div>
-              <div class="col">
-                <h3 class="VenueName">408E</h3>
-              </div>
-              <div class="col">
-                <h3 class="VenueName">308E</h3>
-              </div>
-            </div>
-          </header>
-          <div class="Content">
-
-          </div>
-        </section> -->
-
-        <!-- <TimeScale /> -->
-        <!-- <TimeTable /> -->
       </div>
 
     </div>

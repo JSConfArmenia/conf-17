@@ -11,8 +11,8 @@ export default {
       return moment(`2017-12-09 ${this.start}:00`).add(minutesPassed, 'm').format('H:mm');
     },
   },
-  mounted: function created() {
-    console.log(this.start);
+  mounted: function mounted() {
+
   },
 };
 </script>
