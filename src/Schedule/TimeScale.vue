@@ -2,14 +2,17 @@
 import moment from 'moment';
 
 export default {
+  props: ['start'],
   data: () => ({
-    start: moment('2017-12-09 10:00:00'),
     timeScale: Array.from(Array(35)).map((item, index) => (index * 15)),
   }),
   methods: {
     getTime: function getTime(minutesPassed) {
-      return moment(this.start).add(minutesPassed, 'm').format('H:mm');
+      return moment(`2017-12-09 ${this.start}:00`).add(minutesPassed, 'm').format('H:mm');
     },
+  },
+  mounted: function created() {
+    console.log(this.start);
   },
 };
 </script>
@@ -29,15 +32,16 @@ export default {
 </template>
 
 <style scoped>
+
   .TimeScale {
     position: absolute;
     left: 0;
-    top: 0;
-    bottom: 0;
+    /* top: 0; */
+    /* bottom: 0; */
     right: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
   }
 
   .Item {
@@ -45,6 +49,7 @@ export default {
     justify-content: space-between;
     align-items: flex-start;
     height: 45px;
+    flex-basis: 45px;
   }
 
   .Label {
@@ -60,10 +65,26 @@ export default {
   .Ruller {
     flex: 1;
     height: 1px;
-    background-color: #ccc;
+    background-color: rgba(0, 0, 0, 0.2);
   }
 
   .Item:nth-child(odd) .Ruller {
     /* background-color: #e23f72; */
+  }
+
+  .Item:nth-child(even) .Ruller {
+    margin-left: 5px;
+  }
+
+  @media (max-width: 768px) {
+    .TimeScale {
+      font-size: .9em;
+    }
+
+    .Label {
+      /* padding-left: 0; */
+      padding-left: 15px;
+      padding-right: 5px;
+    }
   }
 </style>

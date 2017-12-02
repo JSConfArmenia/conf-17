@@ -27,18 +27,25 @@ export default {
     display: flex;
     width: 100%;
     align-items: stretch;
-    padding: 5px;
+    padding: 8px 6px;
   }
 
   .Topic:not(.-empty) {
-    background-color: rgba(246, 246, 246, 0.9);
+    background-color: rgba(248, 248, 248, 0.95);
+    /* background-color: #fff; */
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 3px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.0);
+    transition: all .3s ease;
+  }
+
+  .Topic:not(.-empty):hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
 
 
