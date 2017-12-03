@@ -26,11 +26,11 @@ export default [
       lang: 'en',
     },
     {
-      name: 'Тестирование и структуры данных в JavaScript',
+      name: 'Как начать писать юнит-тесты и как это повлияет на код вашего проекта',
       // speaker: 'Игорь Алексеенко',
       speakerId: 15,
       duration: 45,
-      levels: [0, 1, 2],
+      levels: [0, 1],
       lang: 'ru',
     },
     {

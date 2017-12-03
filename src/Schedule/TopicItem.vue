@@ -14,7 +14,7 @@ export default {
   },
   methods: {
     getTopicLevelClassname: function getTopicLevelClassname() {
-      if (!this.topic || !this.topic.level || !this.topic.level.length) {
+      if (!this.topic || !this.topic.levels || !this.topic.levels.length) {
         return '-level-all';
       }
 
@@ -53,7 +53,7 @@ export default {
       <div class="Body" v-if="speaker.name">
         <div class="row">
           <div class="col-4">
-            <span class="Badge TopicBadge" :class="getTopicLevelClassname()"></span>
+            <span class="Badge LevelBadge" :class="getTopicLevelClassname()"></span>
             <span class="Badge LangBadge" :class="`-${topic.lang}`">
               {{ topic.lang }}
             </span>
@@ -96,10 +96,11 @@ export default {
     align-items: flex-start;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.0);
     transition: all .3s ease;
+    /* border: 1px solid; */
   }
 
   .Topic:not(.-empty):hover {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
   }
 
   .Topic.-small:not(.-no-speaker) .Name {
@@ -148,14 +149,70 @@ export default {
     align-items: center;
     justify-content: center;
     height: 22px;
-    min-width: 22px;
+    width: 22px;
     padding: 0 4px;
-    background-color: #e6e6e6;
-    border-radius: 2px;
+    /* background-color: #e6e6e6; */
+    background-color: #fff;
+    border-radius: 4px;
     font-size: .8em;
     margin-right: 2px;
-    vertical-align: middle;
+    vertical-align: top;
+    opacity: .6;
+    transition: all .3s ease;
+    cursor: default;
   }
+
+  .Badge:hover {
+    opacity: 1;
+  }
+
+  .LevelBadge {
+    border: 6px solid;
+    background-color: #fff;
+  }
+
+  .Topic.-level-all,
+  .LevelBadge.-level-all {
+    border-color: #00b9ff;
+    border-left-color: #00b9ff;
+    border-top-color: #9fc718;
+    border-right-color: #f38e1d;
+    border-bottom-color: #de3574;
+  }
+
+  .Topic.-level-beginner,
+  .LevelBadge.-level-beginner {
+    border-color: #9fc718;
+  }
+
+  .Topic.-level-beginner-intermadiate,
+  .LevelBadge.-level-beginner-intermadiate {
+    border-top-color: #9fc718;
+    border-left-color: #9fc718;
+    border-right-color: #f38e1d;
+    border-bottom-color: #f38e1d;
+  }
+
+  .Topic.-level-intermadiate,
+  .LevelBadge.-level-intermediate {
+    border-color: #f38e1d;
+  }
+
+  .Topic.-level-intermadiate-advanced,
+  .LevelBadge.-level-intermadiate-advanced {
+    border-color: #f38e1d;
+
+    border-top-color: #f38e1d;
+    border-left-color: #f38e1d;
+    border-right-color: #de3574;
+    border-bottom-color: #de3574;
+  }
+
+  .Topic.-level-advanced,
+  .LevelBadge.-level-advanced {
+    border-color: #de3574;
+  }
+
 
   /* .LangBadge {
     background-color: #eaeaea;
@@ -166,12 +223,18 @@ export default {
     font-size: .9em;
   } */
 
+  .LangBadge {
+    border: 1px solid;
+  }
+
   .LangBadge.-en {
     color: #0088c2;
+    border-color: #0088c2;
   }
 
   .LangBadge.-am {
     color: #f07e31;
+    border-color: #f07e31;
   }
 
   .Speaker {
@@ -182,11 +245,18 @@ export default {
     text-overflow: ellipsis;
     color: #999;
     text-align: right;
+    /* opacity: .7; */
+    transition: all .3s ease;
+    cursor: default;
+  }
+
+  .Speaker:hover .Avatar {
+    opacity: 1;
   }
 
   .Avatar {
-    width: 26px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
     display: inline-block;
     border-radius: 4px;
     background-size: cover;
@@ -195,6 +265,8 @@ export default {
     vertical-align: middle;
     margin-left: 4px;
     border: 1px solid #0075bf;
+    transition: all .3s ease;
+    opacity: .7;
   }
 
 
