@@ -58,17 +58,17 @@ export default {
           <div class="TimeTableContent -scrollable">
             <div class="TimeTableContentHeader">
               <div class="row">
-                <div class="col">
+                <div class="col col-4">
                   <label class="Label">
                     Manoogyan Hall
                   </label>
                 </div>
-                <div class="col">
+                <div class="col col-4">
                   <label class="Label">
                     408E
                   </label>
                 </div>
-                <div class="col">
+                <div class="col col-4">
                   <label class="Label">
                     308E
                   </label>
@@ -77,21 +77,21 @@ export default {
             </div>
             <div class="TimeTableTopics">
               <div class="row">
-                <div class="col">
+                <div class="col col-4">
                   <TopicItem
                     v-for="(topic, index) in topics[1]"
                     :key="index"
                     :topic="topic"
                     :speaker="getSpeaker(topic.speakerId)" />
                 </div>
-                <div class="col">
+                <div class="col col-4">
                   <TopicItem
                     v-for="(topic, index) in topics[2]"
                     :key="index"
                     :topic="topic"
                     :speaker="getSpeaker(topic.speakerId)" />
                 </div>
-                <div class="col">
+                <div class="col col-4">
                   <TopicItem
                     v-for="(topic, index) in topics[3]"
                     :key="index"
@@ -209,7 +209,7 @@ export default {
     }
 
     .TimeTableSection {
-      /* padding-left: 55px; */
+      padding-left: 60px;
     }
   }
 

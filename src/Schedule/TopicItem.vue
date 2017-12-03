@@ -114,7 +114,7 @@ export default {
     display: flex;
     width: 100%;
     align-items: stretch;
-    padding: 8px 6px;
+    padding: 7px 5px;
     text-align: left;
   }
 
@@ -137,12 +137,17 @@ export default {
     /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
   }
 
+   .Topic.-small:not(.-no-speaker) {
+     padding: 3px 10px;
+   }
+
   .Topic.-small:not(.-no-speaker) .Name {
     font-size: .7em;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
     padding-bottom: 5px;
+    margin-bottom: 7px;
   }
 
   .Topic.-has-speaker .Name {
@@ -303,6 +308,11 @@ export default {
     opacity: .7;
   }
 
-
+  /* @media (max-width: 980px) {
+    .Topic.-small:not(.-no-speaker) .Name {
+      padding-bottom: 3px;
+      margin-bottom: 5px;
+    }
+  } */
 
 </style>
