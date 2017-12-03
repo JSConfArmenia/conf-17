@@ -54,13 +54,13 @@ export default {
           <h5 class="Position">{{speakers[speakerId].position}}</h5>
         </div>
 
-        <!-- <div class="col-sm-6 col-md-4 col-lg-3 col-speaker">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-speaker">
           <a href="https://goo.gl/65ecso">
             <div class="Img -blank"></div>
             <h3 class="Name">Your Name</h3>
             <h5 class="Position">Become a Ninja!</h5>
           </a>
-        </div> -->
+        </div>
 
 
       </div>

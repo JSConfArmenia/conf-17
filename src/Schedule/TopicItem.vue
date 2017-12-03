@@ -25,6 +25,22 @@ export default {
 
       return `-level-${levels}`;
     },
+    getTopicLevelTooltipContent: function getTopicLevelName() {
+      return `Topic level: ${this.getTopicLevelClassname().replace(/-level-/, '')}`;
+    },
+    getLanguageTooltipContent: function getLanguageTooltipContent() {
+      if (this.topic.lang === 'am') {
+        return 'Language: Armenian';
+      }
+      else if (this.topic.lang === 'ru') {
+        return 'Language: Russian';
+      }
+      else if (this.topic.lang === 'en') {
+        return 'Language: English';
+      }
+
+      return '';
+    },
   },
   // ['topic', 'speaker'],
 };
@@ -53,18 +69,36 @@ export default {
       <div class="Body" v-if="speaker.name">
         <div class="row">
           <div class="col-4">
-            <span class="Badge LevelBadge" :class="getTopicLevelClassname()"></span>
-            <span class="Badge LangBadge" :class="`-${topic.lang}`">
+            <span
+              class="Badge LangBadge"
+              :class="`-${topic.lang}`"
+              v-tooltip.bottom.start="{
+                content: getLanguageTooltipContent(),
+                delay: 50,
+              }">
               {{ topic.lang }}
             </span>
+            <span
+              class="Badge LevelBadge"
+              :class="getTopicLevelClassname()"
+              v-tooltip.bottom.start="{
+                content: getTopicLevelTooltipContent(),
+                delay: 50,
+              }"></span>
           </div>
           <div class="col-8">
-            <div class="Speaker">
-              {{ speaker.name }}
-              <div
-                class="Avatar"
-                v-if="speaker.img"
-                :style="{ backgroundImage: `url(${speaker.img})` }" ></div>
+            <div class="Speaker" >
+              <span
+                v-tooltip.bottom.end="{
+                  content: speaker.position,
+                  delay: 50,
+                }">
+                {{ speaker.name }}
+                <div
+                  class="Avatar"
+                  v-if="speaker.img"
+                  :style="{ backgroundImage: `url(${speaker.img})` }" ></div>
+              </span>
             </div>
           </div>
 
@@ -167,7 +201,7 @@ export default {
   }
 
   .LevelBadge {
-    border: 6px solid;
+    border: 5px solid;
     background-color: #fff;
   }
 
