@@ -23,11 +23,7 @@ export default {
     <div class="Container">
 
       <h2 class="Title">Event Schedules</h2>
-      <p class="Description">
-        (subject to change)
-      </p>
       <h3 class="Subtitle">Saturday, 9 December 2017</h3>
-
 
       <div class="TimeTable">
         <div class="TimeTableSection">
@@ -217,7 +213,7 @@ export default {
 
 .Schedule {
   text-align: center;
-  padding: 120px 0 100px 0;
+  padding: 80px 0 100px 0;
   background-color: #fff;
   background-repeat: no-repeat;
   background-image: url(../_assets/color-bg-left-bottom.png), url(../_assets/color-bg-right-bottom.png), url(../_assets/color-bg-right-top.png);

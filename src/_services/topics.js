@@ -91,8 +91,11 @@ export default [
       lang: 'am',
     },
     {
-      name: 'Break',
-      duration: 30,
+      name: 'Varik Matevosyan',
+      speaker: 'JS Memory management and garbage collection',
+      duration: 45,
+      levels: [1, 2],
+      lang: 'am',
     },
     {
       name: '“await”-ing for new features of modern “async” JavaScript',
@@ -102,20 +105,16 @@ export default [
       lang: 'am',
     },
     {
-      name: 'Varik Matevosyan',
-      speaker: 'JS Memory management and garbage collection',
-      duration: 45,
-      levels: [1, 2],
-      lang: 'am',
-    },
-    {
       name: 'Asynchronous ECMAScript',
       speaker: 'Nairi Harutyunyan',
       duration: 45,
       levels: [0, 1],
       lang: 'am',
     },
-
+    {
+      name: 'N/A',
+      duration: 45,
+    },
   ],
   // End of 408E
   // 308E
