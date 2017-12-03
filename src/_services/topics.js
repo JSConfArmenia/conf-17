@@ -52,6 +52,9 @@ export default [
       lang: 'am',
     },
     {
+      duration: 15,
+    },
+    {
       name: 'Closing',
       duration: 30,
       lang: 'am',
@@ -141,7 +144,7 @@ export default [
       speaker: 'Hovhannes Babayan',
       duration: 30,
       levels: [1, 2],
-      lang: '-',
+      lang: 'am',
     },
     {
       name: 'Why to choose Node.js for IOT',
@@ -151,8 +154,11 @@ export default [
       lang: 'am',
     },
     {
-      name: 'Break',
-      duration: 30,
+      name: 'Node.js Microservices from Zero to Hero',
+      speaker: 'Artak Vardanyan',
+      levels: [1, 2],
+      duration: 45,
+      lang: 'am',
     },
     {
       name: 'Serverless node.js applications using Cloud platforms',
