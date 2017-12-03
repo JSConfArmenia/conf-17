@@ -74,4 +74,29 @@ export default {
     name: 'Gagik Arustamyan',
     position: 'Lead JavaScript Developer at SFL',
   },
+  15: {
+    img: '/static/SpeakerIgorAlexeenko.jpg',
+    name: 'Igor Alexeenko',
+    position: 'Software Developer, Tutor at HTML Academy',
+  },
+  16: {
+    img: '/static/SpeakerVarikMatevosyan.jpg',
+    name: 'Varik Matevosyan',
+    position: 'Web Developer at Steadfast.tech',
+  },
+  17: {
+    img: '/static/SpeakerDavitBadalyan.jpg',
+    name: 'Davit Badalyan',
+    position: 'Software Engineering team lead at Workfront',
+  },
+  18: {
+    img: '/static/SpeakerArtakVardanyan.jpg',
+    name: 'Artak Vardanyan',
+    position: 'CTO at Steadfast.tech',
+  },
+  19: {
+    img: '/static/SpeakerNairiHarutyunyan.jpg',
+    name: 'Nairi Harutyunyan',
+    position: 'Database Developer at Optym',
+  },
 };

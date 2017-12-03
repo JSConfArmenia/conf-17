@@ -10,6 +10,11 @@ export default {
     topics,
     speakers,
   }),
+  methods: {
+    getSpeaker: function getSpeaker(speakerId) {
+      return this.speakers[speakerId];
+    },
+  },
   components: {
     TimeScale,
     TopicItem,
@@ -76,19 +81,22 @@ export default {
                   <TopicItem
                     v-for="(topic, index) in topics[1]"
                     :key="index"
-                    :topic="topic" />
+                    :topic="topic"
+                    :speaker="getSpeaker(topic.speakerId)" />
                 </div>
                 <div class="col">
                   <TopicItem
                     v-for="(topic, index) in topics[2]"
                     :key="index"
-                    :topic="topic" />
+                    :topic="topic"
+                    :speaker="getSpeaker(topic.speakerId)" />
                 </div>
                 <div class="col">
                   <TopicItem
                     v-for="(topic, index) in topics[3]"
                     :key="index"
-                    :topic="topic" />
+                    :topic="topic"
+                    :speaker="getSpeaker(topic.speakerId)" />
                 </div>
               </div>
 
