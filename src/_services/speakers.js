@@ -77,7 +77,7 @@ export default {
   15: {
     img: '/static/SpeakerIgorAlexeenko.jpg',
     name: 'Igor Alexeenko',
-    position: 'Software Developer, Tutor at HTML Academy',
+    position: 'Teacher at HTML Academy',
   },
   16: {
     img: '/static/SpeakerVarikMatevosyan.jpg',
