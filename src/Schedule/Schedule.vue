@@ -1,17 +1,17 @@
 <script>
-import topics from './topics';
+import topics from '@/_services/topics';
+import speakers from '@/_services/speakers';
 
 import TimeScale from './TimeScale';
-import TimeTable from './TimeTable';
 import TopicItem from './TopicItem';
 
 export default {
   data: () => ({
     topics,
+    speakers,
   }),
   components: {
     TimeScale,
-    TimeTable,
     TopicItem,
   },
 };
@@ -28,9 +28,7 @@ export default {
       </p>
       <h3 class="Subtitle">Saturday, 9 December 2017</h3>
 
-      <!-- <div class="TimeTableHeader">
 
-      </div> -->
       <div class="TimeTable">
         <div class="TimeTableSection">
           <TimeScale
