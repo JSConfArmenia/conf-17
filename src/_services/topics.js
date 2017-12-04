@@ -50,15 +50,20 @@ export default [
       lang: 'am',
     },
     {
+      name: 'Creating reliable web applications with Elm',
+      // speaker: 'Hovhannes Babayan',
+      speakerId: 13,
+      duration: 30,
+      levels: [1, 2],
+      lang: 'am',
+    },
+    {
       name: 'Static Type Checking with FlowType',
       // speaker: 'Edgar Marukyan',
       speakerId: 2,
       duration: 45,
       levels: [1, 2],
       lang: 'am',
-    },
-    {
-      duration: 15,
     },
     {
       name: 'Closing',
@@ -90,6 +95,10 @@ export default [
       duration: 30,
       levels: [],
       lang: 'am',
+    },
+    {
+      name: 'Break',
+      duration: 30,
     },
     {
       name: 'Real time applications with Firebase and React',
@@ -125,7 +134,7 @@ export default [
     },
     {
       name: 'N/A',
-      duration: 45,
+      duration: 30,
     },
   ],
   // End of 408E
@@ -152,14 +161,7 @@ export default [
       lang: 'am',
     },
 
-    {
-      name: 'Creating reliable web applications with Elm',
-      // speaker: 'Hovhannes Babayan',
-      speakerId: 13,
-      duration: 30,
-      levels: [1, 2],
-      lang: 'am',
-    },
+
     {
       name: 'Why to choose Node.js for IOT',
       // speaker: 'Tigran Bayburtsyan',
@@ -175,6 +177,10 @@ export default [
       levels: [1, 2],
       duration: 45,
       lang: 'am',
+    },
+    {
+      name: 'Break',
+      duration: 30,
     },
     {
       name: 'Serverless node.js applications using Cloud platforms',
@@ -199,6 +205,10 @@ export default [
       duration: 45,
       levels: [0, 1],
       lang: 'am',
+    },
+    {
+      name: 'N/A',
+      duration: 15,
     },
   ],
   // End of 308E

@@ -55,7 +55,7 @@ export default {
       :class="[getTopicLevelClassname(), {
         '-empty': !topic.name,
         '-small': topic.duration < 45,
-        '-not-available': topic.name === 'N/A',
+        '-technical': topic.name === 'N/A' || topic.name === 'Break',
         '-no-speaker': !speaker.name,
         '-has-speaker': speaker.name,
       }]">
@@ -159,8 +159,9 @@ export default {
      margin: 0;
    }
 
-   .Topic.-not-available .Name {
+   .Topic.-technical .Name {
      color: #ccc;
+     padding-bottom: 0;
    }
 
   .Name {
