@@ -14,6 +14,7 @@
         <a href="#Team" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">TEAM</a>
         <a href="#Location" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">LOCATION</a>
         <a href="#Quizz" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">QUIZZ</a>
+        <a href="#Faq" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">FAQ</a>
         <a
           class="InviteBtn"
           href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2" target="_blank">
@@ -153,7 +154,21 @@ export default {
 .LogoLink {
   text-decoration: none;
 }
+@media (min-width: 768px) and (max-width: 960px) {
+  .Logo {
+    font-size: 24px !important;
+  }
 
+  .NavLink {
+    font-size: .85em;
+    margin: 0 3px;
+  }
+
+  .InviteBtn {
+    padding: 7px 12px;
+    font-size: .85em;
+  }
+}
 
 @media (max-width: 768px) {
 

@@ -14,34 +14,34 @@
           Powered by itjobs.am
         </p> -->
 
-        <div class="row justify-content-center justify-content-xl-between Badges">
+        <div class="row justify-content-center  Badges">
           <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
-            <a href="" target="_blank">
-              <div class="Img -javascript" ></div>
+            <a href="http://www.itjobs.am/quiz/5a1932d735619ae957438247" target="_blank">
+              <div class="Img -javascript"></div>
               <h3 class="Name -javascript">JavaScript</h3>
             </a>
           </div>
 
-          <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
+          <!--<div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
             <a href="" target="_blank">
               <div class="Img -nodejs" ></div>
               <h3 class="Name -nodejs">NodeJS</h3>
             </a>
-          </div>
+          </div> -->
 
           <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
-            <a href="" target="_blank">
-              <div class="Img -react" ></div>
+            <a href="http://www.itjobs.am/quiz/5a19630b35619ae95743b1cd" target="_blank">
+              <div class="Img -react"></div>
               <h3 class="Name -react">React</h3>
             </a>
           </div>
 
-          <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
+          <!-- <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
             <a href="" target="_blank">
               <div class="Img -angularjs" ></div>
               <h3 class="Name -angularjs">AngularJS</h3>
             </a>
-          </div>
+          </div> -->
         </div>
 
       </div>
