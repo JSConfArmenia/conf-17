@@ -17,6 +17,8 @@
     <Location />
 
     <Faq />
+    
+    <Quizz />
 
     <AppFooter />
   </div>
@@ -28,6 +30,7 @@ import Intro from './Intro';
 import About from './About';
 import Schedule from './Schedule';
 import Speakers from './Speakers';
+import Quizz from './Quizz';
 import Sponsors from './Sponsors';
 import Team from './Team';
 import Location from './Location';
@@ -42,6 +45,7 @@ export default {
     About,
     Schedule,
     Speakers,
+    Quizz,
     Sponsors,
     Team,
     Location,
