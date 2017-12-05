@@ -16,9 +16,9 @@
 
     <Location />
 
-    <Faq />
-    
     <Quizz />
+
+    <Faq />
 
     <AppFooter />
   </div>
