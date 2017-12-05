@@ -13,8 +13,8 @@
         <a href="#Sponsors" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">SPONSORS</a>
         <a href="#Team" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">TEAM</a>
         <a href="#Location" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">LOCATION</a>
-        <a href="#Quizz" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">QUIZZ</a>
         <a href="#Faq" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">FAQ</a>
+        <a href="#Quizz" class="NavLink" v-smooth-scroll="navConfig" v-on:click="close">QUIZZ</a>
         <a
           class="InviteBtn"
           href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2" target="_blank">

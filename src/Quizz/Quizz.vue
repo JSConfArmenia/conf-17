@@ -61,10 +61,15 @@ export default {
 .Quizz {
   text-align: center;
   padding: 60px 0 60px 0;
-  /* background-color: #343d47; */
-  background-color: #252e38;
+  background-color: #343d47;
+  /* background-color: #252e38; */
   /* border-bottom: 1px dashed#999ea3; */
   color: #fff;
+
+  background-image: linear-gradient(to right, #999ea3 55%, rgba(255,255,255,0) 0%);
+  background-position: bottom;
+  background-size: 10px 1px;
+  background-repeat: repeat-x;
 }
 
 .Title {
