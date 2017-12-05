@@ -66,7 +66,7 @@
         </div>
       </div>
 
-      <h2 class="Title -small">Special thanks to</h2>
+      <h2 class="Title -small">Our awesome volunteers</h2>
 
       <div class="row  justify-content-center VolunteersRow">
         <template
