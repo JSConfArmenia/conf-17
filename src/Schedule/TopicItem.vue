@@ -190,7 +190,7 @@ export default {
     justify-content: center;
     height: 22px;
     width: 22px;
-    padding: 0 4px;
+    /* padding: 0 4px; */
     /* background-color: #e6e6e6; */
     background-color: #fff;
     border-radius: 4px;
@@ -207,7 +207,7 @@ export default {
   }
 
   .LevelBadge {
-    border: 5px solid;
+    border: 11px solid;
     background-color: #fff;
   }
 
