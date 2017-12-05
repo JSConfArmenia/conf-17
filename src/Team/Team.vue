@@ -2,7 +2,7 @@
   <section class="Team" id="Team">
     <div class="Container">
 
-      <h1 class="Title">Our Team</h1>
+      <h2 class="Title">Core Team</h2>
       <div class="row justify-content-center OrganizersRow">
 
         <div class="col">
@@ -66,17 +66,57 @@
         </div>
       </div>
 
+      <h2 class="Title -small">Special thanks to</h2>
+
+      <div class="row  justify-content-center VolunteersRow">
+        <template
+          v-for="(volunteer, index) in volunteers">
+          <div
+            class="col col-volunteer"
+            :key="index">
+            <div
+              class="Img"
+              :style="{ backgroundImage: `url(${volunteer.img})` }">
+            </div>
+            <h4 class="Name">{{volunteer.name}}</h4>
+          </div>
+        </template>
+      </div>
+
     </div>
   </section>
 </template>
 
 <script>
-export default {
+import volunteers from '@/_services/volunteers';
 
+export default {
+  data: () => ({
+    volunteers,
+  }),
 };
 </script>
 
 <style scoped>
+
+.Title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.Title.-small {
+  font-size: 30px;
+  /* margin-bottom: 15px; */
+}
+
+.Img {
+  /* border-radius: 50%; */
+}
+
+.Name,
+.Position {
+  /* text-align: center; */
+}
 
 .Team {
   background-image: url(../_assets/Team.jpg);
@@ -87,15 +127,48 @@ export default {
   padding: 50px 0 50px 0;
   color: #fff;
   overflow: hidden;
+  /* text-align: center; */
 }
 
 .OrganizersRow {
-  margin-right: -20px;
-  margin-left: -20px;
+  /* margin-right: -20px; */
+  /* margin-left: -20px; */
+  margin-bottom: 20px;
 }
 
 .OrganizersRow .col {
-  padding: 0 20px;
+  /* padding: 0 20px; */
+}
+
+.VolunteersRow {
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 10px;
+}
+
+.Divider {
+  width: 100%;
+}
+
+.VolunteersRow .col-volunteer {
+  padding: 0 15px;
+  flex: 0;
+  flex-basis: calc(100%/8);
+  width: calc(100%/8);
+  /* width: percentage(1/8); */
+}
+
+.VolunteersRow .Name {
+  font-size: .7em;
+  /* white-space: nowrap; */
+  /* overflow: hidden; */
+  width: 100%;
+  /* text-overflow: ellipsis; */
+  margin-bottom: 15px;
+}
+
+.VolunteersRow .Img {
+  /* border-radius: 50%; */
 }
 
 .Breaker {
@@ -106,6 +179,16 @@ export default {
 
 .Title {
   color: #fff
+}
+
+.Credits {
+  text-align: center;
+  /* font-size: .9em; */
+  margin-bottom: 30px;
+}
+
+.Credits a {
+  font-weight: bold;
 }
 
 .Separator {
@@ -133,6 +216,14 @@ a {
   text-decoration: none;
 }
 
+
+@media (min-width: 769px) and (max-width: 980px) {
+  .VolunteersRow .col-volunteer {
+    /* flex-basis: calc(100%/6); */
+    /* width: calc(100%/6); */
+  }
+}
+
 @media (max-width: 768px) {
 
   .Img {
@@ -154,6 +245,11 @@ a {
 
   h6 {
     margin-bottom: 40px
+  }
+
+  .VolunteersRow .col-volunteer {
+    flex-basis: calc(100%/3);
+    width: calc(100%/3);
   }
 
 }

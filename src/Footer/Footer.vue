@@ -3,9 +3,10 @@
 
     <a href="#Intro" v-smooth-scroll="{ duration: 600 }"><Logo /></a>
     <p class="Description">
+      Design and branding assitance by <a href="https://www.behance.net/Davidtiger" target="_blank"  class="CreditLink">Davit Tigranyan</a>,
       coded in Vue.js by
       <a href="https://github.com/HenrikhAbajyan" target="_blank" class="CreditLink">Henrikh Abajyan</a> &
-      <a href="https://github.com/JSConfArmenia/conf-17/graphs/contributors" target="_blank" class="CreditLink">Others</a>
+      <a href="https://github.com/JSConfArmenia/conf-17/graphs/contributors" target="_blank" class="CreditLink">Others</a>.
     </p>
 
     <div class="SocialLinks">
