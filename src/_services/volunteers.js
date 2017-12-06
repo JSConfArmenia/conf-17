@@ -13,7 +13,7 @@ export default [
   },
   {
     img: '/static/Volunteers/VahanTigranyan.jpg',
-    name: 'Vahan Tigranyan',
+    name: 'Van Tigranyan',
   },
   {
     img: '/static/Volunteers/LanaAndjergoli.jpg',
@@ -30,6 +30,10 @@ export default [
   {
     img: '/static/Volunteers/GagikMirzoyan.jpg',
     name: 'Gagik Mirzoyan',
+  },
+  {
+    img: '/static/Volunteers/AlisaMartirosyan.jpg',
+    name: 'Alisa Martirosyan',
   },
   {
     img: '/static/Volunteers/AshkhenMesropyan.jpg',

@@ -67,8 +67,8 @@
       </div>
 
       <h2 class="Title -small">Our awesome volunteers</h2>
-
-      <div class="row  justify-content-center VolunteersRow">
+      <!-- justify-content-center  -->
+      <div class="row  VolunteersRow">
         <template
           v-for="(volunteer, index) in volunteers">
           <div
@@ -141,8 +141,8 @@ export default {
 }
 
 .VolunteersRow {
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -12px;
+  margin-left: -12px;
   margin-bottom: 10px;
 }
 
@@ -151,10 +151,10 @@ export default {
 }
 
 .VolunteersRow .col-volunteer {
-  padding: 0 15px;
+  padding: 0 12px;
   flex: 0;
-  flex-basis: calc(100%/8);
-  width: calc(100%/8);
+  flex-basis: calc(100%/9);
+  width: calc(100%/9);
   /* width: percentage(1/8); */
 }
 
