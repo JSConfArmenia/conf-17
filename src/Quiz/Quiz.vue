@@ -1,10 +1,10 @@
 <template>
-  <section class="Quizz" id="Quizz">
+  <section class="Quiz" id="Quiz">
     <div class="Container">
 
       <div class="ScheduleGroup">
 
-        <h2 class="Title">Quizz</h2>
+        <h2 class="Title">Quiz</h2>
         <p class="Description">
           Participate in quizzes, win badges, become a true JavaScript Ninja! <br>
           <span>powered by <a href="http://www.itjobs.am/">itjobs.am</a></span>
@@ -58,7 +58,7 @@ export default {
 
 <style scoped>
 
-.Quizz {
+.Quiz {
   text-align: center;
   padding: 60px 0 60px 0;
   background-color: #343d47;
