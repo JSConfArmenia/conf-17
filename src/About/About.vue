@@ -25,10 +25,21 @@
             Network with other developers who love what they do.
           </p>
           <div class="Actions">
-            <a href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2" class="Button -purple" target="_blank">
+            <a
+              href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2"
+              class="Button -purple"
+              target="_blank">
               <i class="fa fa-envelope-open-o Icon" aria-hidden="true"></i>
               Request an invite
             </a>
+
+            <!-- <a
+              href="/static/PressReleaseEn.pdf"
+              class="Button -blue -outline"
+              target="_blank">
+              Press Release
+            </a> -->
+
           </div>
         </div>
 

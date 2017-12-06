@@ -97,12 +97,38 @@ a:hover {
   transition: all .3s ease;
 }
 
+.Button.-small {
+  font-size: 12px;
+  padding: 10px 20px;
+}
+
+.Button.-outline {
+  background: transparent;
+  border: 1px solid;
+}
+
+.Button.-outline:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.Button.-blue.-outline {
+  color: #008bc2;
+  border-color: #008bc2;
+}
+
+/* .Button.-blue.-outline:hover {
+  color: #006f9a;
+  border-color: #006f9a;
+} */
+
 .Button.-purple {
   background: rgb(146, 39, 143);
+  border-color: rgb(146, 39, 143);
 }
 
 .Button.-purple:hover {
   background: rgb(107, 18, 104);
+  border-color: rgb(107, 18, 104);
 }
 
 .Button.-green {
