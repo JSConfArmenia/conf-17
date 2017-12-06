@@ -128,14 +128,14 @@ export default [
       name: 'Asynchronous ECMAScript',
       // speaker: 'Nairi Harutyunyan',
       speakerId: 19,
-      duration: 45,
+      duration: 60,
       levels: [0, 1],
       lang: 'am',
     },
-    {
-      name: 'N/A',
-      duration: 30,
-    },
+    // {
+    //   name: 'N/A',
+    //   duration: 15,
+    // },
   ],
   // End of 408E
   // 308E
@@ -206,10 +206,10 @@ export default [
       levels: [0, 1],
       lang: 'am',
     },
-    {
-      name: 'N/A',
-      duration: 15,
-    },
+    // {
+    //   name: 'N/A',
+    //   duration: 15,
+    // },
   ],
   // End of 308E
 
