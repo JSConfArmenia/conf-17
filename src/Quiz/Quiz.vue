@@ -22,12 +22,12 @@
             </a>
           </div>
 
-          <!--<div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
-            <a href="" target="_blank">
+          <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
+            <a href="http://www.itjobs.am/quiz/5a19626835619ae95743b13f" target="_blank">
               <div class="Img -nodejs" ></div>
               <h3 class="Name -nodejs">NodeJS</h3>
             </a>
-          </div> -->
+          </div>
 
           <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
             <a href="http://www.itjobs.am/quiz/5a19630b35619ae95743b1cd" target="_blank">
@@ -36,12 +36,12 @@
             </a>
           </div>
 
-          <!-- <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
-            <a href="" target="_blank">
+          <div class="col-6 col-sm-4 col-md-4 col-lg-3  col-xl-2">
+            <a href="http://www.itjobs.am/quiz/5a27a0bc35619ae95751dda3" target="_blank">
               <div class="Img -angularjs" ></div>
-              <h3 class="Name -angularjs">AngularJS</h3>
+              <h3 class="Name -angularjs">Angular</h3>
             </a>
-          </div> -->
+          </div>
         </div>
 
       </div>
