@@ -6,9 +6,6 @@
         <div class="col-md-4">
           <div class="Splash">
             <div class="Logo">
-              <!-- <span class="Brace">{</span> -->
-              <!-- <span class="JS">js</span> -->
-              <!-- <span class="Brace">}</span> -->
             </div>
           </div>
         </div>
@@ -60,7 +57,7 @@ export default {
 
 <style scoped>
 .About {
-  padding: 100px 0;
+  padding: 80px 0 40px;
   background-color: #f5f5f5;
 }
 
@@ -136,7 +133,7 @@ export default {
 @media (max-width: 768px) {
 
   .About {
-    padding: 60px 0 100px 0;
+    padding: 60px 0 60px 0;
   }
 
 }

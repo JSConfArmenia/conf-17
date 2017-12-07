@@ -131,6 +131,14 @@ a:hover {
   border-color: rgb(107, 18, 104);
 }
 
+.Button.-blue {
+  background: #009fff;
+}
+
+.Button.-blue:hover {
+  background: #0084ff;
+}
+
 .Button.-green {
   background: rgb(138, 195, 41);
 }
