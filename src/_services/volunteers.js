@@ -67,4 +67,8 @@ export default [
     img: '/static/Volunteers/GisaneHarutyunyan.jpg',
     name: 'Gisane Harutyunyan',
   },
+  {
+    img: 'https://avatars1.githubusercontent.com/u/29180657?s=460&v=4',
+    name: 'Henrikh Abajyan',
+  },
 ];
