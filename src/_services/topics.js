@@ -92,13 +92,13 @@ export default [
       name: 'Universal React with Next.js',
       // speaker: 'Gnun Ulikhanyan',
       speakerId: 3,
-      duration: 30,
+      duration: 45,
       levels: [],
       lang: 'am',
     },
     {
       name: 'Break',
-      duration: 30,
+      duration: 15,
     },
     {
       name: 'Real time applications with Firebase and React',
