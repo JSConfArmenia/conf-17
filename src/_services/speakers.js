@@ -5,7 +5,7 @@ export default {
     position: 'Founding Software Engineer at Cambridge Semantics',
   },
   1: {
-    img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/20645318_1266773110112416_7159871016971569042_o.jpg?oh=dfdccd6643765989ac9c3d290d4809f1&oe=5A44BD29',
+    img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/25353658_1372398012883258_3468114599656602189_n.jpg?oh=99faf3ee2b49f8868fe7bf587c0508c7&oe=5ABBADCF',
     name: 'Shahen Hovhannisyan',
     position: 'Software Engineer at Simply Technologies',
   },
