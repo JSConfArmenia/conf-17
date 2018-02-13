@@ -5,6 +5,7 @@
 
 
     <div class="SocialLinks">
+
       <a href="https://github.com/JSConfArmenia/" target="_blank" class="SocialLink">
         <i class="fa fa-github" aria-hidden="true"></i>
       </a>
@@ -21,6 +22,11 @@
       <a href="https://www.instagram.com/jsconf.am/" target="_blank" class="SocialLink">
         <i class="fa fa-instagram" aria-hidden="true"></i>
       </a>
+
+      <a href="https://www.youtube.com/channel/UCkzEOKU959F6_T0OaQBH4VQ/featured" target="_blank" class="SocialLink">
+        <i class="fa fa-youtube"></i>
+      </a>
+
     </div>
 
     <div class="Supplementary">
