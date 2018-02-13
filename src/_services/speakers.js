@@ -1,6 +1,6 @@
 export default {
   0: {
-    img: 'https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/1378305_10151882202425141_1136904594_n.jpg?oh=91b44015f24ac89d157aeca9381c6b85&oe=5A4A0516',
+    img: 'https://scontent.fevn2-1.fna.fbcdn.net/v/t31.0-8/15039470_999654460157772_1613421048795490145_o.jpg?oh=9ca9849bc0732c6ce261377d778eeab9&oe=5AD8D669',
     name: 'Rouben Meschian',
     position: 'Founding Software Engineer at Cambridge Semantics',
   },
@@ -35,7 +35,7 @@ export default {
     position: 'Software Engineer at Simply Technologies',
   },
   7: {
-    img: 'https://media-exp1.licdn.com/media/AAEAAQAAAAAAAAzVAAAAJGUwZTBkOGM4LTA0NjAtNDRmMS1hZGUyLTdiMTk5NjM4N2VjMQ.jpg',
+    img: 'https://scontent.fevn2-1.fna.fbcdn.net/v/t31.0-8/26221140_2076248899273646_1749219880129048224_o.jpg?oh=7e593d239e5d90e18b0ad3a815eda928&oe=5B188480',
     name: 'Michael Petrosyan',
     position: 'JavaScript Engineer at BetConstruct',
   },

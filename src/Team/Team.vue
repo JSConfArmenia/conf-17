@@ -8,7 +8,7 @@
         <div class="col">
           <div
             class="Img"
-            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/14359039_10208688307897817_2190833719349130448_n.jpg?oh=8dbdc5d6efe09076d8c3544fe9ed387d&oe=5A3F4395)">
+            style="background-image: url(https://scontent.fevn2-1.fna.fbcdn.net/v/t31.0-8/25734143_10212645020013147_1514675697719355246_o.jpg?oh=efa4561b8f4c6a4f12850d98eca543e1&oe=5B1A1636)">
           </div>
           <h4 class="Name">Alexander Adamyan</h4>
           <h6 class="Role">Organizer</h6>
@@ -32,7 +32,7 @@
         <div class="col">
           <div
             class="Img"
-            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-1/c0.104.652.652/244020_1770753748796_2351683_o.jpg?oh=e70743c4aad4af76a83c93e31c846b03&oe=5A5000E7)">
+            style="background-image: url(https://media.licdn.com/media/AAEAAQAAAAAAAAPMAAAAJDAxODA2OTcwLTMyYzItNDc4MC04NjNjLWNhMDMwZjhhN2Q2Yg.jpg)">
           </div>
           <h4 class="Name">Gevorg Harutyunyan</h4>
           <h6 class="Role">Organizer</h6>
@@ -109,15 +109,6 @@ export default {
   /* margin-bottom: 15px; */
 }
 
-.Img {
-  /* border-radius: 50%; */
-}
-
-.Name,
-.Position {
-  /* text-align: center; */
-}
-
 .Team {
   background-image: url(../_assets/Team.jpg);
   width: 100%;
@@ -134,10 +125,6 @@ export default {
   /* margin-right: -20px; */
   /* margin-left: -20px; */
   margin-bottom: 20px;
-}
-
-.OrganizersRow .col {
-  /* padding: 0 20px; */
 }
 
 .VolunteersRow {
@@ -165,10 +152,6 @@ export default {
   width: 100%;
   /* text-overflow: ellipsis; */
   margin-bottom: 15px;
-}
-
-.VolunteersRow .Img {
-  /* border-radius: 50%; */
 }
 
 .Breaker {
@@ -214,14 +197,6 @@ export default {
 
 a {
   text-decoration: none;
-}
-
-
-@media (min-width: 769px) and (max-width: 980px) {
-  .VolunteersRow .col-volunteer {
-    /* flex-basis: calc(100%/6); */
-    /* width: calc(100%/6); */
-  }
 }
 
 @media (max-width: 768px) {

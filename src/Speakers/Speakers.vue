@@ -100,10 +100,6 @@ a {
   text-decoration: none;
 }
 
-h3:hover {
-
-}
-
 .Position {
   color: #fff;
   margin-bottom: 20px;
