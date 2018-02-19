@@ -19,6 +19,8 @@
     "jquery": "^3.2.1",
     "moment": "^2.19.3",
     "vue": "^2.4.2",
+    "vue-carousel": "^0.6.5",
+    "vue-carousel-3d": "^0.1.20",
     "vue-directive-tooltip": "^1.4.1",
     "vue-smooth-scroll": "^1.0.13",
     "vue2-google-maps": "^0.8.3"
