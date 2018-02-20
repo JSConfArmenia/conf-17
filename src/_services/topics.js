@@ -12,6 +12,7 @@ export default [
     {
       name: 'Browser rendering engines: the road from code to pixels',
       // speaker: 'Gagik Arustamyan',
+      // videoUrl: ,
       speakerId: 14,
       duration: 60,
       levels: [],

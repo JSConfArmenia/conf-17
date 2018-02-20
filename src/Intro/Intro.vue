@@ -10,49 +10,55 @@
           <h2 class="Date">9 DECEMBER, 2017, YEREVAN</h2>
 
           <div class="Slider">
-            <carousel>
+            <carousel paginationColor="#fff" paginationActiveColor="#fff100" :scrollPerPage="true" :perPageCustom="[[768, 2]]" :perPage="1">
 
-              <!-- <slide>
-                <img
+              <slide>
+                <div
                   class="img"
-                  src="https://scontent.fevn2-1.fna.fbcdn.net/v/t31.0-8/25073382_10155901859576310_7197177847728231952_o.jpg?oh=80b0ed6233fb0f6553cced97b7f6fbb7&oe=5B1F3029"
-                  >
+                  style="background-image:url(https://scontent.fevn2-1.fna.fbcdn.net/v/t31.0-8/25073382_10155901859576310_7197177847728231952_o.jpg?oh=80b0ed6233fb0f6553cced97b7f6fbb7&oe=5B1F3029);">
+                </div>
               </slide>
               <slide>
-                <img
+                <div
                   class="img"
-                  src="https://scontent.fevn2-1.fna.fbcdn.net/v/t31.0-8/24837668_10155901859646310_7184010251237274349_o.jpg?oh=621f59c6fb75fae7a6daf04bcbf6a9b0&oe=5B03F530"
-                  >
-              </slide> -->
-              <slide>
-                <img
-                  class="img"
-                  src="https://scontent.fevn2-1.fna.fbcdn.net/v/t31.0-8/25311366_2060198000878736_8007967802216877135_o.jpg?oh=a432be0079e2da4c5d671f9aced64c03&oe=5B21FD22"
-                  >
-              </slide>
-               <slide>
-                <img
-                  class="img"
-                  src="https://scontent.fevn2-1.fna.fbcdn.net/v/t31.0-8/25488282_2063412387223964_7752152735492823967_o.jpg?oh=e38180806609669280f4672f84d0f340&oe=5B0F68F7"
-                  >
+                  style="background-image:url(https://scontent.fevn2-1.fna.fbcdn.net/v/t31.0-8/24837668_10155901859646310_7184010251237274349_o.jpg?oh=621f59c6fb75fae7a6daf04bcbf6a9b0&oe=5B03F530);">
+                </div>
               </slide>
               <slide>
-                <img
+                <div
                   class="img"
-                  src="https://scontent.fevn2-1.fna.fbcdn.net/v/t31.0-8/26756532_2076239669274569_8953278811683191351_o.jpg?oh=efdf429af8e6c95936ad909f0a37c736&oe=5B1BBACA"
-                  >
+                  style="background-image:url(https://scontent.fevn2-1.fna.fbcdn.net/v/t31.0-8/25311366_2060198000878736_8007967802216877135_o.jpg?oh=a432be0079e2da4c5d671f9aced64c03&oe=5B21FD22);">
+                  </div>
               </slide>
               <slide>
-                <img
+                <div
                   class="img"
-                  src="https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/26233216_2076259919272544_888604210942923356_o.jpg?oh=139a5605152cede24da5f2368342686f&oe=5B20DEFD"
-                  >
+                  style="background-image:url(https://scontent.fevn2-1.fna.fbcdn.net/v/t31.0-8/25488282_2063412387223964_7752152735492823967_o.jpg?oh=e38180806609669280f4672f84d0f340&oe=5B0F68F7);">
+                </div>
               </slide>
               <slide>
-                <img
+                <div
                   class="img"
-                  src="https://scontent.fevn2-1.fna.fbcdn.net/v/t31.0-8/25075047_1587047164684265_4184221564023360476_o.jpg?oh=69eabdb289a9762787e636437ed0f2f3&oe=5B1E3E12"
-                  >
+                  style="background-image:url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/25398349_2060941760804360_5085872716075965987_o.jpg?oh=d0d9099bc1be4883d83bdbdbb30ea8af&oe=5B189349);">
+                </div>
+              </slide>
+              <slide>
+                <div
+                  class="img"
+                  style="background-image:url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/25358642_2061089900789546_1995170973837600892_o.jpg?oh=c1081d1fa1888731fd5d6a7bf0b8ec8e&oe=5B1B92E6);">
+                </div>
+              </slide>
+              <slide>
+                <div
+                  class="img"
+                  style="background-image:url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-8/26233216_2076259919272544_888604210942923356_o.jpg?oh=139a5605152cede24da5f2368342686f&oe=5B20DEFD);">
+                </div>
+              </slide>
+              <slide>
+                <div
+                  class="img"
+                  style="background-image:url(https://scontent.fevn2-1.fna.fbcdn.net/v/t31.0-8/25075047_1587047164684265_4184221564023360476_o.jpg?oh=69eabdb289a9762787e636437ed0f2f3&oe=5B1E3E12);">
+                </div>
               </slide>
 
             </carousel>
@@ -87,6 +93,7 @@ export default {
 };
 </script>
 
+
 <style scoped>
 
 .Intro {
@@ -103,9 +110,17 @@ export default {
   position: relative;
 }
 
+.Slider {
+  max-width: 980px;
+}
+
 .img {
-  height: auto;
-  width: 90%;
+  width: 450px;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
 .Sponsors {
@@ -162,7 +177,15 @@ h2 {
     padding-top: 100px;
     padding-bottom: 40px;
     flex-direction: column;
-    /* text-align: center; */
+  }
+
+  .Slider {
+    max-width: 300px;
+  }
+
+  .img {
+    width: 220px;
+    height: 220px;
   }
 
   .Title,
