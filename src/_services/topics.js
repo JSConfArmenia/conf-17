@@ -12,7 +12,6 @@ export default [
     {
       name: 'Browser rendering engines: the road from code to pixels',
       // speaker: 'Gagik Arustamyan',
-      // videoUrl: ,
       speakerId: 14,
       duration: 60,
       levels: [],
@@ -21,6 +20,7 @@ export default [
     {
       name: 'Functional Programming in JavaScript',
       // speaker: 'Rouben Meschian',
+      videoUrl: 'https://youtu.be/WlM2lhjZfGU',
       speakerId: 0,
       duration: 60,
       levels: [],
@@ -29,6 +29,7 @@ export default [
     {
       name: 'Как начать писать юнит-тесты и как это повлияет на код вашего проекта',
       // speaker: 'Игорь Алексеенко',
+      videoUrl: 'https://youtu.be/WCoLigaDs2Y',
       speakerId: 15,
       duration: 45,
       levels: [0, 1],
@@ -37,6 +38,7 @@ export default [
     {
       name: 'React Native app development via Expo SDK',
       // speaker: 'Edgar Aroutiounian',
+      videoUrl: 'https://youtu.be/p-DZPM_TQq0',
       speakerId: 4,
       duration: 45,
       levels: [0],
@@ -53,6 +55,7 @@ export default [
     {
       name: 'Creating reliable web applications with Elm',
       // speaker: 'Hovhannes Babayan',
+      videoUrl: 'https://youtu.be/N65N0o8p6qw',
       speakerId: 13,
       duration: 30,
       levels: [1, 2],
@@ -104,6 +107,7 @@ export default [
     {
       name: 'Real time applications with Firebase and React',
       // speaker: 'Slavik Manukyan',
+      videoUrl: 'https://youtu.be/KbqnFhjIfYk',
       speakerId: 6,
       duration: 45,
       levels: [0, 1],

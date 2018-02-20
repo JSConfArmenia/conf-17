@@ -64,7 +64,13 @@ export default {
         :class="{
 
         }">
-        {{ topic.name }}
+        <a class="topicUrl" v-if="topic.videoUrl" :href="topic.videoUrl">
+          <i class="fa fa-youtube-play" aria-hidden="true"></i>  {{ topic.name }}
+        </a>
+        <span v-if="!topic.videoUrl">
+          {{ topic.name }}
+        </span>
+
       </div>
       <div class="Body" v-if="speaker.name">
         <div class="row">
@@ -120,7 +126,6 @@ export default {
 
   .Topic:not(.-empty) {
     background-color: rgba(248, 248, 248, 0.95);
-    /* background-color: #fff; */
     padding: 5px 10px;
     border-radius: 3px;
     width: 100%;
@@ -130,28 +135,19 @@ export default {
     align-items: flex-start;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.0);
     transition: all .3s ease;
-    /* border: 1px solid; */
   }
 
-  .Topic:not(.-empty):hover {
-    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
-  }
-
-   .Topic.-small:not(.-no-speaker) {
+  .Topic.-small:not(.-no-speaker) {
      padding: 3px 10px;
    }
 
   .Topic.-small:not(.-no-speaker) .Name {
     font-size: .7em;
-    /* white-space: nowrap; */
-    /* overflow: hidden; */
-    /* text-overflow: ellipsis; */
     padding-bottom: 5px;
     margin-bottom: 7px;
   }
 
   .Topic.-has-speaker .Name {
-    /* border-bottom: 1px solid #d4d4d4; */
     border-bottom: 1px solid #fbe0f4;
   }
 
@@ -163,6 +159,10 @@ export default {
      color: #ccc;
      padding-bottom: 0;
    }
+
+  .topicUrl {
+    color: #0081c4;
+  }
 
   .Name {
     width: 100%;
@@ -190,8 +190,6 @@ export default {
     justify-content: center;
     height: 22px;
     width: 22px;
-    /* padding: 0 4px; */
-    /* background-color: #e6e6e6; */
     background-color: #fff;
     border-radius: 4px;
     font-size: .8em;
@@ -253,16 +251,6 @@ export default {
     border-color: #de3574;
   }
 
-
-  /* .LangBadge {
-    background-color: #eaeaea;
-    padding: 3px 0;
-    text-align: center;
-    width: 30px;
-    display: inline-block;
-    font-size: .9em;
-  } */
-
   .LangBadge {
     border: 1px solid;
   }
@@ -285,7 +273,6 @@ export default {
     text-overflow: ellipsis;
     color: #999;
     text-align: right;
-    /* opacity: .7; */
     transition: all .3s ease;
     cursor: default;
   }
@@ -308,12 +295,5 @@ export default {
     transition: all .3s ease;
     opacity: .7;
   }
-
-  /* @media (max-width: 980px) {
-    .Topic.-small:not(.-no-speaker) .Name {
-      padding-bottom: 3px;
-      margin-bottom: 5px;
-    }
-  } */
 
 </style>
