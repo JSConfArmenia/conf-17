@@ -10,8 +10,10 @@
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src",
     "lintFix": "eslint --ext .js,.vue src --fix",
+    "_deploy": "cross-env BASE_URL=\"/\" npm run build && echo dev.jsconf.am > ./dist/CNAME  && gh-pages -d dist --repo git@github.com:JSConfArmenia/conf-17.git --branch gh-pages",
+    "_deployMain": "cross-env BASE_URL=\"/\" npm run build && echo jsconf.am > ./dist/CNAME && gh-pages -d dist --repo git@github.com:JSConfArmenia/JSConfArmenia.github.io.git --branch master",
     "deploy": "cross-env BASE_URL=\"/\" npm run build && echo dev.jsconf.am > ./dist/CNAME  && gh-pages -d dist --repo git@github.com:JSConfArmenia/conf-17.git --branch gh-pages",
-    "deployMain": "cross-env BASE_URL=\"/\" npm run build && echo jsconf.am > ./dist/CNAME && gh-pages -d dist --repo git@github.com:JSConfArmenia/JSConfArmenia.github.io.git --branch master"
+    "deployMain": "cross-env BASE_URL=\"/\" npm run build && echo 2017.jsconf.am > ./dist/CNAME && gh-pages -d dist --repo git@github.com:JSConfArmenia/conf-17.git --branch gh-pages"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
