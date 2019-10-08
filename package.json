@@ -16,7 +16,7 @@
     "deployMain": "cross-env BASE_URL=\"/\" npm run build && echo 2017.jsconf.am > ./dist/CNAME && gh-pages -d dist --repo git@github.com:JSConfArmenia/conf-17.git --branch gh-pages"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-beta",
+    "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
     "moment": "^2.19.3",
