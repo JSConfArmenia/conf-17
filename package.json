@@ -18,7 +18,7 @@
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "moment": "^2.19.3",
     "vue": "^2.4.2",
     "vue-carousel": "^0.6.5",
