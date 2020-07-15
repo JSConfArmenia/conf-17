@@ -3,11 +3,17 @@
 import 'bootstrap/dist/css/bootstrap-reboot.css';
 import 'bootstrap/dist/css/bootstrap-grid.css';
 import 'font-awesome/css/font-awesome.css';
+import 'vue-directive-tooltip/css/index.css';
+
 
 import Vue from 'vue';
+import Carousel3d from 'vue-carousel-3d';
 import vueSmoothScroll from 'vue-smooth-scroll';
+import Tooltip from 'vue-directive-tooltip';
 import App from './App';
 
+Vue.use(Carousel3d);
+Vue.use(Tooltip);
 Vue.use(vueSmoothScroll);
 Vue.config.productionTip = false;
 

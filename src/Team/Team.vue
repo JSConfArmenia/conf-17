@@ -2,13 +2,13 @@
   <section class="Team" id="Team">
     <div class="Container">
 
-      <h1 class="Title">Our Team</h1>
+      <h2 class="Title">Core Team</h2>
       <div class="row justify-content-center OrganizersRow">
 
         <div class="col">
           <div
             class="Img"
-            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/14359039_10208688307897817_2190833719349130448_n.jpg?oh=8dbdc5d6efe09076d8c3544fe9ed387d&oe=5A3F4395)">
+            style="background-image: url(https://scontent.fevn2-1.fna.fbcdn.net/v/t31.0-8/25734143_10212645020013147_1514675697719355246_o.jpg?oh=efa4561b8f4c6a4f12850d98eca543e1&oe=5B1A1636)">
           </div>
           <h4 class="Name">Alexander Adamyan</h4>
           <h6 class="Role">Organizer</h6>
@@ -32,7 +32,7 @@
         <div class="col">
           <div
             class="Img"
-            style="background-image: url(https://scontent.fevn1-2.fna.fbcdn.net/v/t31.0-1/c0.104.652.652/244020_1770753748796_2351683_o.jpg?oh=e70743c4aad4af76a83c93e31c846b03&oe=5A5000E7)">
+            style="background-image: url(https://media.licdn.com/media/AAEAAQAAAAAAAAPMAAAAJDAxODA2OTcwLTMyYzItNDc4MC04NjNjLWNhMDMwZjhhN2Q2Yg.jpg)">
           </div>
           <h4 class="Name">Gevorg Harutyunyan</h4>
           <h6 class="Role">Organizer</h6>
@@ -66,17 +66,48 @@
         </div>
       </div>
 
+      <h2 class="Title -small">Our awesome volunteers</h2>
+      <!-- justify-content-center  -->
+      <div class="row  VolunteersRow">
+        <template
+          v-for="(volunteer, index) in volunteers">
+          <div
+            class="col col-volunteer"
+            :key="index">
+            <div
+              class="Img"
+              :style="{ backgroundImage: `url(${volunteer.img})` }">
+            </div>
+            <h4 class="Name">{{volunteer.name}}</h4>
+          </div>
+        </template>
+      </div>
+
     </div>
   </section>
 </template>
 
 <script>
-export default {
+import volunteers from '@/_services/volunteers';
 
+export default {
+  data: () => ({
+    volunteers,
+  }),
 };
 </script>
 
 <style scoped>
+
+.Title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.Title.-small {
+  font-size: 30px;
+  /* margin-bottom: 15px; */
+}
 
 .Team {
   background-image: url(../_assets/Team.jpg);
@@ -87,15 +118,40 @@ export default {
   padding: 50px 0 50px 0;
   color: #fff;
   overflow: hidden;
+  /* text-align: center; */
 }
 
 .OrganizersRow {
-  margin-right: -20px;
-  margin-left: -20px;
+  /* margin-right: -20px; */
+  /* margin-left: -20px; */
+  margin-bottom: 20px;
 }
 
-.OrganizersRow .col {
-  padding: 0 20px;
+.VolunteersRow {
+  margin-right: -12px;
+  margin-left: -12px;
+  margin-bottom: 10px;
+}
+
+.Divider {
+  width: 100%;
+}
+
+.VolunteersRow .col-volunteer {
+  padding: 0 12px;
+  flex: 0;
+  flex-basis: calc(100%/9);
+  width: calc(100%/9);
+  /* width: percentage(1/8); */
+}
+
+.VolunteersRow .Name {
+  font-size: .7em;
+  /* white-space: nowrap; */
+  /* overflow: hidden; */
+  width: 100%;
+  /* text-overflow: ellipsis; */
+  margin-bottom: 15px;
 }
 
 .Breaker {
@@ -106,6 +162,16 @@ export default {
 
 .Title {
   color: #fff
+}
+
+.Credits {
+  text-align: center;
+  /* font-size: .9em; */
+  margin-bottom: 30px;
+}
+
+.Credits a {
+  font-weight: bold;
 }
 
 .Separator {
@@ -154,6 +220,11 @@ a {
 
   h6 {
     margin-bottom: 40px
+  }
+
+  .VolunteersRow .col-volunteer {
+    flex-basis: calc(100%/3);
+    width: calc(100%/3);
   }
 
 }

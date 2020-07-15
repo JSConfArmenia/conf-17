@@ -10,14 +10,20 @@
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src",
     "lintFix": "eslint --ext .js,.vue src --fix",
+    "_deploy": "cross-env BASE_URL=\"/\" npm run build && echo dev.jsconf.am > ./dist/CNAME  && gh-pages -d dist --repo git@github.com:JSConfArmenia/conf-17.git --branch gh-pages",
+    "_deployMain": "cross-env BASE_URL=\"/\" npm run build && echo jsconf.am > ./dist/CNAME && gh-pages -d dist --repo git@github.com:JSConfArmenia/JSConfArmenia.github.io.git --branch master",
     "deploy": "cross-env BASE_URL=\"/\" npm run build && echo dev.jsconf.am > ./dist/CNAME  && gh-pages -d dist --repo git@github.com:JSConfArmenia/conf-17.git --branch gh-pages",
-    "deployMain": "cross-env BASE_URL=\"/\" npm run build && echo jsconf.am > ./dist/CNAME && gh-pages -d dist --repo git@github.com:JSConfArmenia/JSConfArmenia.github.io.git --branch master"
+    "deployMain": "cross-env BASE_URL=\"/\" npm run build && echo 2017.jsconf.am > ./dist/CNAME && gh-pages -d dist --repo git@github.com:JSConfArmenia/conf-17.git --branch gh-pages"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
+    "moment": "^2.19.3",
     "vue": "^2.4.2",
+    "vue-carousel": "^0.6.5",
+    "vue-carousel-3d": "^0.1.20",
+    "vue-directive-tooltip": "^1.4.1",
     "vue-smooth-scroll": "^1.0.13",
     "vue2-google-maps": "^0.8.3"
   },
@@ -36,7 +42,7 @@
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.7",
     "cssnano": "^3.10.0",
-    "eslint": "^3.19.0",
+    "eslint": "^4.18.2",
     "eslint-config-airbnb-base": "^11.1.3",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-import-resolver-webpack": "^0.8.1",

@@ -6,9 +6,6 @@
         <div class="col-md-4">
           <div class="Splash">
             <div class="Logo">
-              <!-- <span class="Brace">{</span> -->
-              <!-- <span class="JS">js</span> -->
-              <!-- <span class="Brace">}</span> -->
             </div>
           </div>
         </div>
@@ -25,10 +22,21 @@
             Network with other developers who love what they do.
           </p>
           <div class="Actions">
-            <a href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2" class="Button -purple" target="_blank">
+            <a
+              href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2"
+              class="Button -purple"
+              target="_blank">
               <i class="fa fa-envelope-open-o Icon" aria-hidden="true"></i>
               Request an invite
             </a>
+
+            <!-- <a
+              href="/static/PressReleaseEn.pdf"
+              class="Button -blue -outline"
+              target="_blank">
+              Press Release
+            </a> -->
+
           </div>
         </div>
 
@@ -49,7 +57,7 @@ export default {
 
 <style scoped>
 .About {
-  padding: 100px 0;
+  padding: 80px 0 40px;
   background-color: #f5f5f5;
 }
 
@@ -125,7 +133,7 @@ export default {
 @media (max-width: 768px) {
 
   .About {
-    padding: 60px 0 100px 0;
+    padding: 60px 0 60px 0;
   }
 
 }

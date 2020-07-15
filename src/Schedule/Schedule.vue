@@ -1,45 +1,113 @@
+<script>
+import topics from '@/_services/topics';
+import speakers from '@/_services/speakers';
+
+import TimeScale from './TimeScale';
+import TopicItem from './TopicItem';
+import ScheduleBot from './ScheduleBot';
+
+export default {
+  data: () => ({
+    topics,
+    speakers,
+  }),
+  methods: {
+    getSpeaker: function getSpeaker(speakerId) {
+      return this.speakers[speakerId];
+    },
+  },
+  components: {
+    ScheduleBot,
+    TimeScale,
+    TopicItem,
+  },
+};
+</script>
+
+
 <template>
   <section class="Schedule" id="Schedule">
     <div class="Container">
 
-      <div class="ScheduleGroup">
 
-        <h2 class="Title">Event Schedules</h2>
-        <p class="Description">
-          (subject to change)
-        </p>
-        <h3 class="Subtitle">Saturday, 9 December 2017</h3>
+      <h2 class="Title">Event Schedules</h2>
+      <h3 class="Subtitle">Saturday, 9 December 2017</h3>
 
-        <table>
-          <thead>
-            <tr>
-              <th width="40%">TOPIC</th>
-              <th>SPEAKER</th>
-              <th>LANG</th>
-              <th>TIME</th>
-              <th>VENUE</th>
-            </tr>
-          </thead>
-          <tbody>
+      <ScheduleBot />
 
-            <tr v-for="(topic, index) in topics" :key="index">
-              <td class="Name">{{topic.name}}</td>
-              <td class="Speaker">{{topic.speaker}}</td>
-              <td class="Lang">
-                <span class="LangBadge" :class="topic.lang" >{{topic.lang}}</span>
-              </td>
-              <td class="Time">{{topic.time}}</td>
-              <td class="Venue">{{topic.venue}}</td>
-            </tr>
+      <div class="TimeTable">
+        <div class="TimeTableSection">
+          <TimeScale
+            :start="'10:00'" />
+          <div class="TimeTableContent">
+            <div class="TimeTableContentHeader">
+              <div class="row">
+                <div class="col">
+                  <label class="Label">
+                    Entry
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="TimeTableTopics">
+              <TopicItem
+                :topic="topics[0]" />
+            </div>
+          </div>
+        </div>
 
-            <tr>
-              <td colspan="5" style="text-align: center;">
-                More topics are coming soon
-              </td>
-            </tr>
+        <div class="TimeTableSection">
+          <TimeScale
+            :start="'10:30'" />
+          <!-- Scrollable content -->
+          <div class="TimeTableContent -scrollable">
+            <div class="TimeTableContentHeader">
+              <div class="row">
+                <div class="col col-4">
+                  <label class="Label">
+                    Manoogyan Hall
+                  </label>
+                </div>
+                <div class="col col-4">
+                  <label class="Label">
+                    408E
+                  </label>
+                </div>
+                <div class="col col-4">
+                  <label class="Label">
+                    308E
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="TimeTableTopics">
+              <div class="row">
+                <div class="col col-4">
+                  <TopicItem
+                    v-for="(topic, index) in topics[1]"
+                    :key="index"
+                    :topic="topic"
+                    :speaker="getSpeaker(topic.speakerId)" />
+                </div>
+                <div class="col col-4">
+                  <TopicItem
+                    v-for="(topic, index) in topics[2]"
+                    :key="index"
+                    :topic="topic"
+                    :speaker="getSpeaker(topic.speakerId)" />
+                </div>
+                <div class="col col-4">
+                  <TopicItem
+                    v-for="(topic, index) in topics[3]"
+                    :key="index"
+                    :topic="topic"
+                    :speaker="getSpeaker(topic.speakerId)" />
+                </div>
+              </div>
 
-          </tbody>
-        </table>
+            </div>
+          </div>
+        </div>
 
       </div>
 
@@ -47,142 +115,118 @@
   </section>
 </template>
 
-<script>
-export default {
-  data: () => ({
-    topics: [
-      {
-        name: 'Functional Programming in JavaScript',
-        speaker: 'Rouben Meschian',
-        lang: 'en',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'React Native: The Dark Art of Native APIs',
-        speaker: 'Shahen Hovhannisyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'React Native app development via Expo SDK',
-        speaker: 'Edgar Aroutiounian',
-        lang: 'en',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Static Type Checking with FlowType',
-        speaker: 'Edgar Marukyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Angular 5 vs React vs Vue',
-        speaker: 'Michael Petrosyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Creating a Webpack Config for Production from scratch',
-        speaker: 'Michael Manukyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Universal React with Next.js',
-        speaker: 'Gnun Ulikhanyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'V8 engine, JavaScript Code Interpretation and Execution',
-        speaker: 'Shahen Hovhannisyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Real time applications with Firebase and React',
-        speaker: 'Slavik Manukyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Why to choose Node.js for IOT',
-        speaker: 'Tigran Bayburtsyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Node.js: diving deeper into libuv',
-        speaker: 'Vardan Grigoryan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Reactive Extensions for JavaScript - RxJS',
-        speaker: 'Varuzhan Harutyunyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'The true nature and the super power of WebAssembly',
-        speaker: 'Armen Mshetsyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: '“await”-ing for new features of modern “async” JavaScript',
-        speaker: 'Lilit Tadevosyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Creating reliable web applications with Elm',
-        speaker: 'Hovhannes Babayan',
-        lang: '-',
-        time: '-',
-        venue: '-',
-      },
-      {
-        name: 'Browser rendering engines: the road from code to pixels',
-        speaker: 'Gagik Arustamyan',
-        lang: 'am',
-        time: '-',
-        venue: '-',
-      },
-    ],
-  }),
-};
-</script>
+<style scoped>
+
+  .TimeTable {
+    /* width: 100%; */
+    position: relative;
+    margin-right: -15px;
+  }
+
+  .TimeTable .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .TimeTable .col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .TimeTable .Label {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .TimeTableSection {
+    width: 100%;
+    position: relative;
+    padding-left: 70px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
+    padding-bottom: 20px;
+  }
+
+  .TimeTableContent {
+    position: relative;
+    /* overflow-x: scroll; */
+    /* overflow-y: visible; */
+    overflow: auto;
+    padding-left: 4px;
+    padding-right: 4px;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: none;
+
+    background-color: rgba(255, 255, 255, .6);
+    /* border-right: 1px solid rgba(0, 0, 0, 0.3); */
+    /* border-right: 1px solid rgba(0, 0, 0, 0.3); */
+  }
+
+  .TimeScale {
+    top: 40px;
+  }
+
+  .TimeTableContent.-scrollable .TimeTableTopics,
+  .TimeTableContent.-scrollable .TimeTableContentHeader {
+    min-width: 900px;
+  }
+
+  .TimeTableTopics,
+  .TimeTableContentHeader {
+    overflow: hidden;
+  }
+
+  .TimeTableContentHeader {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .TimeTableContentHeader .row {
+    flex: 1;
+  }
+
+  @media (max-width: 1200px) {
+    .TimeTable {
+      margin-right: -15px;
+    }
+
+    .TimeTableSection {
+      border-radius: 5px 0 0 0;
+    }
+
+    .TimeTableContent {
+      border-right: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .TimeTable {
+      margin-left: -15px;
+    }
+
+    .TimeTableSection {
+      padding-left: 60px;
+    }
+  }
+
+</style>
+
+
 
 <style scoped>
 
 .Schedule {
   text-align: center;
-  padding: 120px 0 140px 0;
+  padding: 60px 0 80px 0;
   background-color: #fff;
   background-repeat: no-repeat;
   background-image: url(../_assets/color-bg-left-bottom.png), url(../_assets/color-bg-right-bottom.png), url(../_assets/color-bg-right-top.png);
   background-position: 0 100%, 100% 100%, 100% 0;
-}
-
-.ScheduleGroup {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .Title {
@@ -201,87 +245,25 @@ h3 {
   line-height: normal;
 }
 
-th, td {
-  border-top: 1px solid #dedede;
-  border-bottom: 1px solid #dedede;
-  border-collapse: collapse;
-  text-align: left;
-  font-size: 14px;
-  padding: 15px 30px;
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .Schedule {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
-table {
-  /*text-transform: uppercase;*/
-  width: 80%;
-  border-collapse: collapse;
-}
-
-.Table {
-  display: flex;
-}
-
-th {
-  background-color: #f0f0f0;
-  font-weight: bold;
-}
-
-td {
-  background-color: #f9f9f9;
-  font-weight: 500;
-}
-
-tr:hover td {
-  background-color: #f0f0f0;
-}
-
-.Speaker:hover {
-  /*color: #4bb463;*/
-}
-
-.LangBadge {
-  background-color: #eaeaea;
-  padding: 3px 0;
-  text-align: center;
-  width: 30px;
-  display: inline-block;
-  font-size: .9em;
-}
-
-.LangBadge.en {
-  color: #0088c2;
-}
-
-.LangBadge.am {
-  color: #f07e31;
-}
-
-.Venue {
-  color: #707070;
-}
 
 @media (max-width: 768px) {
-
-  table, thead, tbody, th, td, tr {
-    display: block;
-    text-align: center;
+  .Schedule {
+    padding-top: 40px;
+    padding-bottom: 0;
   }
 
-  thead tr {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-
-  .tdNum {
-    font-size: 19px;
-    background-color: #f0f0f0;
-    font-weight: bold;
-  }
 
   h3 {
-  font-size: 15px;
+    font-size: 15px;
   }
-
 }
 
 </style>
