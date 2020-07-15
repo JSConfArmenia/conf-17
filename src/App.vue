@@ -16,6 +16,7 @@
 
     <Location />
 
+    <Quizz />
     <Faq />
 
     <Quiz />
